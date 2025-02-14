@@ -4,10 +4,13 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 
-\usepackage[top=0.1in, bottom=0.1in, left=0.1in, right=0.1in]{geometry}
+\usepackage[top=0.75in, bottom=0.75in, left=0.5in, right=0.5in]{geometry}
 \usepackage{titlesec, enumitem, hyperref, xcolor, microtype, parskip}
 \setlength{\parindent}{0pt}
 \renewcommand{\baselinestretch}{1.1}
+
+% Allow extra stretch to reduce underfull hbox warnings
+\setlength\emergencystretch{3em}
 
 % Define colors and hyperlink style
 \definecolor{darkblue}{RGB}{0,102,204}
@@ -19,8 +22,8 @@
 \setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=0pt}
 
 \begin{document}
+% Note: Please compile directly with pdflatex/xelatex/lualatex (avoid pandoc conversion).
 
-%--- Header (spanning full width) ---%
 \begin{center}
     {\Huge \textbf{Túlio Ribeiro dos Anjos}} \\[1mm]
     {\large \textbf{Full-Stack .NET \& Cloud Developer}} \\[2mm]
@@ -33,9 +36,9 @@
 \hrule
 \vspace{4mm}
 
-%--- Two-column layout ---%
+% Main content: Two-column layout using minipages
 \begin{minipage}[t]{0.65\textwidth}
-    % Main column: Summary, Achievements, Experience
+\sloppy
     \section*{Summary}
     Full-stack .NET \& Cloud Developer specializing in designing scalable, high-performance applications. Experienced in modernizing legacy systems, integrating with e-commerce platforms, and optimizing cloud-based architectures using .NET 8, AWS Lambda, and Spring Boot. Passionate about solving complex engineering challenges and improving system efficiency.
     
@@ -81,7 +84,7 @@
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.32\textwidth}
-    % Sidebar: Skills, Education, Certifications, Languages
+\raggedright
     \section*{Skills}
     \begin{itemize}
         \item .NET 8 Full-Stack Development (Angular, ASP.NET Core, WebAPI)

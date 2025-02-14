@@ -1,4 +1,4 @@
-name: Convert Markdown Resume with Pandoc Docker
+name: Convert Markdown Resume with Pandoc
 
 on:
   push:
@@ -15,32 +15,28 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Convert README.md to PDF using Pandoc Docker
+      - name: Install Pandoc and XeLaTeX
         run: |
-          docker run --rm \
-            -v "$(pwd)":/repo \
-            --workdir /repo \
-            pandoc/extra:latest resume.tex -o README.pdf --pdf-engine=tectonic
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex
 
-      - name: Convert README.md to DOCX using Pandoc Docker
+      - name: Convert resume.tex to PDF using XeLaTeX
         run: |
-          docker run --rm \
-            -v "$(pwd)":/repo \
-            --workdir /repo \
-            pandoc/latex:latest README.md -o README.docx
+          pandoc resume.tex -o README.pdf --pdf-engine=xelatex
 
-      - name: Convert README.md to HTML using Pandoc Docker
+      - name: Convert resume.tex to HTML using Pandoc
         run: |
-          docker run --rm \
-            -v "$(pwd)":/repo \
-            --workdir /repo \
-            pandoc/latex:latest README.md -o README.html
+          pandoc resume.tex -o resume.html
+
+      - name: Convert resume.tex to Markdown using Pandoc
+        run: |
+          pandoc resume.tex -o resume.md
 
       - name: Commit and Push Generated Files [skip ci]
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.pdf README.docx README.html
+          git add README.pdf resume.html resume.md
           if ! git diff-index --quiet HEAD; then
             git commit -m "Automated resume conversion via GitHub Actions [skip ci]"
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
