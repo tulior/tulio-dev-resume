@@ -10,6 +10,16 @@ I build scalable, high-performance systems with .NET. With over a decade of expe
 
 ---
 
+### Key Achievements
+
+- **High-Scale Shopify Integration:** Developed an AWS Lambda-based integration in .NET 8 that synced over 100,000 SKUs, enabling a robust direct-to-consumer sales channel.
+- **Real-Time Image Processing:** Engineered a high-performance image processing system using AWS Lambda and SkiaSharp, achieving sub-second response times for dynamic collage generation and enhancing user engagement.
+- **Intelligent API Throttling:** Implemented advanced throttling with data diffing and retry mechanisms, reducing failure rates and ensuring smooth high-volume transactions.
+- **Legacy Modernization:** Transformed a sluggish JSF application into a high-performance Angular 13 micro-frontend with a Spring Boot backend, significantly improving load times and overall user experience.
+- **Critical System Optimization:** Eliminated a CPU bottleneck in a real-time emergency dispatch platform by refactoring inefficient timer logic, markedly improving WebSocket responsiveness and operational efficiency.
+
+---
+
 ### **Technical Skills**  
 - **Cloud & DevOps:** AWS Lambda, S3, CloudWatch, Serverless Architectures, Docker, Azure Pipelines  
 - **.NET & Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
