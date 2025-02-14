@@ -1,4 +1,4 @@
-name: Convert Markdown Resume with Pandoc
+name: Convert Markdown Resume with Pandoc Docker
 
 on:
   push:
@@ -15,28 +15,19 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install Pandoc and XeLaTeX
+      - name: Convert README.md to PDF using Pandoc Docker
         run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex
+          docker run --rm \
+            -v "$(pwd)":/repo \
+            --workdir /repo \
+            pandoc/latex:latest README.md -V geometry:margin=0.75in -o resume.pdf --pdf-engine=xelatex
 
-      - name: Convert resume.tex to PDF using XeLaTeX
-        run: |
-          pandoc resume.tex -o README.pdf --pdf-engine=xelatex
-
-      - name: Convert resume.tex to HTML using Pandoc
-        run: |
-          pandoc resume.tex -o resume.html
-
-      - name: Convert resume.tex to Markdown using Pandoc
-        run: |
-          pandoc resume.tex -o resume.md
 
       - name: Commit and Push Generated Files [skip ci]
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.pdf resume.html resume.md
+          git add README.pdf
           if ! git diff-index --quiet HEAD; then
             git commit -m "Automated resume conversion via GitHub Actions [skip ci]"
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
