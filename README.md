@@ -6,7 +6,7 @@ Campo Grande, Brazil  - *Remote Only*
 ---
 
 ### **Summary**  
-I build scalable, high-performance systems with .NET. With over a decade of experience in C# and .NET, I’ve designed cloud-native applications, modernized legacy systems, and optimized real-time APIs. I’ve led e-commerce integrations at scale, built serverless architectures with AWS, and solved complex engineering problems in distributed systems. I focus on efficiency, maintainability, and software that lasts.  
+I build scalable, high-performance systems with .NET. With over a decade of experience in C# and .NET, I’ve designed cloud-native applications, modernized legacy systems, and optimized real-time APIs. I’ve led e-commerce integrations at scale, built serverless architectures with AWS, and solved complex engineering problems in distributed systems. I focus on efficiency, maintainability, and software that lasts.
 
 ---
 
@@ -21,13 +21,13 @@ I build scalable, high-performance systems with .NET. With over a decade of expe
 ---
 
 ### **Technical Skills**  
-- **Cloud & DevOps:** AWS Lambda, S3, CloudWatch, Serverless Architectures, Docker, Azure Pipelines  
-- **.NET & Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
-- **Front-End:** Angular, TypeScript, JavaScript  
-- **Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis  
-- **E-Commerce & APIs:** Shopify API, REST API Design, GraphQL, OAuth2  
-- **Performance & Optimization:** Multi-threading, API Throttling, WebSockets, Caching  
-- **Testing & CI/CD:** xUnit, NUnit, GitHub Actions, GitLab CI/CD  
+- **Cloud & DevOps:** AWS Lambda, S3, CloudWatch, Serverless Architectures, Docker, Azure Pipelines
+- **.NET & Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework
+- **Front-End:** Angular, TypeScript, JavaScript
+- **Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis
+- **E-Commerce & APIs:** Shopify API, REST API Design, GraphQL, OAuth2
+- **Performance & Optimization:** Multi-threading, API Throttling, WebSockets, Caching
+- **Testing & CI/CD:** xUnit, NUnit, GitHub Actions, GitLab CI/CD
 
 ---
 
@@ -67,23 +67,23 @@ I build scalable, high-performance systems with .NET. With over a decade of expe
 ---
 
 ### **Education**  
-**Bachelor’s in Computer Engineering** – Uniderp *(Jan 2009 – Dec 2013)*  
+**Bachelor’s in Computer Engineering** – Uniderp *(Jan 2009 – Dec 2013)*
 
 ---
 
 ### **Certifications**  
-- Oracle Certified Java SE 11 Developer  
+- Oracle Certified Java SE 11 Developer
 
 ---
 
 ### **Languages**  
-- English: Professional Proficiency  
-- Portuguese: Native  
+- English: Professional Proficiency
+- Portuguese: Native
 
 ---
 
-### **Contact**  
-Phone: +55 67 9 9266 0804  
-Email: mail@tulio.org  
-Website: tulio.org  
-LinkedIn: linkedin.com/in/tulioanjos  
+### **Contact**
+Phone: +55 67 9 9266 0804 •
+Email: mail@tulio.org •
+Website: tulio.org •
+LinkedIn: linkedin.com/in/tulioanjos
