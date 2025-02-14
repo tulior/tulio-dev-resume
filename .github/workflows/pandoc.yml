@@ -32,7 +32,7 @@ jobs:
         run: |
           docker run --rm \
             -v "$(pwd)":/repo \
-            --user $(id -u):$(id -g) \
+            --workdir /repo \
             pandoc/latex:latest README.md -o README.docx
 
       - name: Convert README.md to HTML using Pandoc Docker
