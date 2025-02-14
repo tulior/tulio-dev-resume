@@ -26,24 +26,21 @@ jobs:
           docker run --rm \
             -v "$(pwd)":/repo \
             --workdir /repo \
-            pandoc/core:latest \
-            pandoc/core -s /repo/README.md -o /repo/README.pdf --pdf-engine=xelatex
+            pandoc/core:latest README.md -o README.pdf --pdf-engine=xelatex
 
       - name: Convert README.md to DOCX using Pandoc Docker
         run: |
           docker run --rm \
             -v "$(pwd)":/repo \
-            --workdir /repo \
-            pandoc/core:latest \
-            pandoc/core -s /repo/README.md -o /repo/README.docx
+            --user $(id -u):$(id -g) \
+            pandoc/core:latest README.md -o README.docx
 
       - name: Convert README.md to HTML using Pandoc Docker
         run: |
           docker run --rm \
             -v "$(pwd)":/repo \
             --workdir /repo \
-            pandoc/core:latest \
-            pandoc/core -s /repo/README.md -o /repo/README.html
+            pandoc/core:latest README.md -o README.html
 
       - name: Commit and Push Generated Files [skip ci]
         run: |
