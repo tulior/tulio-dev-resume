@@ -3,12 +3,8 @@
 ## Full-Stack .NET & Cloud Developer  
 Campo Grande, Brazil  - *Remote Only*  
 
----
-
 ### **Summary**  
 I build scalable, high-performance systems with .NET. With over a decade of experience in C# and .NET, I’ve designed cloud-native applications, modernized legacy systems, and optimized real-time APIs. I’ve led e-commerce integrations at scale, built serverless architectures with AWS, and solved complex engineering problems in distributed systems. I focus on efficiency, maintainability, and software that lasts.
-
----
 
 ### Key Achievements
 
@@ -18,7 +14,6 @@ I build scalable, high-performance systems with .NET. With over a decade of expe
 - **Legacy Modernization:** Transformed a sluggish JSF application into a high-performance Angular 13 micro-frontend with a Spring Boot backend, significantly improving load times and overall user experience.
 - **Critical System Optimization:** Eliminated a CPU bottleneck in a real-time emergency dispatch platform by refactoring inefficient timer logic, markedly improving WebSocket responsiveness and operational efficiency.
 
----
 
 ### **Technical Skills**  
 - **Cloud & DevOps:** AWS Lambda, S3, CloudWatch, Serverless Architectures, Docker, Azure Pipelines 
@@ -28,8 +23,6 @@ I build scalable, high-performance systems with .NET. With over a decade of expe
 - **E-Commerce & APIs:** Shopify API, REST API Design, GraphQL, OAuth2 
 - **Performance & Optimization:** Multi-threading, API Throttling, WebSockets, Caching 
 - **Testing & CI/CD:** xUnit, NUnit, GitHub Actions, GitLab CI/CD
-
----
 
 ### **Work Experience**  
 
@@ -64,23 +57,15 @@ I build scalable, high-performance systems with .NET. With over a decade of expe
 - Led the development of a digital system for managing Mato Grosso do Sul's Organic Law, enabling state government users to efficiently edit, version control (diffing), and access critical legal statutes. This system streamlined legal updates and ensured accuracy and accessibility of the state's foundational legal framework.
 - Designed and developed a module for creating thematic programs within Mato Grosso do Sul's Pluriannual Plan (PPA), a key component of the state's public finances management platform. This module streamlined the multi-year financial planning process and improved the organization of public spending initiatives.
 
----
-
 ### **Education**  
 **Bachelor’s in Computer Engineering** – Uniderp *(Jan 2009 – Dec 2013)*
-
----
 
 ### **Certifications**  
 - Oracle Certified Java SE 11 Developer
 
----
-
 ### **Languages**  
 - English: Professional Proficiency
 - Portuguese: Native
-
----
 
 ### **Contact**
 Phone: +55 67 9 9266 0804 •
