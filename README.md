@@ -21,12 +21,12 @@ I build scalable, high-performance systems with .NET. With over a decade of expe
 ---
 
 ### **Technical Skills**  
-- **Cloud & DevOps:** AWS Lambda, S3, CloudWatch, Serverless Architectures, Docker, Azure Pipelines
-- **.NET & Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework
-- **Front-End:** Angular, TypeScript, JavaScript
-- **Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis
-- **E-Commerce & APIs:** Shopify API, REST API Design, GraphQL, OAuth2
-- **Performance & Optimization:** Multi-threading, API Throttling, WebSockets, Caching
+- **Cloud & DevOps:** AWS Lambda, S3, CloudWatch, Serverless Architectures, Docker, Azure Pipelines 
+- **.NET & Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework 
+- **Front-End:** Angular, TypeScript, JavaScript 
+- **Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis 
+- **E-Commerce & APIs:** Shopify API, REST API Design, GraphQL, OAuth2 
+- **Performance & Optimization:** Multi-threading, API Throttling, WebSockets, Caching 
 - **Testing & CI/CD:** xUnit, NUnit, GitHub Actions, GitLab CI/CD
 
 ---
