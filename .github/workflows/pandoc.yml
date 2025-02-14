@@ -1,0 +1,34 @@
+name: Convert Markdown Resume
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install Pandoc and LaTeX (for PDF support)
+        run: |
+          sudo apt update
+          sudo apt install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic
+
+      - name: Convert Markdown to PDF, DOCX, and HTML
+        run: |
+          mkdir -p output
+          pandoc resume.md -o output/resume.pdf --pdf-engine=xelatex
+          pandoc resume.md -o output/resume.docx
+          pandoc resume.md -o output/resume.html
+
+      - name: Commit and Push Generated Files
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add output/resume.pdf output/resume.docx output/resume.html
+          git commit -m "Automated resume conversion via GitHub Actions"
+          git push
