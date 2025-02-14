@@ -15,20 +15,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Verify README.md exists at the repository root
-        run: |
-          if [ ! -f README.md ]; then
-            echo "Error: README.md not found at repository root!"
-            exit 1
-          fi
-          ls -lah README.md
-
       - name: Convert README.md to PDF using Pandoc Docker
         run: |
           docker run --rm \
             -v "$(pwd)":/repo \
             --workdir /repo \
-            pandoc/latex:latest README.md -o README.pdf --pdf-engine=xelatex
+            pandoc/latex:latest resume.tex -o README.pdf --pdf-engine=xelatex
 
       - name: Convert README.md to DOCX using Pandoc Docker
         run: |
