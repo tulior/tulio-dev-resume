@@ -12,8 +12,8 @@ I build scalable, high-performance systems with .NET. With over a decade of expe
 ---
 
 ### **Technical Skills**  
-- **.NET & Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
 - **Cloud & DevOps:** AWS Lambda, S3, CloudWatch, Serverless Architectures, Docker, Azure Pipelines  
+- **.NET & Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
 - **Front-End:** Angular, TypeScript, JavaScript  
 - **Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis  
 - **E-Commerce & APIs:** Shopify API, REST API Design, GraphQL, OAuth2  
@@ -24,28 +24,23 @@ I build scalable, high-performance systems with .NET. With over a decade of expe
 
 ### **Work Experience**  
 
-#### **BairesDev – Full-Stack .NET & Angular Engineer**  
-*Feb 2025 – Present | Remote (Company HQ: São Paulo, São Paulo)*  
-- Building full-stack components for a next-gen transit management platform, leveraging .NET 8, Angular, and AWS cloud.  
+#### **BairesDev**  
+- **Full-Stack .NET & Angular Engineer**  
+  *Feb 2025 – Present | Remote (Company HQ: São Paulo, São Paulo)*  
+  - Building full-stack components for a next-gen transit management platform, leveraging .NET 8, Angular, and AWS cloud.
 
-#### **BairesDev – .NET Core Engineer**  
-*Mar 2023 – Feb 2025 | Remote (Company HQ: Overland Park, Kansas)*  
-- Developed a high-scale AWS Lambda-based Shopify integration in .NET 8, enabling seamless 100,000+ SKU inventory sync.  
-- Designed intelligent API throttling mechanisms, reducing failure rates and ensuring high-volume transactions run smoothly.  
-- Built a real-time image processing system (AWS Lambda, .NET 8, SkiaSharp) for product previews, improving e-commerce conversions.  
-- Developed a dynamic sales reporting service, integrating JSON schema validation to automate financial data ingestion.  
+- **.NET Core Engineer**  
+  *Mar 2023 – Feb 2025 | Remote (Company HQ: Overland Park, Kansas)*  
+  - Developed a high-scale AWS Lambda-based Shopify integration in .NET 8, enabling seamless 100,000+ SKU inventory sync.  
+  - Designed intelligent API throttling mechanisms to reduce failure rates and support high-volume transactions.  
+  - Built a real-time image processing system (using AWS Lambda, .NET 8, SkiaSharp) for product previews, boosting e-commerce conversions.  
+  - Created a dynamic sales reporting service with JSON schema validation to automate financial data ingestion.
 
-#### **BairesDev – Java & Spring Engineer**  
-*Jun 2022 – Mar 2023 | Remote (Company HQ: San Francisco, California)*  
-- Refactored legacy Java APIs into high-performance Spring Boot REST services for a B2B privacy compliance platform.  
-- Optimized database performance with Spring Data JPA & Hibernate, improving query efficiency.  
-- Integrated automated testing pipelines to ensure GDPR/CCPA compliance.  
-
-#### **GEOI2 Tecnologia da Informação LTDA – Software Engineer**  
-*Aug 2019 – Jun 2022 | Brazil*  
-- Modernized a legacy JSF system into an Angular 13 micro-frontend with a Spring Boot backend, significantly improving maintainability.  
-- Developed a Java CLI tool to automate ETL and database provisioning, enabling seamless data extraction for government audits.  
-- Optimized network data compression (gzip) for secure low-bandwidth (128kbps) municipal data transmissions.  
+- **Java & Spring Engineer**  
+  *Jun 2022 – Mar 2023 | Remote (Company HQ: San Francisco, California)*  
+  - Refactored legacy Java APIs into high-performance Spring Boot REST services for a B2B privacy compliance platform.  
+  - Improved database performance using Spring Data JPA & Hibernate.  
+  - Integrated automated testing pipelines to ensure GDPR/CCPA compliance.
 
 #### **Fonte Tecnologia – Software Engineer**  
 *Aug 2017 – Aug 2019 | Brazil*  
