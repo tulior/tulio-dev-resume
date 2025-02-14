@@ -1,4 +1,4 @@
-name: Convert Markdown Resume
+name: Convert Markdown Resume with Pandoc Docker
 
 on:
   push:
@@ -7,28 +7,36 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # The GitHub Actions runner, required to execute Docker
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install Pandoc and LaTeX (for PDF support)
+      - name: Convert README.md to PDF, DOCX, and HTML using Pandoc Docker
         run: |
-          sudo apt update
-          sudo apt install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic
+          docker run --rm \
+            -v "$(pwd)":/workspace \
+            --workdir /workspace \
+            pandoc/core:latest \
+            pandoc README.md -o README.pdf --pdf-engine=xelatex
+          
+          docker run --rm \
+            -v "$(pwd)":/workspace \
+            --workdir /workspace \
+            pandoc/core:latest \
+            pandoc README.md -o README.docx
 
-      - name: Convert Markdown to PDF, DOCX, and HTML
-        run: |
-          mkdir -p output
-          pandoc resume.md -o output/resume.pdf --pdf-engine=xelatex
-          pandoc resume.md -o output/resume.docx
-          pandoc resume.md -o output/resume.html
+          docker run --rm \
+            -v "$(pwd)":/workspace \
+            --workdir /workspace \
+            pandoc/core:latest \
+            pandoc README.md -o README.html
 
       - name: Commit and Push Generated Files
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add output/resume.pdf output/resume.docx output/resume.html
+          git add README.pdf README.docx README.html
           git commit -m "Automated resume conversion via GitHub Actions"
           git push
