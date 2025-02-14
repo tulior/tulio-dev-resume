@@ -27,7 +27,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.pdf
+          git add resume.pdf
           if ! git diff-index --quiet HEAD; then
             git commit -m "Automated resume conversion via GitHub Actions [skip ci]"
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
