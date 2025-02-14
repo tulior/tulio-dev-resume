@@ -20,7 +20,7 @@ jobs:
           docker run --rm \
             -v "$(pwd)":/repo \
             --workdir /repo \
-            pandoc/latex:latest resume.tex -o README.pdf --pdf-engine=xelatex
+            pandoc/latex:latest resume.tex -s -o README.pdf --pdf-engine=xelatex
 
       - name: Convert README.md to DOCX using Pandoc Docker
         run: |
