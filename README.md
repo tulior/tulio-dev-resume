@@ -1,13 +1,13 @@
 # Túlio Ribeiro dos Anjos  
 **Full-Stack .NET & Cloud Developer**  
 Campo Grande, Brazil (Remote Only)  
-**Phone:** +55 67 9 9266 0804 | **Email:** mail@tulio.org | **Website:** tulio.org | **LinkedIn:** linkedin.com/in/tulioanjos  
+**Phone:** +55 67 9 9266 0804 | **Email:** mail@tulio.org | **Website:** [tulio.org](https://tulio.org) | **LinkedIn:** [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos)  
 **Date:** \today  
 
 ---
 
 ### SUMMARY  
-I build scalable, high-performance systems using .NET, cloud, and modern web technologies. I focus on backend optimization, API integrations, and cloud architectures. I’ve worked on high-traffic platforms, e-commerce integrations, and enterprise applications. I get things done.  
+Building robust backend systems and cloud infrastructure, primarily with .NET and AWS.  Focus on efficient code, reliable APIs, and solving complex integration challenges. Proficient in .NET 8, ASP.NET Core, AWS (Lambda, SQS, etc.), and related technologies. 
 
 ---
 
@@ -22,14 +22,14 @@ I build scalable, high-performance systems using .NET, cloud, and modern web tec
 
 ---
 
-#### **Personal Projects & Portfolio**
-- **Personal Portfolio Website** *(Astro, Tailwind CSS)* – Optimized for Performance & SEO  
-  - Built a personal portfolio website (**[tulio.org](https://tulio.org)**) using **Astro** and **Tailwind CSS** to showcase skills, experience, and projects.  
-  - Achieved **perfect scores (100/100) on all Google Lighthouse metrics** (Performance, Accessibility, Best Practices, SEO).  
-  - Implemented **static site generation** for optimal speed, modern web standards for accessibility, and SEO best practices for discoverability.
-  - Technical Blog: Regularly publish articles on software engineering, AI, and other things tech related.
-  - Demonstrates a commitment to high-quality, user-centric web experiences and knowledge sharing. 
- 
+### PERSONAL PROJECTS & PORTFOLIO
+- **Personal Portfolio & Tech Blog** *(Astro, Tailwind CSS)* – Performance & SEO Optimized
+  - Built portfolio site (**[tulio.org](https://tulio.org)**) to showcase skills and projects.
+  - Achieved **100/100 Google Lighthouse scores** (Performance, Accessibility, Best Practices, SEO).
+  - Implemented **static site generation** for speed, modern web standards for accessibility, and SEO best practices.
+  - **Tech Blog:** Critiques ineffective technical hiring practices and advocates for project-based evaluation. Explores the cognitive and creative impact of AI on software development.
+  - Demonstrates commitment to high-quality web development.
+
 ---
 
 ### WORK EXPERIENCE  
@@ -37,7 +37,7 @@ I build scalable, high-performance systems using .NET, cloud, and modern web tec
 #### **BairesDev**  
 *Full-Stack .NET & Angular Engineer*  
 *Feb 2025 – Present | Remote (Company HQ: São Paulo, São Paulo)*  
-- Developing full-stack components for a transit management platform using .NET 8, Angular, and cloud-native architectures.  
+- Developing full-stack components for a transit management platform using .NET 8, Angular, and AWS services like Lambda, SQS, and API Gateway.
 
 *.NET Core Engineer*  
 *Mar 2023 – Feb 2025 | Remote (Company HQ: Overland Park, Kansas)*  
@@ -89,3 +89,4 @@ I build scalable, high-performance systems using .NET, cloud, and modern web tec
 ### LANGUAGES  
 **English:** Professional Proficiency  
 **Portuguese:** Native  
+
