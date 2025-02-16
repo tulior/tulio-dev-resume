@@ -14,21 +14,24 @@ Building robust backend systems and cloud infrastructure, primarily with .NET an
 ### TECHNICAL SKILLS  
 **Cloud & DevOps:** AWS (Lambda, S3, SNS, SQS, CloudWatch), Docker, Serverless Architectures  
 **Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
-**Frontend:** Angular, TypeScript, JavaScript  
+**Frontend:** Angular, TypeScript, JavaScript, Static Site Generation  
 **Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis  
 **E-Commerce & APIs:** Shopify API, REST API, GraphQL, OAuth2  
-**Performance & Optimization:** Multi-threading, WebSockets, API Throttling, Caching  
+**Performance & Optimization:** Multi-threading, WebSockets, API Throttling, Caching, SEO  
 **Testing & CI/CD:** xUnit, NUnit, GitHub Actions, GitLab CI/CD, Azure Pipelines  
 
 ---
 
-### PERSONAL PROJECTS & PORTFOLIO
-- **Personal Portfolio & Tech Blog** *(Astro, Tailwind CSS)* – Performance & SEO Optimized
-  - Built portfolio site (**[tulio.org](https://tulio.org)**) to showcase skills and projects.
-  - Achieved **100/100 Google Lighthouse scores** (Performance, Accessibility, Best Practices, SEO).
-  - Implemented **static site generation** for speed, modern web standards for accessibility, and SEO best practices.
-  - **Tech Blog:** Critiques ineffective technical hiring practices and advocates for project-based evaluation. Explores the cognitive and creative impact of AI on software development.
-  - Demonstrates commitment to high-quality web development.
+### PERSONAL PROJECTS & OPEN SOURCE
+
+- **SchemaShroud: .NET Data Anonymization Library** *(Open Source, .NET 8)*
+  - GDPR-compliant data anonymization for .NET 8, using declarative attributes and reflection.
+  - *https://github.com/tulior/schema-shroud* *– Actively maintained.*
+
+- **Personal Portfolio & Tech Blog** *(Astro, Tailwind CSS)*
+  - Portfolio (https://tulio.org) showcasing skills and advocating for better tech hiring.
+  - Achieved **100/100 Google Lighthouse scores** (Performance, Accessibility, SEO).
+  - *High-performance web development & clear communication focus.*
 
 ---
 
