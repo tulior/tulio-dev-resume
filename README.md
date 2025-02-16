@@ -65,7 +65,7 @@ Building robust backend systems and cloud infrastructure, primarily with .NET an
 #### **Fonte Tecnologia**  
 *Software Engineer*  
 *Aug 2017 – Aug 2019 | On-Site (Campo Grande, Brazil)*  
-- Worked on SIGO-CADG, a computer-aided dispatch system used by public safety forces in Mato Grosso do Sul for managing real-time incidents. Fixed a CPU bottleneck in its live vehicle tracking system by replacing inefficient setTimeout loops with an optimized timer, improving performance for emergency response operations.  
+- Worked on a real-time dispatch system used by public safety forces. Fixed a CPU bottleneck in its live vehicle tracking system by replacing inefficient setTimeout loops with an optimized timer, improving performance for emergency response operations.
 - Built a telephone form module for emergency call reporting, reducing dispatcher workload and improving coordination between operational units.  
 
 ---
@@ -73,8 +73,8 @@ Building robust backend systems and cloud infrastructure, primarily with .NET an
 #### **PSG Tecnologia**  
 *Software Engineer*  
 *Mar 2013 – Aug 2017 | On-Site (Campo Grande, Brazil)*  
-- Built a system for managing the State Constitution of Mato Grosso do Sul (Brazil), allowing government officials to create, edit, and track legal statutes. Made updates faster and easier.  
-- Developed a module for managing thematic programs in the state’s Pluriannual Plan (PPA), improving organization and tracking of public spending initiatives.  
+- Organic Law System: Developed a digital system for managing Mato Grosso do Sul's Organic Law. Enabled government users to efficiently edit, version control (diffing), and access legal statutes, making legal updates more efficient and ensuring accuracy.
+- PPA Thematic Programs Module: Developed a module for managing thematic programs within Mato Grosso do Sul's Pluriannual Plan (PPA). This improved the organization and tracking of public spending initiatives, making the state's multi-year financial planning process more efficient.
 
 ---
 
