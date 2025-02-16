@@ -85,7 +85,7 @@ Building robust backend systems and cloud infrastructure, primarily with .NET an
 ---
 
 ### CERTIFICATIONS  
-**Oracle Certified Java SE 11 Developer**  
+**Oracle Certified Java SE 11 Developer** (Apr 2021)  
 
 ---
 
