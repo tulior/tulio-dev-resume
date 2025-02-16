@@ -1,74 +1,63 @@
-# Túlio Ribeiro dos Anjos
+# Túlio Ribeiro dos Anjos  
 
-## Full-Stack .NET & Cloud Developer  
-Campo Grande, Brazil  - *Remote Only*  
+## **Full-Stack .NET & Cloud Developer**  
+Campo Grande, Brazil – Remote Only  
+**Phone:** +55 67 9 9266 0804 | **Email:** mail@tulio.org | **Website:** tulio.org | **LinkedIn:** linkedin.com/in/tulioanjos  
+\today  
 
 ### **Summary**  
-I build scalable, high-performance systems with .NET. With over a decade of experience in C# and .NET, I’ve designed cloud-native applications, modernized legacy systems, and optimized real-time APIs. I’ve led e-commerce integrations at scale, built serverless architectures with AWS, and solved complex engineering problems in distributed systems. I focus on efficiency, maintainability, and software that lasts.
-
-### Key Achievements
-
-- **High-Scale Shopify Integration:** Developed an AWS Lambda-based integration in .NET 8 that synced over 100,000 SKUs, enabling a robust direct-to-consumer sales channel.
-- **Real-Time Image Processing:** Engineered a high-performance image processing system using AWS Lambda and SkiaSharp, achieving sub-second response times for dynamic collage generation and enhancing user engagement.
-- **Intelligent API Throttling:** Implemented advanced throttling with data diffing and retry mechanisms, reducing failure rates and ensuring smooth high-volume transactions.
-- **Legacy Modernization:** Transformed a sluggish JSF application into a high-performance Angular 13 micro-frontend with a Spring Boot backend, significantly improving load times and overall user experience.
-- **Critical System Optimization:** Eliminated a CPU bottleneck in a real-time emergency dispatch platform by refactoring inefficient timer logic, markedly improving WebSocket responsiveness and operational efficiency.
-
+I build scalable, high-performance systems using .NET, cloud, and modern web technologies. I focus on backend optimization, API integrations, and cloud architectures. I’ve worked on high-traffic platforms, e-commerce integrations, and enterprise applications. I get things done.  
 
 ### **Technical Skills**  
-- **Cloud & DevOps:** AWS Lambda, S3, CloudWatch, Serverless Architectures, Docker, Azure Pipelines 
-- **.NET & Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework 
-- **Front-End:** Angular, TypeScript, JavaScript 
-- **Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis 
-- **E-Commerce & APIs:** Shopify API, REST API Design, GraphQL, OAuth2 
-- **Performance & Optimization:** Multi-threading, API Throttling, WebSockets, Caching 
-- **Testing & CI/CD:** xUnit, NUnit, GitHub Actions, GitLab CI/CD
+- **Cloud & DevOps:** AWS (Lambda, S3, SNS, SQS, CloudWatch), Docker, Serverless Architectures  
+- **Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
+- **Frontend:** Angular, TypeScript, JavaScript  
+- **Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis  
+- **E-Commerce & APIs:** Shopify API, REST API, GraphQL, OAuth2  
+- **Performance & Optimization:** Multi-threading, WebSockets, API Throttling, Caching  
+- **Testing & CI/CD:** xUnit, NUnit, GitHub Actions, GitLab CI/CD, Azure Pipelines  
 
 ### **Work Experience**  
 
 #### **BairesDev**  
-- **Full-Stack .NET & Angular Engineer**  
-  *Feb 2025 – Present | Remote (Company HQ: São Paulo, São Paulo)*  
-  - Building key full-stack components for a high-visibility project at a major Transit Technology client, utilizing .NET 8, Angular, and cloud-native architectures to build a next-generation transit management platform.
+**Full-Stack .NET & Angular Engineer**  
+*Feb 2025 – Present | Remote (Company HQ: São Paulo, São Paulo)*  
+- Developing full-stack components for a transit management platform using .NET 8, Angular, and cloud-native architectures.  
 
-- **.NET Core Engineer**  
-  *Mar 2023 – Feb 2025 | Remote (Company HQ: Overland Park, Kansas)*  
-  - Developed a high-scale AWS Lambda-based Shopify integration (.NET 8), enabling a direct-to-consumer sales channel and syncing 100,000+ SKUs.
-  - Implemented intelligent API throttling (data diffing & retry), reducing failure rates and ensuring seamless high-volume transactions.
-  - Developed a high-performance AWS Lambda-based image processing system (.NET 8, SkiaSharp) for real-time collage generation, achieving sub-second response times. Enhanced product previews, boosting user engagement and driving higher conversions on the e-commerce platform.
-  - Designed and built a dynamic sales reporting service, leveraging JSON schema for seamless processing of diverse CSV formats across multiple payment platforms. Integrated CSVHelper with comprehensive unit testing to guarantee accuracy, auditability, and reliable retailer sales insights.
+**.NET Core Engineer**  
+*Mar 2023 – Feb 2025 | Remote (Company HQ: Overland Park, Kansas)*  
+- **Shopify Integration:** Built a Shopify integration—library, microservice, and AWS Lambda—to sync thousands of SKUs per retailer with API throttling mitigation (data diffing & retry). During beta, onboarded 50+ retailers, processing 400+ orders over 8 months with no reconciliation issues. Real-time inventory updates were handled asynchronously via SQS, keeping stock levels accurate without API bottlenecks.  
+- **Collage Generation:** Built an image processing library with collage generation (SkiaSharp) and an AWS Lambda service (.NET 8) for real-time image composition. Added dynamic product previews with sub-second response times, improving conversions. Stored processed images in Amazon S3.  
+- **CSV Reporting:** Designed a sales reporting system using JSON schema to handle different CSV formats from multiple payment platforms. Integrated CSVHelper with validation and parsing logic to ensure accuracy. Provided structured financial reports that met FTC compliance requirements.  
 
-- **Java & Spring Engineer**  
-  *Jun 2022 – Mar 2023 | Remote (Company HQ: San Francisco, California)*  
-  - Revamped legacy Java APIs into high-performance, maintainable Spring Boot REST services for a B2B privacy compliance platform.
-  - Optimized data access with Spring Data JPA & Hibernate, boosting reliability and efficiency.
-  - Implemented robust automated testing to ensure API stability and data integrity, critical for GDPR/CCPA compliance.
+**Java & Spring Engineer**  
+*Jun 2022 – Mar 2023 | Remote (Company HQ: San Francisco, California)*  
+- Refactored legacy Java APIs into Spring Boot REST services for a B2B privacy compliance platform. Optimized data access with Spring Data JPA & Hibernate, reducing query latency and improving reliability. Added automated testing to ensure API stability and integrated with Slack, Jira, and GitHub for security reviews.  
 
-### GEOI2 Tecnologia da Informação LTDA. *(Aug 2019 – Jun 2022 | 3 years)*
-- Transformed a sluggish legacy JSF application into a high-performance Angular 13 micro-frontend with a Spring Boot backend, significantly improving page load times and user experience.
-- Developed a Java CLI tool to automate ETL and database provisioning for Tribunal de Contas do Estado audits, streamlining data extraction from Sybase, Firebird, PostgreSQL, and MySQL.
-- Integrated Pentaho KTR and gzip compression, ensuring secure and efficient data transmission over bandwidth-constrained (128kbps) municipal networks.
+#### **GEOI2 Tecnologia da Informação LTDA**  
+**Software Engineer**  
+*Aug 2019 – Jun 2022 | Hybrid (Campo Grande, Brazil)*  
+- Rebuilt a slow legacy JSF application as an Angular 13 micro-frontend with a Spring Boot backend, improving page load times and user experience.  
+- Built a Java CLI tool to automate ETL and database provisioning for State Audit Office financial audits. Integrated Pentaho KTR to extract data from Sybase, Firebird, PostgreSQL, and MySQL into MongoDB. Used Gzip compression to reduce data size by 90%, making transfers reliable over 128kbps municipal networks.  
 
-### Fonte Tecnologia *(Aug 2017 – Aug 2019 | 2 years)*
-- Eliminated a critical CPU bottleneck in the CADG platform's real-time vehicle grid by refactoring inefficient setTimeout timers to a single optimized timer, significantly improving WebSocket responsiveness for emergency dispatch operations.
-- Designed and built a high-efficiency telephone form module for CADG, reducing emergency call incident reporting time and optimizing dispatcher workflows for faster emergency response coordination.
+#### **Fonte Tecnologia**  
+**Software Engineer**  
+*Aug 2017 – Aug 2019 | On-Site (Campo Grande, Brazil)*  
+- Worked on SIGO-CADG, a computer-aided dispatch system used by public safety forces in Mato Grosso do Sul for managing real-time incidents. Fixed a CPU bottleneck in its live vehicle tracking system by replacing inefficient setTimeout loops with an optimized timer, improving performance for emergency response operations.  
+- Built a telephone form module for emergency call reporting, reducing dispatcher workload and improving coordination between operational units.  
 
-### PSG Tecnologia *(Mar 2013 – Aug 2017 | 4+ years)*
-- Led the development of a digital system for managing Mato Grosso do Sul's Organic Law, enabling state government users to efficiently edit, version control (diffing), and access critical legal statutes. This system streamlined legal updates and ensured accuracy and accessibility of the state's foundational legal framework.
-- Designed and developed a module for creating thematic programs within Mato Grosso do Sul's Pluriannual Plan (PPA), a key component of the state's public finances management platform. This module streamlined the multi-year financial planning process and improved the organization of public spending initiatives.
+#### **PSG Tecnologia**  
+**Software Engineer**  
+*Mar 2013 – Aug 2017 | On-Site (Campo Grande, Brazil)*  
+- Built a system for managing the State Constitution of Mato Grosso do Sul (Brazil), allowing government officials to create, edit, and track legal statutes. Made updates faster and easier.  
+- Developed a module for managing thematic programs in the state’s Pluriannual Plan (PPA), improving organization and tracking of public spending initiatives.  
 
 ### **Education**  
-**Bachelor’s in Computer Engineering** – Uniderp *(Jan 2009 – Dec 2013)*
+**Bachelor’s in Computer Engineering** – *Uniderp (Jan 2009 – Dec 2013)*  
 
 ### **Certifications**  
-- Oracle Certified Java SE 11 Developer
+- Oracle Certified Java SE 11 Developer  
 
 ### **Languages**  
-- English: Professional Proficiency
-- Portuguese: Native
-
-### **Contact**
-Phone: +55 67 9 9266 0804 •
-Email: mail@tulio.org •
-Website: tulio.org •
-LinkedIn: linkedin.com/in/tulioanjos
+- English: Professional Proficiency  
+- Portuguese: Native  
