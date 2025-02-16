@@ -22,6 +22,16 @@ I build scalable, high-performance systems using .NET, cloud, and modern web tec
 
 ---
 
+#### **Personal Projects & Portfolio**
+- **Personal Portfolio Website** *(Astro, Tailwind CSS)* – Optimized for Performance & SEO  
+  - Built a personal portfolio website (**[tulio.org](https://tulio.org)**) using **Astro** and **Tailwind CSS** to showcase skills, experience, and projects.  
+  - Achieved **perfect scores (100/100) on all Google Lighthouse metrics** (Performance, Accessibility, Best Practices, SEO).  
+  - Implemented **static site generation** for optimal speed, modern web standards for accessibility, and SEO best practices for discoverability.
+  - Technical Blog: Regularly publish articles on software engineering, AI, and other things tech related.
+  - Demonstrates a commitment to high-quality, user-centric web experiences and knowledge sharing. 
+ 
+---
+
 ### WORK EXPERIENCE  
 
 #### **BairesDev**  
