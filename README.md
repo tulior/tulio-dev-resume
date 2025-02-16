@@ -1,5 +1,5 @@
 # Túlio Ribeiro dos Anjos  
-**Full-Stack .NET & Cloud Developer** 
+**Full-Stack .NET & Cloud Developer**  
 Campo Grande, Brazil (Remote Only)  
 **Phone:** +55 67 9 9266 0804 | **Email:** mail@tulio.org | **Website:** tulio.org | **LinkedIn:** linkedin.com/in/tulioanjos  
 **Date:** \today  
