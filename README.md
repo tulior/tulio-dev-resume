@@ -9,8 +9,6 @@ Campo Grande, Brazil (Remote Only)
 ### SUMMARY
 Full-stack engineer focused on building applications using .NET for the backend and Angular for the frontend. I develop APIs and services with .NET 8/ASP.NET Core and build user interfaces with Angular. I've worked on projects that use cloud services like AWS (Lambda, SQS) and Azure Event Hubs as part of their architecture, primarily focusing on the application code that interacts with these services.
 
----
-
 ### TECHNICAL SKILLS
 **Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
 **Frontend:** Angular (incl. 17), TypeScript, JavaScript, Static Site Generation (Astro)  
@@ -19,8 +17,6 @@ Full-stack engineer focused on building applications using .NET for the backend 
 **DevOps & CI/CD:** Docker, GitHub Actions, GitLab CI/CD, Azure Pipelines  
 **APIs & Integration:** REST API, GraphQL, OAuth2, Shopify API, CSVHelper  
 **Others:** WebSockets, API Throttling, Caching, SEO, SkiaSharp
-
----
 
 ### PERSONAL PROJECTS & OPEN SOURCE
 - **SchemaShroud: .NET Data Anonymization Experiment** *(Open Source, .NET 8)*
@@ -32,11 +28,9 @@ Full-stack engineer focused on building applications using .NET for the backend 
   - Achieved **100/100 Google Lighthouse scores** (Performance, Accessibility, SEO).
   - *Focus on high-performance web development & clear communication.*
 
----
-
 ### WORK EXPERIENCE
 
-#### **BairesDev**
+#### **BairesDev**  
 *Full-Stack .NET & Angular Engineer*  
 *Feb 2024 – Present | Remote (Company HQ: São Paulo, São Paulo)*  
 
@@ -58,7 +52,6 @@ Full-stack engineer focused on building applications using .NET for the backend 
 
 - Modernized legacy Java APIs into Spring Boot REST services for a B2B privacy platform. Improved database query performance with Spring Data JPA & Hibernate. Added automated tests and integrated with CI/CD and review tools (Slack, Jira, GitHub).
 
----
 
 #### **GEOI2 Tecnologia da Informação LTDA**  
 *Software Engineer*  
@@ -67,7 +60,6 @@ Full-stack engineer focused on building applications using .NET for the backend 
 - Replaced parts of a legacy JSF app with an Angular 13 micro-frontend and a Spring Boot backend, improving performance.
 - Built a Java CLI tool for automating ETL processes for financial audits. Used Pentaho KTR for data extraction (Sybase, Firebird, PostgreSQL, MySQL to MongoDB) and Gzip for compression (90% reduction) over slow networks.
 
----
 
 #### **Fonte Tecnologia**  
 *Software Engineer*  
@@ -76,7 +68,6 @@ Full-stack engineer focused on building applications using .NET for the backend 
 - Optimized a real-time vehicle tracking system for public safety dispatch, fixing a CPU bottleneck caused by inefficient timer usage.
 - Developed a form module for emergency call reporting.
 
----
 
 #### **PSG Tecnologia**  
 *Software Engineer*  
@@ -85,7 +76,6 @@ Full-stack engineer focused on building applications using .NET for the backend 
 - Organic Law System: Built a system for managing state law documents, including editing and version comparison features.
 - PPA Thematic Programs Module: Developed a module for managing programs within the state's multi-year financial plan.
 
----
 
 ### EDUCATION
 **Bachelor’s in Computer Engineering**  
