@@ -32,7 +32,7 @@ Full-stack engineer focused on building applications using .NET for the backend 
 
 #### **BairesDev**  
 *Full-Stack .NET & Angular Engineer*  
-*Feb 2024 – Present | Remote (Company HQ: São Paulo, São Paulo)*  
+*Feb 2025 – Present | Remote (Company HQ: São Paulo, São Paulo)*  
 
 - Developing features for a large-scale fleet management platform. The system helps clients track vehicle/driver performance, safety events, maintenance schedules, etc.
 - Writing .NET 8 backend code to process real-time vehicle data received via Azure Event Hubs.
@@ -41,7 +41,7 @@ Full-stack engineer focused on building applications using .NET for the backend 
 - Contributing to both the .NET backend and Angular frontend codebases.
 
 *.NET Core Engineer*  
-*Mar 2023 – Feb 2024 | Remote (Company HQ: Overland Park, Kansas)*  
+*Mar 2023 – Feb 2025 | Remote (Company HQ: Overland Park, Kansas)*  
 
 - **Shopify Integration:** Built backend components (.NET library, microservice, AWS Lambda function) to sync product data with Shopify. Addressed API rate limits using data diffing & retries. Helped onboard 50+ beta retailers; the system processed 400+ orders in 8 months reliably. Used SQS for asynchronous inventory updates. 
 - **Collage Generation:** Created an image processing component (using SkiaSharp) and an AWS Lambda function (.NET 8) for dynamic image composition, used for product previews. Stored results in Amazon S3.
