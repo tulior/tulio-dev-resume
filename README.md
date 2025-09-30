@@ -1,6 +1,6 @@
 # Túlio Ribeiro dos Anjos  
 **Senior Full-Stack Engineer**  
-Campo Grande, Brazil (Seeking 100% Remote Opportunities)
+Campo Grande, Brazil (Seeking 100% Remote Opportunities)  
 **Phone:** +55 67 992 660 804 | **Email:** mail@tulio.org | **Website:** [tulio.org](https://tulio.org) | **LinkedIn:** [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos)  
 **Date:** \today  
 
