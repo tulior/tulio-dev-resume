@@ -32,7 +32,7 @@ Full-stack engineer focused on building applications using .NET for the backend 
 
 #### **BairesDev**  
 *Senior Full-Stack .NET & Angular Engineer*  
-*Feb 2025 – Present | Remote (Company HQ: São Paulo, São Paulo)*  
+*Feb 2025 – Present | Remote (Company HQ: New York, New York)*  
 
 I'm currently building and improving features for a large-scale telematics and fleet management platform. My role covers the full stack, from implementing backend data processing to building the Angular UI.
 
