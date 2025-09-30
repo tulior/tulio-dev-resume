@@ -37,37 +37,15 @@ I'm a full-stack engineer with over 10 years of experience, focused on building 
 *   **Shopify Integration Service (.NET):** Built a .NET microservice from the ground up to sync product and inventory data with Shopify's API. A key challenge was handling their API rate limits, which I solved using an SQS queue for batching updates. The service successfully onboarded over 50 retailers and processed 400+ orders in the first 8 months.
 *   **Legacy API Modernization (Java/Spring):** In my initial engagement, I modernized a client's legacy Java APIs into Spring Boot REST services, improving database query performance and integrating the services into their CI/CD pipeline.
 
+#### **Prior Engineering Experience | 2013 – 2022**  
+**Software Engineer** | *Geoi2, Fonte Tecnologia, PSG Tecnologia*  
 
-#### **Geoi2** | *Aug 2019 – Jun 2022*    
-**Software Engineer** | Hybrid  
-
-- Replaced parts of a legacy JSF app with an Angular 13 micro-frontend and a Spring Boot backend, improving performance.
-- Built a Java CLI tool for automating ETL processes for financial audits. Used Pentaho KTR for data extraction (Sybase, Firebird, PostgreSQL, MySQL to MongoDB) and Gzip for compression (90% reduction) over slow networks.
+In foundational roles, I developed and maintained full-stack applications for public safety, state law management, and financial auditing. This period was focused on building core engineering skills, including performance optimization of real-time systems, legacy modernization, and delivering reliable features in .NET and Java environments.
 
 
-#### **Fonte Tecnologia**  
-*Software Engineer*  
-*Aug 2017 – Aug 2019 | On-Site (Campo Grande, Brazil)*  
-
-- Optimized a real-time vehicle tracking system for public safety dispatch, fixing a CPU bottleneck caused by inefficient timer usage.
-- Developed a form module for emergency call reporting.
-
-
-#### **PSG Tecnologia**  
-*Software Engineer*  
-*Mar 2013 – Aug 2017 | On-Site (Campo Grande, Brazil)*  
-
-- Organic Law System: Built a system for managing state law documents, including editing and version comparison features.
-- PPA Thematic Programs Module: Developed a module for managing programs within the state's multi-year financial plan.
-
-
-### EDUCATION
-**Bachelor’s in Computer Engineering**  
-*Uniderp (Jan 2009 – Dec 2013)*
-
-
-### CERTIFICATIONS
-**Oracle Certified Java SE 11 Developer** (Apr 2021)
+### EDUCATION & CERTIFICATIONS
+- **Oracle Certified Java SE 11 Developer** (2021)
+- **B.S. in Computer Engineering** - Uniderp (2013)
 
 ### LANGUAGES
 **English:** Professional Proficiency  
