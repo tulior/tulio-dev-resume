@@ -7,7 +7,7 @@ Campo Grande, Brazil (Remote Only)
 ---
 
 ### SUMMARY
-Full-stack engineer focused on building applications using .NET for the backend and Angular for the frontend. I develop APIs and services with .NET 8/ASP.NET Core and build user interfaces with Angular. I've worked on projects that use cloud services like AWS (Lambda, SQS) and Azure Event Hubs as part of their architecture, primarily focusing on the application code that interacts with these services.
+I'm a senior full-stack engineer who builds end-to-end features for complex, data-intensive SaaS platforms. My focus is on using .NET 8 for the backend and modern Angular for the frontend. I have hands-on experience writing the services that consume real-time data streams and building the UIs that allow users to visualize and interact with that data.
 
 ### TECHNICAL SKILLS
 **Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
