@@ -10,13 +10,10 @@ Campo Grande, Brazil (Seeking 100% Remote Opportunities)
 I'm a full-stack engineer with over 10 years of experience, focused on building applications with a .NET backend and an Angular frontend. I have a strong background in developing backend services for complex systems, including real-time fleet management and e-commerce platforms. I enjoy working on the full feature lifecycle, from designing the API and processing data to building the user interface that makes the data useful.
 
 ### TECHNICAL SKILLS
-**Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework, Java, Spring Boot  
-**Frontend:** Angular (incl. 17), TypeScript, JavaScript, Static Site Generation (Astro)  
-**Databases:** SQL Server, PostgreSQL, MySQL, Google BigQuery, MongoDB, Redis  
-**Cloud Service Interaction:** AWS (Lambda, S3, SNS, SQS, CloudWatch), Azure Event Hubs  
-**DevOps & CI/CD:** Docker, GitHub Actions, GitLab CI/CD, Azure Pipelines  
-**APIs & Integration:** REST API, GraphQL, OAuth2, Shopify API, CSVHelper  
-**Others:** WebSockets, API Throttling, Caching, SEO, SkiaSharp
+*   **Backend:** .NET 8, C#, ASP.NET Core, EF Core, Java, Spring Boot
+*   **Frontend:** Angular, TypeScript, JavaScript, Astro
+*   **Databases & Caching:** SQL Server, PostgreSQL, BigQuery, MongoDB, Redis
+*   **Cloud & DevOps:** AWS (Lambda, S3, SQS), Azure Event Hubs, Docker, GitHub Actions
 
 ### PERSONAL PROJECTS & OPEN SOURCE
 - **SchemaShroud: .NET Data Anonymization Experiment** *(Open Source, .NET 8)*
