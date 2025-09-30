@@ -1,16 +1,16 @@
 # Túlio Ribeiro dos Anjos  
 **Senior Full-Stack Engineer**  
-Campo Grande, Brazil (Remote Only)  
-**Phone:** +55 67 9 9266 0804 | **Email:** mail@tulio.org | **Website:** [tulio.org](https://tulio.org) | **LinkedIn:** [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos)  
+Campo Grande, Brazil (Seeking 100% Remote Opportunities)
+**Phone:** +55 67 992 660 804 | **Email:** mail@tulio.org | **Website:** [tulio.org](https://tulio.org) | **LinkedIn:** [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos)  
 **Date:** \today  
 
 ---
 
 ### SUMMARY
-I'm a senior full-stack engineer who builds end-to-end features for complex, data-intensive SaaS platforms. My focus is on using .NET 8 for the backend and modern Angular for the frontend. I have hands-on experience writing the services that consume real-time data streams and building the UIs that allow users to visualize and interact with that data.
+I'm a full-stack engineer with over 10 years of experience, focused on building applications with a .NET backend and an Angular frontend. I have a strong background in developing backend services for complex systems, including real-time fleet management and e-commerce platforms. I enjoy working on the full feature lifecycle, from designing the API and processing data to building the user interface that makes the data useful.
 
 ### TECHNICAL SKILLS
-**Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
+**Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework, Java, Spring Boot  
 **Frontend:** Angular (incl. 17), TypeScript, JavaScript, Static Site Generation (Astro)  
 **Databases:** SQL Server, PostgreSQL, MySQL, Google BigQuery, MongoDB, Redis  
 **Cloud Service Interaction:** AWS (Lambda, S3, SNS, SQS, CloudWatch), Azure Event Hubs  
@@ -30,33 +30,19 @@ I'm a senior full-stack engineer who builds end-to-end features for complex, dat
 
 ### WORK EXPERIENCE
 
-#### **BairesDev**  
-*Senior Full-Stack .NET & Angular Engineer*  
-*Feb 2025 – Present | Remote (Company HQ: New York, New York)*  
+#### **BairesDev** | Jun 2022 – Present
+**Full-Stack Software Engineer** | Remote
 
-I'm currently building and improving features for a large-scale telematics and fleet management platform. My role covers the full stack, from implementing backend data processing to building the Angular UI.
+*As a consultant, I've delivered solutions for multiple clients across different technology stacks, with a primary focus on the .NET and Angular ecosystem.*
 
-*   Built a new Fuel Consumption Analysis feature from the ground up, allowing users to rank driver performance by shift, route, and vehicle. On the frontend, I used Angular Signals to create a responsive UI with multi-select and dependent filters for deep data exploration.
-*   Developed the entire Driver Schedule management system. This included creating a full import/export pipeline for CSV/TXT files with client-side validation and an audit history view to track all changes and ensure data integrity.
-*   On the backend, I wrote .NET 8 services that process real-time data streams from Azure Event Hubs These .services also handle background jobs and push the processed results into Google BigQuery, making the data available for analysis.
-*   Beyond new features, I focus on code quality and stability. I regularly fix complex bugs (like data normalization issues in the AOD Odometer) and improve the codebase through refactoring, all while following team practices like Conventional Commits and a thorough Pull Request review process.
-
-*.NET Core Engineer*  
-*Mar 2023 – Feb 2025 | Remote (Company HQ: Overland Park, Kansas)*  
-
-- **Shopify Integration:** Built backend components (.NET library, microservice, AWS Lambda function) to sync product data with Shopify. Addressed API rate limits using data diffing & retries. Helped onboard 50+ beta retailers; the system processed 400+ orders in 8 months reliably. Used SQS for asynchronous inventory updates. 
-- **Collage Generation:** Created an image processing component (using SkiaSharp) and an AWS Lambda function (.NET 8) for dynamic image composition, used for product previews. Stored results in Amazon S3.
-- **CSV Reporting:** Developed a system to parse and validate sales data from different CSV formats using JSON schemas and CSVHelper, ensuring accurate financial reports for compliance.
-
-*Java & Spring Engineer*  
-*Jun 2022 – Mar 2023 | Remote (Company HQ: San Francisco, California)*  
-
-- Modernized legacy Java APIs into Spring Boot REST services for a B2B privacy platform. Improved database query performance with Spring Data JPA & Hibernate. Added automated tests and integrated with CI/CD and review tools (Slack, Jira, GitHub).
+*   **Fuel Consumption Analysis Feature (.NET/Angular):** Built a new module for a fleet management platform to analyze fuel consumption by driver. I developed the .NET 8 APIs to process the data and the Angular 17 frontend to display it, which included a complex grid with multi-select filters. This feature gives clients the data they need to see which drivers are most efficient.
+*   **Shift Finalization Background Service (.NET):** Created a .NET background service that processes vehicle data from Azure Event Hubs in near real-time. It aggregates trip metrics, finalizes driver shifts, and writes the results to BigQuery. This ensures our analytics dashboards are always working with accurate, up-to-date information.
+*   **Shopify Integration Service (.NET):** Built a .NET microservice from the ground up to sync product and inventory data with Shopify's API. A key challenge was handling their API rate limits, which I solved using an SQS queue for batching updates. The service successfully onboarded over 50 retailers and processed 400+ orders in the first 8 months.
+*   **Legacy API Modernization (Java/Spring):** In my initial engagement, I modernized a client's legacy Java APIs into Spring Boot REST services, improving database query performance and integrating the services into their CI/CD pipeline.
 
 
-#### **GEOI2 Tecnologia da Informação LTDA**  
-*Software Engineer*  
-*Aug 2019 – Jun 2022 | Hybrid (Campo Grande, Brazil)*  
+#### **Geoi2** | *Aug 2019 – Jun 2022 | Hybrid (Campo Grande, Brazil)*  
+**Software Engineer** | Hybrid  
 
 - Replaced parts of a legacy JSF app with an Angular 13 micro-frontend and a Spring Boot backend, improving performance.
 - Built a Java CLI tool for automating ETL processes for financial audits. Used Pentaho KTR for data extraction (Sybase, Firebird, PostgreSQL, MySQL to MongoDB) and Gzip for compression (90% reduction) over slow networks.
