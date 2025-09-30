@@ -6,16 +6,16 @@ Campo Grande, Brazil (Seeking 100% Remote Opportunities)
 
 ---
 
-### SUMMARY
-I'm a full-stack engineer with over 10 years of experience, focused on building applications with a .NET backend and an Angular frontend. I have a strong background in developing backend services for complex systems, including real-time fleet management and e-commerce platforms. I enjoy working on the full feature lifecycle, from designing the API and processing data to building the user interface that makes the data useful.
+#### SUMMARY
+Senior Full-Stack Engineer with over 10 years of experience architecting scalable .NET backend services and performant Angular UIs. I specialize in building and modernizing data-intensive applications that handle real-time processing and complex API integrations. My focus is on the complete feature lifecycle, from designing high-throughput APIs to building the intuitive frontends that make data actionable.
 
-### TECHNICAL SKILLS
+#### TECHNICAL SKILLS
 *   **Backend:** .NET 8, C#, ASP.NET Core, EF Core, Java, Spring Boot
 *   **Frontend:** Angular, TypeScript, JavaScript, Astro
 *   **Databases & Caching:** SQL Server, PostgreSQL, BigQuery, MongoDB, Redis
 *   **Cloud & DevOps:** AWS (Lambda, S3, SQS), Azure Event Hubs, Docker, GitHub Actions
 
-### PERSONAL PROJECTS & OPEN SOURCE
+#### PERSONAL PROJECTS & OPEN SOURCE
 - **SchemaShroud: .NET Data Anonymization Experiment** *(Open Source, .NET 8)*
   - An experimental project exploring data anonymization techniques in .NET 8 using declarative attributes and reflection.
   - *https://github.com/tulior/schema-shroud*
@@ -25,9 +25,9 @@ I'm a full-stack engineer with over 10 years of experience, focused on building 
   - Achieved **100/100 Google Lighthouse scores** (Performance, Accessibility, SEO).
   - *Focus on high-performance web development & clear communication.*
 
-### WORK EXPERIENCE
+#### WORK EXPERIENCE
 
-#### **BairesDev** | Jun 2022 – Present  
+**BairesDev** | Jun 2022 – Present  
 **Full-Stack Software Engineer** | Remote
 
 *As a consultant, I've delivered solutions for multiple clients across different technology stacks, with a primary focus on the .NET and Angular ecosystem.*
@@ -37,7 +37,7 @@ I'm a full-stack engineer with over 10 years of experience, focused on building 
 *   **Shopify Integration Service (.NET):** Built a .NET microservice from the ground up to sync product and inventory data with Shopify's API. A key challenge was handling their API rate limits, which I solved using an SQS queue for batching updates. The service successfully onboarded over 50 retailers and processed 400+ orders in the first 8 months.
 *   **Legacy API Modernization (Java/Spring):** In my initial engagement, I modernized a client's legacy Java APIs into Spring Boot REST services, improving database query performance and integrating the services into their CI/CD pipeline.
 
-#### **Prior Engineering Experience | 2013 – 2022**  
+**Prior Engineering Experience | 2013 – 2022**  
 **Software Engineer** | *Geoi2, Fonte Tecnologia, PSG Tecnologia*  
 
 In foundational roles, I developed and maintained full-stack applications for public safety, state law management, and financial auditing. This period was focused on building core engineering skills, including performance optimization of real-time systems, legacy modernization, and delivering reliable features in .NET and Java environments.
