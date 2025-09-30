@@ -27,7 +27,7 @@ I'm a full-stack engineer with over 10 years of experience, focused on building 
 
 ### WORK EXPERIENCE
 
-#### **BairesDev** | Jun 2022 – Present
+#### **BairesDev** | Jun 2022 – Present  
 **Full-Stack Software Engineer** | Remote
 
 *As a consultant, I've delivered solutions for multiple clients across different technology stacks, with a primary focus on the .NET and Angular ecosystem.*
@@ -38,7 +38,7 @@ I'm a full-stack engineer with over 10 years of experience, focused on building 
 *   **Legacy API Modernization (Java/Spring):** In my initial engagement, I modernized a client's legacy Java APIs into Spring Boot REST services, improving database query performance and integrating the services into their CI/CD pipeline.
 
 
-#### **Geoi2** | *Aug 2019 – Jun 2022 | Hybrid (Campo Grande, Brazil)*  
+#### **Geoi2** | *Aug 2019 – Jun 2022*    
 **Software Engineer** | Hybrid  
 
 - Replaced parts of a legacy JSF app with an Angular 13 micro-frontend and a Spring Boot backend, improving performance.
