@@ -2,11 +2,13 @@
 **Senior Full-Stack Engineer**  
 Campo Grande, Brazil (Seeking 100% Remote Opportunities)  
 **Phone:** +55 67 992 660 804 | **Email:** mail@tulio.org | **Website:** [tulio.org](https://tulio.org) | **LinkedIn:** [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos)  
+**Languages:** English (Professional), Portuguese (Native)
 **Date:** \today  
 
 ---
 
 #### SUMMARY  
+
 Senior Full-Stack Engineer with over 10 years of experience architecting scalable .NET backend services and performant Angular UIs. I specialize in building and modernizing data-intensive applications that handle real-time processing and complex API integrations. My focus is on the complete feature lifecycle, from designing high-throughput APIs to building the intuitive frontends that make data actionable.
 
 #### TECHNICAL SKILLS
@@ -40,7 +42,3 @@ In foundational roles, I developed and maintained full-stack applications for pu
 ### EDUCATION & CERTIFICATIONS
 - **Oracle Certified Java SE 11 Developer** (2021)
 - **B.S. in Computer Engineering** - Uniderp (2013)
-
-### LANGUAGES
-**English:** Professional Proficiency  
-**Portuguese:** Native
