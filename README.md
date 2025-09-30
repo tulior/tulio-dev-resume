@@ -12,7 +12,7 @@ Full-stack engineer focused on building applications using .NET for the backend 
 ### TECHNICAL SKILLS
 **Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
 **Frontend:** Angular (incl. 17), TypeScript, JavaScript, Static Site Generation (Astro)  
-**Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis  
+**Databases:** SQL Server, PostgreSQL, MySQL, Google BigQuery, MongoDB, Redis  
 **Cloud Service Interaction:** AWS (Lambda, S3, SNS, SQS, CloudWatch), Azure Event Hubs  
 **DevOps & CI/CD:** Docker, GitHub Actions, GitLab CI/CD, Azure Pipelines  
 **APIs & Integration:** REST API, GraphQL, OAuth2, Shopify API, CSVHelper  
@@ -31,14 +31,15 @@ Full-stack engineer focused on building applications using .NET for the backend 
 ### WORK EXPERIENCE
 
 #### **BairesDev**  
-*Full-Stack .NET & Angular Engineer*  
+*Senior Full-Stack .NET & Angular Engineer*  
 *Feb 2025 – Present | Remote (Company HQ: São Paulo, São Paulo)*  
 
-- Developing features for a large-scale fleet management platform. The system helps clients track vehicle/driver performance, safety events, maintenance schedules, etc.
-- Writing .NET 8 backend code to process real-time vehicle data received via Azure Event Hubs.
-- Implemented a backend feature to link driver identification data (from the event stream) with vehicle trips for enhanced reporting.
-- Building and updating frontend components using Angular 17, including fixing bugs and creating new screens (grids, reports) for data visualization.
-- Contributing to both the .NET backend and Angular frontend codebases.
+I'm currently building and improving features for a large-scale telematics and fleet management platform. My role covers the full stack, from implementing backend data processing to building the Angular UI.
+
+*   Built a new Fuel Consumption Analysis feature from the ground up, allowing users to rank driver performance by shift, route, and vehicle. On the frontend, I used Angular Signals to create a responsive UI with multi-select and dependent filters for deep data exploration.
+*   Developed the entire Driver Schedule management system. This included creating a full import/export pipeline for CSV/TXT files with client-side validation and an audit history view to track all changes and ensure data integrity.
+*   On the backend, I wrote .NET 8 services that process real-time data streams from Azure Event Hubs These .services also handle background jobs and push the processed results into Google BigQuery, making the data available for analysis.
+*   Beyond new features, I focus on code quality and stability. I regularly fix complex bugs (like data normalization issues in the AOD Odometer) and improve the codebase through refactoring, all while following team practices like Conventional Commits and a thorough Pull Request review process.
 
 *.NET Core Engineer*  
 *Mar 2023 – Feb 2025 | Remote (Company HQ: Overland Park, Kansas)*  
