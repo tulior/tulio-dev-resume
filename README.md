@@ -6,7 +6,7 @@ Campo Grande, Brazil (Seeking 100% Remote Opportunities)
 
 ---
 
-#### SUMMARY
+#### SUMMARY  
 Senior Full-Stack Engineer with over 10 years of experience architecting scalable .NET backend services and performant Angular UIs. I specialize in building and modernizing data-intensive applications that handle real-time processing and complex API integrations. My focus is on the complete feature lifecycle, from designing high-throughput APIs to building the intuitive frontends that make data actionable.
 
 #### TECHNICAL SKILLS
@@ -16,14 +16,8 @@ Senior Full-Stack Engineer with over 10 years of experience architecting scalabl
 *   **Cloud & DevOps:** AWS (Lambda, S3, SQS), Azure Event Hubs, Docker, GitHub Actions
 
 #### PERSONAL PROJECTS & OPEN SOURCE
-- **SchemaShroud: .NET Data Anonymization Experiment** *(Open Source, .NET 8)*
-  - An experimental project exploring data anonymization techniques in .NET 8 using declarative attributes and reflection.
-  - *https://github.com/tulior/schema-shroud*
-
-- **Personal Portfolio & Tech Blog** *(Astro, Tailwind CSS)*
-  - Portfolio (https://tulio.org) showcasing skills and discussing tech hiring practices.
-  - Achieved **100/100 Google Lighthouse scores** (Performance, Accessibility, SEO).
-  - *Focus on high-performance web development & clear communication.*
+- **SchemaShroud: .NET Data Anonymization Experiment** *(Open Source, .NET 8)*: An experimental project exploring data anonymization techniques in .NET 8 using declarative attributes and reflection. *https://github.com/tulior/schema-shroud*
+- **Personal Portfolio & Tech Blog** *(Astro, Tailwind CSS)*: Portfolio (https://tulio.org) showcasing skills and discussing tech hiring practices. Achieved **100/100 Google Lighthouse scores** (Performance, Accessibility, SEO). *Focus on high-performance web development & clear communication.*
 
 #### WORK EXPERIENCE
 
