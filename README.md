@@ -7,7 +7,7 @@
 ---
 
 ### SUMMARY
-Full-stack engineer specializing in **.NET 8/ASP.NET Core** backends and **Angular** frontends. I build APIs, services, and data-driven UIs that integrate with cloud platforms (AWS, Azure Event Hubs). I focus on clean, reliable application code, pragmatic performance tuning, and production-minded delivery.
+Senior full-stack engineer with 10+ years building .NET backend services and Angular frontends. I've worked on systems that handle real-time vehicle tracking data, e-commerce integrations with APIs like Shopify, and analytics platforms that process millions of events. I focus on the complete feature - designing the API, processing the data, and building the UI that makes it useful
 
 ### CORE SKILLS
 
