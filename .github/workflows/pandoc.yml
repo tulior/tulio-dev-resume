@@ -20,7 +20,7 @@ jobs:
           docker run --rm \
             -v "$(pwd)":/repo \
             --workdir /repo \
-            pandoc/latex:latest README.md -V fontsize:10pt -V mainfont="Inter" -V geometry:margin=0.5in -o resume.pdf --pdf-engine=tectonic
+            pandoc/extra:latest README.md -V fontsize:10pt -V mainfont="Inter" -V geometry:margin=0.5in -o resume.pdf --pdf-engine=tectonic
 
 
       - name: Commit and Push Generated Files [skip ci]
@@ -35,4 +35,5 @@ jobs:
             echo "No changes to commit."
 
           fi
+
 
