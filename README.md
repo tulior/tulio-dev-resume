@@ -1,28 +1,6 @@
----
-title: "Túlio Ribeiro dos Anjos"
-subtitle: "Full-Stack .NET & Angular Engineer"
-date: \today
-
-# Make Eisvogel show the big title block
-titlepage: true
-
-# Nice, readable accenting (works with your pipeline colors)
-titlepage-rule-color: "EF476F"
-titlepage-rule-height: 2
-
-# Optional: if you want a dark title banner, uncomment these:
-# titlepage-color: "2B2D42"
-# titlepage-text-color: "FFFFFF"
-
-# Keep link styling consistent with the workflow
-colorlinks: true
-links-as-notes: false
-
-author:
-  - "Campo Grande, Brazil (Remote Only)\\
-     **Phone:** +55 67 9 9266 0804 · **Email:** mail@tulio.org\\
-     **Website:** https://tulio.org · **LinkedIn:** https://linkedin.com/in/tulioanjos"
----
+% Túlio Ribeiro dos Anjos
+% Full-Stack .NET & Angular Engineer
+% \today
 
 **Campo Grande, Brazil (Remote Only)** · **Phone:** +55 67 9 9266 0804 · **Email:** <mail@tulio.org> · **Website:** <https://tulio.org> · **LinkedIn:** <https://linkedin.com/in/tulioanjos>  
 **Languages:** English (Professional), Portuguese (Native)
