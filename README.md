@@ -41,16 +41,15 @@ Senior full-stack engineer with 10+ years building .NET backend services and Ang
 #### BairesDev — *.NET Core Engineer*  
 **Mar 2023 – Feb 2025 · Remote** *(HQ: Overland Park, KS, USA)*
 
-- Greenfield **.NET microservice** to sync products/inventory with **Shopify API**.  
-  Implemented **SQS-backed rate-limit handling** and batched updates.  
-  **Impact:** onboarded **50+ retailers** and processed **400+ orders** in the first 8 months.
+Built a .NET microservice from the ground up to sync product and inventory data with Shopify's API. A key challenge was handling their API rate limits, which I solved using an SQS queue for batching updates. The service successfully onboarded over 50 retailers and processed 400+ orders in the first 8 months.
+
 
 **Tech:** `.NET`, `ASP.NET Core`, `Shopify API`, `AWS SQS`, `AWS CloudWatch`, `PostgreSQL`
 
 #### BairesDev — *Java & Spring Engineer*  
 **Jun 2022 – Mar 2023 · Remote** *(HQ: San Francisco, CA, USA)*
 
-- Modernized legacy Java endpoints to **Spring Boot REST** services; improved DB query performance and integrated CI/CD.
+In my initial engagement, I modernized a client's legacy Java APIs into Spring Boot REST services, improving database query performance.
 
 **Tech:** `Java 11`, `Spring Boot`, `REST`, `SQL`, `CI/CD`
 
