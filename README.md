@@ -1,72 +1,116 @@
-# Túlio Ribeiro dos Anjos  
-**Full-Stack .NET & Angular Engineer**  
-Campo Grande, Brazil (Remote Only)  
-**Phone:** +55 67 9 9266 0804 | **Email:** mail@tulio.org | **Website:** [tulio.org](https://tulio.org) | **LinkedIn:** [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos)  
-**Languages:** English (Professional), Portuguese (Native)  
-**Date:** \today  
+---
+title: "Túlio Ribeiro dos Anjos"
+subtitle: "Full-Stack .NET & Angular Engineer"
+date: \today
+lang: en
+keywords:
+  - .NET
+  - C#
+  - ASP.NET Core
+  - Angular
+  - TypeScript
+  - AWS
+  - Azure Event Hubs
+  - SQL
+  - Microservices
+  - CI/CD
+colorlinks: true
+links-as-notes: false
+---
+
+**Campo Grande, Brazil (Remote Only)** · **Phone:** +55 67 9 9266 0804 · **Email:** <mail@tulio.org> · **Website:** <https://tulio.org> · **LinkedIn:** <https://linkedin.com/in/tulioanjos>  
+**Languages:** English (Professional), Portuguese (Native)
+
+---
 
 ### SUMMARY
-Full-stack engineer focused on building applications using .NET for the backend and Angular for the frontend. I develop APIs and services with .NET 8/ASP.NET Core and build user interfaces with Angular. I've worked on projects that use cloud services like AWS (Lambda, SQS) and Azure Event Hubs as part of their architecture, primarily focusing on the application code that interacts with these services.
+Full-stack engineer specializing in **.NET 8/ASP.NET Core** backends and **Angular** frontends. I build APIs, services, and data-driven UIs that integrate with cloud platforms (AWS, Azure Event Hubs). I focus on clean, reliable application code, pragmatic performance tuning, and production-minded delivery.
 
-### TECHNICAL SKILLS
-**Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
-**Frontend:** Angular (incl. 17), TypeScript, JavaScript, Static Site Generation (Astro)  
-**Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis  
-**Cloud Service Interaction:** AWS (Lambda, S3, SNS, SQS, CloudWatch), Azure Event Hubs  
-**DevOps & CI/CD:** Docker, GitHub Actions, GitLab CI/CD, Azure Pipelines  
-**APIs & Integration:** REST API, GraphQL, OAuth2, Shopify API, CSVHelper  
-**Others:** WebSockets, API Throttling, Caching, SEO, SkiaSharp
+---
+
+### CORE SKILLS
+- **Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
+- **Frontend:** Angular (incl. 17), TypeScript, JavaScript, Astro (SSG)  
+- **Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis  
+- **Cloud & Messaging:** AWS (Lambda, S3, SNS, SQS, CloudWatch), Azure Event Hubs  
+- **DevOps & CI/CD:** Docker, GitHub Actions, GitLab CI/CD, Azure Pipelines  
+- **APIs & Integration:** REST, GraphQL, OAuth2, Shopify API, CSVHelper  
+- **Other:** WebSockets, API throttling, caching, SEO, SkiaSharp
+
+---
 
 ### PERSONAL PROJECTS & OPEN SOURCE
-- **SchemaShroud: .NET Data Anonymization Experiment** *(Open Source, .NET 8)*
-  - An experimental project exploring data anonymization techniques in .NET 8 using declarative attributes and reflection.
-  - *https://github.com/tulior/schema-shroud*
+- **SchemaShroud — .NET Data Anonymization Experiment** *(Open Source, .NET 8)*  
+  Declarative attributes + reflection to anonymize data in .NET.  
+  <https://github.com/tulior/schema-shroud>
 
-- **Personal Portfolio & Tech Blog** *(Astro, Tailwind CSS)*
-  - Portfolio (https://tulio.org) showcasing skills and discussing tech hiring practices.
-  - Achieved **100/100 Google Lighthouse scores** (Performance, Accessibility, SEO).
-  - *Focus on high-performance web development & clear communication.*
+- **Personal Portfolio & Tech Blog** *(Astro, Tailwind CSS)*  
+  <https://tulio.org> — articles on engineering & hiring. Achieved **100/100 Lighthouse** (Performance, Accessibility, SEO).
 
-### WORK EXPERIENCE
+---
 
-#### **BairesDev**  
-*Full-Stack .NET & Angular Engineer*  
-*Feb 2025 – Present | Remote (Company HQ: São Paulo, São Paulo)*  
+### EXPERIENCE
 
-*   **Fuel Consumption Analysis Feature (.NET/Angular):** Built a new module for a fleet management platform to analyze fuel consumption by driver. I developed the .NET 8 APIs to process the data and the Angular 17 frontend to display it, which included a complex grid with multi-select filters. This feature gives clients the data they need to see which drivers are most efficient.
-*   **Shift Finalization Background Service (.NET):** Created a .NET background service that processes vehicle data from Azure Event Hubs in near real-time. It aggregates trip metrics, finalizes driver shifts, and writes the results to BigQuery. This ensures our analytics dashboards are always working with accurate, up-to-date information.
+#### BairesDev — *Full-Stack .NET & Angular Engineer*  
+**Feb 2025 – Present · Remote** *(HQ: São Paulo, Brazil)*
 
-*.NET Core Engineer*  
-*Mar 2023 – Feb 2025 | Remote (Company HQ: Overland Park, Kansas)*  
+- **Fuel Consumption Analysis (Angular 17 / .NET 8):** Built a driver efficiency module with multi-select, filterable data grids and .NET APIs for aggregation—enabling clients to identify the most fuel-efficient drivers.
+- **Shift Finalization Background Service (.NET + Azure Event Hubs → BigQuery):** Near-real-time worker that aggregates trip metrics and finalizes driver shifts; keeps analytics accurate and current.
 
-Built a .NET microservice from the ground up to sync product and inventory data with Shopify's API. A key challenge was handling their API rate limits, which I solved using an SQS queue for batching updates. The service successfully onboarded over 50 retailers and processed 400+ orders in the first 8 months.
+**Tech:** `.NET 8`, `ASP.NET Core`, `Angular 17`, `Azure Event Hubs`, `BigQuery`, `SQL`
 
-*Java & Spring Engineer*  
-*Jun 2022 – Mar 2023 | Remote (Company HQ: San Francisco, California)*  
+---
 
-In my initial engagement, I modernized a client's legacy Java APIs into Spring Boot REST services, improving database query performance and integrating the services into their CI/CD pipeline.
+#### BairesDev — *.NET Core Engineer*  
+**Mar 2023 – Feb 2025 · Remote** *(HQ: Overland Park, KS, USA)*
 
-#### **GEOI2 Tecnologia da Informação LTDA**  
-*Software Engineer*  
-*Aug 2019 – Jun 2022 | Hybrid (Campo Grande, Brazil)*  
+- Greenfield **.NET microservice** to sync products/inventory with **Shopify API**.  
+  Implemented **SQS-backed rate-limit handling** and batched updates.  
+  **Impact:** onboarded **50+ retailers** and processed **400+ orders** in the first 8 months.
 
-- Replaced parts of a legacy JSF app with an Angular 13 micro-frontend and a Spring Boot backend, improving performance.
-- Built a Java CLI tool for automating ETL processes for financial audits. Used Pentaho KTR for data extraction (Sybase, Firebird, PostgreSQL, MySQL to MongoDB) and Gzip for compression (90% reduction) over slow networks.
+**Tech:** `.NET`, `ASP.NET Core`, `Shopify API`, `AWS SQS`, `AWS CloudWatch`, `PostgreSQL`
 
-#### **Fonte Tecnologia**  
-*Software Engineer*  
-*Aug 2017 – Aug 2019 | On-Site (Campo Grande, Brazil)*  
+---
 
-- Optimized a real-time vehicle tracking system for public safety dispatch, fixing a CPU bottleneck caused by inefficient timer usage.
-- Developed a form module for emergency call reporting.
+#### BairesDev — *Java & Spring Engineer*  
+**Jun 2022 – Mar 2023 · Remote** *(HQ: San Francisco, CA, USA)*
 
-#### **PSG Tecnologia**  
-*Software Engineer*  
-*Mar 2013 – Aug 2017 | On-Site (Campo Grande, Brazil)*  
+- Modernized legacy Java endpoints to **Spring Boot REST** services; improved DB query performance and integrated CI/CD.
 
-- Organic Law System: Built a system for managing state law documents, including editing and version comparison features.
-- PPA Thematic Programs Module: Developed a module for managing programs within the state's multi-year financial plan.
+**Tech:** `Java 11`, `Spring Boot`, `REST`, `SQL`, `CI/CD`
+
+---
+
+#### GEOI2 Tecnologia da Informação LTDA — *Software Engineer*  
+**Aug 2019 – Jun 2022 · Hybrid · Campo Grande, Brazil**
+
+- Replaced JSF portions with **Angular 13 micro-frontend** + **Spring Boot** backend for measurable performance gains.  
+- Built a **Java CLI** to automate ETL for financial audits. Used **Pentaho KTR** for extraction (Sybase, Firebird, PostgreSQL, MySQL → MongoDB) and **Gzip** for ~**90%** compression over slow links.
+
+**Tech:** `Angular 13`, `Spring Boot`, `Java`, `Pentaho`, `MongoDB`, `Sybase`, `Firebird`, `PostgreSQL`, `MySQL`
+
+---
+
+#### Fonte Tecnologia — *Software Engineer*  
+**Aug 2017 – Aug 2019 · On-site · Campo Grande, Brazil**
+
+- Optimized a **real-time vehicle tracking** system for public safety; removed a CPU bottleneck caused by timer misuse.  
+- Developed a structured form module for emergency call reporting.
+
+**Tech:** `Java`, `SQL`, `Realtime`, `Profiling`
+
+---
+
+#### PSG Tecnologia — *Software Engineer*  
+**Mar 2013 – Aug 2017 · On-site · Campo Grande, Brazil**
+
+- **Organic Law System:** drafting, editing, and version comparison for state law documents.  
+- **PPA Thematic Programs Module:** program management for the state’s multi-year financial plan.
+
+**Tech:** `Java`, `JSF`, `SQL`
+
+---
 
 ### EDUCATION & CERTIFICATIONS
-- **Oracle Certified Java SE 11 Developer** (2021)
-- **B.S. in Computer Engineering** - Uniderp (2013)
+- **Oracle Certified Java SE 11 Developer** (2021)  
+- **B.S., Computer Engineering — Uniderp** (2013)
