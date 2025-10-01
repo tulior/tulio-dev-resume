@@ -10,13 +10,15 @@
 Full-stack engineer specializing in **.NET 8/ASP.NET Core** backends and **Angular** frontends. I build APIs, services, and data-driven UIs that integrate with cloud platforms (AWS, Azure Event Hubs). I focus on clean, reliable application code, pragmatic performance tuning, and production-minded delivery.
 
 ### CORE SKILLS
-- **Backend:** .NET 8, C#, ASP.NET Core, Web API, Entity Framework  
-- **Frontend:** Angular (incl. 17), TypeScript, JavaScript, Astro (SSG)  
-- **Databases:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis  
-- **Cloud & Messaging:** AWS (Lambda, S3, SNS, SQS, CloudWatch), Azure Event Hubs  
-- **DevOps & CI/CD:** Docker, GitHub Actions, GitLab CI/CD, Azure Pipelines  
-- **APIs & Integration:** REST, GraphQL, OAuth2, Shopify API, CSVHelper  
-- **Other:** WebSockets, API throttling, caching, SEO, SkiaSharp
+
+* **Languages:** C#, TypeScript, SQL
+* **Backend:** .NET 8, Entity Framework, REST & GraphQL APIs
+* **Frontend:** Angular 17, Astro, HTML/CSS
+* **Databases & Caching:** SQL Server, PostgreSQL, MySQL, MongoDB, Redis
+* **Cloud & Messaging:** AWS (Lambda, S3, SNS/SQS), Azure (Event Hubs, Pipelines)
+* **DevOps & CI/CD:** Docker, GitHub Actions, GitLab CI, Git
+* **Testing:** xUnit, Moq
+* **Concepts & Patterns:** WebSockets, Caching Strategies, Rate Limiting, OAuth2
 
 ### PERSONAL PROJECTS & OPEN SOURCE
 - **SchemaShroud — .NET Data Anonymization Experiment** *(Open Source, .NET 8)*  
