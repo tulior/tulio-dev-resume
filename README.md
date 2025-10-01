@@ -5,8 +5,6 @@ Campo Grande, Brazil (Remote Only)
 **Languages:** English (Professional), Portuguese (Native)  
 **Date:** \today  
 
----
-
 ### SUMMARY
 Full-stack engineer focused on building applications using .NET for the backend and Angular for the frontend. I develop APIs and services with .NET 8/ASP.NET Core and build user interfaces with Angular. I've worked on projects that use cloud services like AWS (Lambda, SQS) and Azure Event Hubs as part of their architecture, primarily focusing on the application code that interacts with these services.
 
@@ -68,10 +66,6 @@ In my initial engagement, I modernized a client's legacy Java APIs into Spring B
 
 - Organic Law System: Built a system for managing state law documents, including editing and version comparison features.
 - PPA Thematic Programs Module: Developed a module for managing programs within the state's multi-year financial plan.
-
-### EDUCATION
-**Bachelor’s in Computer Engineering**  
-*Uniderp (Jan 2009 – Dec 2013)*
 
 ### EDUCATION & CERTIFICATIONS
 - **Oracle Certified Java SE 11 Developer** (2021)
