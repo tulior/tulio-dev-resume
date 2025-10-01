@@ -2,20 +2,26 @@
 title: "Túlio Ribeiro dos Anjos"
 subtitle: "Full-Stack .NET & Angular Engineer"
 date: \today
-lang: en
-keywords:
-  - .NET
-  - C#
-  - ASP.NET Core
-  - Angular
-  - TypeScript
-  - AWS
-  - Azure Event Hubs
-  - SQL
-  - Microservices
-  - CI/CD
+
+# Make Eisvogel show the big title block
+titlepage: true
+
+# Nice, readable accenting (works with your pipeline colors)
+titlepage-rule-color: "EF476F"
+titlepage-rule-height: 2
+
+# Optional: if you want a dark title banner, uncomment these:
+# titlepage-color: "2B2D42"
+# titlepage-text-color: "FFFFFF"
+
+# Keep link styling consistent with the workflow
 colorlinks: true
 links-as-notes: false
+
+author:
+  - "Campo Grande, Brazil (Remote Only)\\
+     **Phone:** +55 67 9 9266 0804 · **Email:** mail@tulio.org\\
+     **Website:** https://tulio.org · **LinkedIn:** https://linkedin.com/in/tulioanjos"
 ---
 
 **Campo Grande, Brazil (Remote Only)** · **Phone:** +55 67 9 9266 0804 · **Email:** <mail@tulio.org> · **Website:** <https://tulio.org> · **LinkedIn:** <https://linkedin.com/in/tulioanjos>  
