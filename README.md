@@ -22,7 +22,7 @@ Built shift management module (Angular 17/.NET 8) allowing fleet managers to ass
 Sole engineer building bidirectional sync service (.NET) for a failing sales platform. Architected webhook-based event handling via AWS Lambda for Shopify orders/inventory, SQS batching for rate-limited updates, maintaining real-time inventory sync across both platforms. Onboarded 50+ retail partners, processed 400+ orders in first 8 months, validating the new channel.
 
 **Legacy Java Modernization (Jun 2022 – Mar 2023)**  
-Modernized legacy Java APIs into Spring Boot REST services, improving database query performance for a San Francisco-based client.
+Modernized legacy Java APIs into Spring Boot REST services for a data privacy and compliance B2B SaaS, improving database query performance. Brief detour into Java before returning to my main .NET stack.
 
 **Tech:** .NET 8, Angular 17, Shopify API, AWS SQS, AWS Lambda, Azure Event Hubs, BigQuery, PostgreSQL, Spring Boot, Java 11
 
