@@ -16,7 +16,7 @@ English (Professional B2) · Portuguese (Native)
 **Jun 2022 – Present · Remote**
 
 **Fleet Management Analytics (Feb 2025 – Present)**  
-Built fuel consumption analysis module (Angular 17/.NET 8) enabling fleet managers to identify inefficient drivers and reduce operational costs. Developed shift finalization background service aggregating trip metrics via Azure Event Hubs -> BigQuery for near-real-time analytics.
+Built shift management module (Angular 17/.NET 8) allowing fleet managers to assign drivers to routes. Developed .NET background service processing 50M+ vehicle signals daily—when shifts end, computes metrics including distance driven, fuel consumption, speed, and safety scores for each completed shift.
 
 **Shopify E-commerce Integration (Mar 2023 – Feb 2025)**  
 Sole engineer building bidirectional sync service (.NET) for a failing sales platform. Architected webhook-based event handling via AWS Lambda for Shopify orders/inventory, SQS batching for rate-limited updates, maintaining real-time inventory sync across both platforms. Onboarded 50+ retail partners, processed 400+ orders in first 8 months, validating the new channel.
