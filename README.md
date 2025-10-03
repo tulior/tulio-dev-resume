@@ -3,6 +3,8 @@
 +55 67 9 9266 0804 · mail@tulio.org · tulio.org · linkedin.com/in/tulioanjos  
 English (Professional B2) · Portuguese (Native)
 
+---
+
 ### SKILLS
 **Backend:** .NET 8, C#, Entity Framework, REST/GraphQL APIs, Spring Boot, Java  
 **Frontend:** Angular 17, TypeScript, Astro  
@@ -33,8 +35,6 @@ Replaced legacy JSF with Angular 13 micro-frontend + Spring Boot backend for mea
 **Aug 2017 – Aug 2019 · Campo Grande, Brazil**
 
 Optimized real-time vehicle tracking system for public safety—identified and removed CPU bottleneck caused by timer misuse. Built structured form module for emergency call reporting.
-
----
 
 **PSG Tecnologia** — *Software Engineer*  
 **Mar 2013 – Aug 2017 · Campo Grande, Brazil**
