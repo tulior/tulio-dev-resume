@@ -3,14 +3,10 @@
 +55 67 9 9266 0804 · mail@tulio.org · tulio.org · linkedin.com/in/tulioanjos  
 English (Professional B2) · Portuguese (Native)
 
----
-
 ### SKILLS
 **Backend:** .NET 8, C#, Entity Framework, REST/GraphQL APIs, Spring Boot, Java  
 **Frontend:** Angular 17, TypeScript, Astro  
 **Data & Cloud:** SQL Server, PostgreSQL, MongoDB, Redis · AWS (Lambda, S3, SQS, SNS) · Azure (Event Hubs, Pipelines)
-
----
 
 ### EXPERIENCE
 
