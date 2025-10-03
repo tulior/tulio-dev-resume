@@ -34,7 +34,7 @@ Replaced legacy JSF with Angular 13 micro-frontend + Spring Boot backend for mea
 **Fonte Tecnologia** — *Software Engineer*  
 **Aug 2017 – Aug 2019 · Campo Grande, Brazil**
 
-Optimized real-time vehicle tracking system for public safety—identified and removed CPU bottleneck caused by timer misuse. Built structured form module for emergency call reporting.
+Evolved CompNet's SIGO-CADG SaaS for police/vehicle dispatch. Optimized real-time tracking (SignalR)—fixed CPU bottleneck from timer misuse. Built emergency call reporting module with Knockout.js and .NET.
 
 **PSG Tecnologia** — *Software Engineer*  
 **Mar 2013 – Aug 2017 · Campo Grande, Brazil**
