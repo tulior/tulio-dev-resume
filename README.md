@@ -39,7 +39,7 @@ Optimized real-time vehicle tracking system for public safety—identified and r
 **PSG Tecnologia** — *Software Engineer*  
 **Mar 2013 – Aug 2017 · Campo Grande, Brazil**
 
-Built document management systems for state government: organic law drafting/versioning and multi-year financial planning modules.
+Built state law drafting system using recursive self-referencing tables for document hierarchies (articles, sections, paragraphs), jQuery rich editing with custom diffing algorithm, and tree-based multi-year budget program management.
 
 ### EDUCATION
 **B.S. Computer Engineering** — Uniderp (2013)  
