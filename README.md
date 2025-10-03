@@ -19,12 +19,12 @@ English (Professional B2) · Portuguese (Native)
 Built fuel consumption analysis module (Angular 17/.NET 8) enabling fleet managers to identify inefficient drivers and reduce operational costs. Developed shift finalization background service aggregating trip metrics via Azure Event Hubs -> BigQuery for near-real-time analytics.
 
 **Shopify E-commerce Integration (Mar 2023 – Feb 2025)**  
-Sole engineer building a .NET microservice to sync product/inventory data with Shopify API for a client whose legacy sales platform was failing. Architected SQS-based batching to handle Shopify rate limits. **Onboarded 50+ retail partners, processed 400+ orders in first 8 months**, validating the new sales channel.
+Sole engineer building bidirectional sync service (.NET) for a failing sales platform. Architected webhook-based event handling via AWS Lambda for Shopify orders/inventory, SQS batching for rate-limited updates, maintaining real-time inventory sync across both platforms. Onboarded 50+ retail partners, processed 400+ orders in first 8 months, validating the new channel.
 
 **Legacy Java Modernization (Jun 2022 – Mar 2023)**  
 Modernized legacy Java APIs into Spring Boot REST services, improving database query performance for a San Francisco-based client.
 
-**Tech:** .NET 8, Angular 17, Shopify API, AWS SQS, Azure Event Hubs, BigQuery, PostgreSQL, Spring Boot, Java 11
+**Tech:** .NET 8, Angular 17, Shopify API, AWS SQS, AWS Lambda, Azure Event Hubs, BigQuery, PostgreSQL, Spring Boot, Java 11
 
 **GEOI2 Tecnologia** — *Software Engineer*  
 **Aug 2019 – Jun 2022 · Campo Grande, Brazil**
