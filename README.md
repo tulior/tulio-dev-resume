@@ -19,10 +19,10 @@ English (Professional B2) · Portuguese (Native)
 Built shift management UI module (Angular 17) allowing fleet managers to assign drivers to routes. Developed .NET background service that queries BigQuery (50M+ vehicle signals daily), computing driver metrics—distance, fuel consumption, speed, safety scores—when shifts complete.
 
 **Shopify E-commerce Integration (Mar 2023 – Feb 2025)**  
-Sole engineer implementing bidirectional sync service (.NET) for failing sales platform. Built webhook-based event handling via AWS Lambda for Shopify orders/inventory, SQS batching for rate-limited API updates, maintaining inventory sync across platforms. Feature enabled onboarding of 50+ retail partners, processed 400+ orders in first 8 months.
+Sole engineer implementing bidirectional sync service (.NET) for failing sales platform. Navigated Shopify's GraphQL API across version changes with inconsistent documentation. Built webhook-based event handling via AWS Lambda for Shopify orders/inventory, implemented SQS batching to handle rate limits, resolved undocumented PII data inconsistencies across webhook types. Feature enabled onboarding of 50+ retail partners, processed 400+ orders in first 8 months.
 
 **Legacy Java Modernization (Jun 2022 – Mar 2023)**  
-Modernized legacy Java APIs into Spring Boot REST services for data privacy/compliance B2B SaaS, optimizing database queries. Temporary Java assignment before returning to .NET stack.
+Modernized legacy Java APIs into Spring Boot REST services for data privacy/compliance B2B SaaS, optimizing database queries.
 
 **Tech:** .NET 8, Angular 17, Shopify API, AWS SQS, AWS Lambda, Azure Event Hubs, BigQuery, PostgreSQL, Spring Boot, Java 11
 
