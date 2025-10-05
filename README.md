@@ -1,41 +1,49 @@
-# Túlio Ribeiro dos Anjos
-**Senior Full-Stack Engineer** · Campo Grande, Brazil (Remote)  
-+55 67 9 9266 0804 · mail@tulio.org · tulio.org · linkedin.com/in/tulioanjos
+# Túlio Ribeiro dos Anjos  
+**Senior Full-Stack Engineer** · Remote (Based in Campo Grande, Brazil)  
++55 67 9 9266 0804 · [mail@tulio.org](mailto:mail@tulio.org) · [tulio.org](https://tulio.org) · [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos)
 
 ---
 
-### SKILLS
-**Backend:** .NET 8, C#, Entity Framework, REST/GraphQL APIs, Spring Boot, Java  
-**Frontend:** Angular 17, TypeScript, Astro, React.js  
-**Data & Cloud:** SQL Server, PostgreSQL, MongoDB, Redis · AWS (Lambda, S3, SQS, SNS) · Azure (Event Hubs, Pipelines)
+### TECHNICAL SKILLS  
+**Backend:** C#, .NET 8, ASP.NET Core, REST/GraphQL APIs, Spring Boot, Java, Entity Framework  
+**Frontend:** Angular 17, React, TypeScript, Astro  
+**Data & Infrastructure:** SQL Server, PostgreSQL, MongoDB, Redis · AWS (Lambda, S3, SQS, SNS) · Azure (Event Hubs, DevOps Pipelines)  
+**Practices:** Remote collaboration, CI/CD, Performance Optimization, Secure Coding, Legacy Modernization
 
 ---
 
-### EXPERIENCE
+### PROFESSIONAL EXPERIENCE
 
-**BairesDev - Senior Full-Stack Engineer** | Jun 2022 - Present  
-*Consultant for US-based clients on long-term embedded assignments.*
+**BairesDev — Senior Full-Stack Engineer**  
+*Remote | Jun 2022 – Present*  
+Embedded engineering consultant for U.S.-based clients in long-term, fully remote engagements. Worked daily with product, QA, and engineering teams across U.S. time zones using Agile practices.
 
-- **Client: Enterprise Fleet Telematics Platform | Feb 2025 - Present**  
-  Engineered the core C# service logic to assign individual drivers to vehicle trips, making the fleet's performance reports actionable. I then built the platform's shift management module, allowing operators to upload their schedules via CSV. A new C# background service aggregates vehicle data against these schedules, computing distinct performance metrics (max/avg speed, fuel use, safety scores) for each completed shift. The main challenge for both features was parsing the raw driver ID signals from BigQuery; I wrote specific data sanitization rules to handle signal flicker and resolve logical conflicts like a single driver appearing in multiple vehicles simultaneously.
+- **Enterprise Fleet Telematics Platform** *(U.S. Client | Remote | Feb 2025 – Present)*  
+  Engineered core C# services to assign drivers to vehicle trips using raw telemetry from BigQuery. Built a shift management module that accepts operator schedules via CSV and developed a background service to correlate vehicle data with shifts, computing performance metrics (max/avg speed, fuel use, safety scores). Resolved data integrity issues caused by signal flicker and concurrent driver assignments through custom sanitization logic and conflict-resolution rules.
 
-- **Client: E-commerce Platform | Jan 2023 - Jan 2025**  
-  Built a serverless image processing pipeline (AWS Lambda, SQS, SNS) to automatically generate product collages. My initial approach used an advanced context-aware cropping algorithm from OpenCVSharp, but its native dependencies proved incompatible with the AWS Lambda execution environment. I re-engineered the function, replacing the OpenCVSharp module with a lightweight edge-detection algorithm and using the SkiaSharp library to compose the final image. This pivot unblocked the project, enabling the pipeline to successfully deliver optimized collage assets to an S3 bucket for use on the storefront.
+- **E-commerce Platform** *(U.S. Client | Remote | Jan 2023 – Jan 2025)*  
+  Built a serverless image processing pipeline on AWS (Lambda, SQS, SNS) to auto-generate product collages. After discovering OpenCVSharp’s native dependencies were incompatible with Lambda, I redesigned the solution using SkiaSharp and a lightweight edge-detection algorithm—enabling reliable, scalable delivery of optimized assets to S3 for storefront use.
 
-- **Client: B2B Data Privacy & Compliance SaaS | Jun 2022 - Jan 2023**  
-  Tasked with modernizing the platform's data access layer, I migrated the application from raw JDBC to Spring Boot with Spring Data JPA. This systematic overhaul replaced manual, string-based queries with a type-safe repository pattern, which eliminated an entire class of critical SQL injection vulnerabilities. The migration also removed brittle, error-prone code for manual connection management, making the data layer more reliable and maintainable.
+- **B2B Data Privacy & Compliance SaaS** *(U.S. Client | Remote | Jun 2022 – Jan 2023)*  
+  Contributed to modernizing the data access layer by migrating from raw JDBC to Spring Boot with Spring Data JPA. Replaced string-based SQL queries with type-safe JPA repositories, helping eliminate SQL injection vulnerabilities and reducing error-prone connection management code. The new layer improved maintainability and supported future compliance features.
 
-**GEOI2 Tecnologia** — *Software Engineer* | Aug 2019 – Jun 2022  
-Decommissioned a high-risk legacy JSF application that depended on a single developer by rebuilding its front end in Angular 13, creating a modern codebase that could be supported by the entire team. I also automated data collection for state financial audits, replacing a manual process that required engineers to physically drive to remote municipal sites to copy databases. I built a Java CLI tool that orchestrated an existing Pentaho Kettle pipeline to extract data from Sybase, Firebird, and PostgreSQL. To ensure reliability over low-bandwidth municipal networks, I implemented Gzip compression, reducing data payloads by 90% and preventing transfer failures.
+**GEOI2 Tecnologia — Software Engineer**  
+*Remote/Hybrid | Aug 2019 – Jun 2022*  
+- Replaced a high-risk legacy JSF application with a modern Angular 13 frontend, enabling broader team ownership and long-term maintainability.  
+- Automated financial audit data collection across 79 municipalities by building a Java CLI tool that orchestrated Pentaho Kettle pipelines (Sybase, Firebird, PostgreSQL). Implemented Gzip compression to reduce payload size by 90%, ensuring reliable transfers over low-bandwidth networks.
 
-**Fonte Tecnologia** — *Software Engineer* | Aug 2017 – Aug 2019  
-I proactively diagnosed and repaired a severe rendering bottleneck in the real-time vehicle dispatch UI, a core component built with Knockout.js. Using the Chrome profiler, I traced sluggish animations to an inefficient design that attached a separate event handler to every cell in the data grid. I refactored the component to a single event delegation pattern and replaced its `setTimeout`-based animation loop with `requestAnimationFrame`. This eliminated the performance degradation and ensured the UI would remain responsive as the number of active dispatches scaled. I also built the system's emergency call reporting module with .NET.
+**Fonte Tecnologia — Software Engineer**  
+*Campo Grande, Brazil | Aug 2017 – Aug 2019*  
+- Diagnosed and fixed a critical UI performance bottleneck in a real-time vehicle dispatch system (Knockout.js) by refactoring to event delegation and replacing `setTimeout` animations with `requestAnimationFrame`, restoring responsiveness at scale.  
+- Developed an emergency call reporting module using .NET Web API and SQL Server.
 
-**PSG Tecnologia** — *Software Engineer* | Mar 2013 – Aug 2017  
-Built the state's legislative drafting and budget management system. The core engineering task was to model complex legal document hierarchies (articles, sections, paragraphs) in a relational database; I solved this by designing a schema with a recursive, self-referencing table structure. On the front end, I used jQuery to build the rich text editor for drafting legislation and a tree-based UI for managing multi-year budgets, which both operated on this hierarchical data model.
+**PSG Tecnologia — Software Engineer**  
+*Campo Grande, Brazil | Mar 2013 – Aug 2017*  
+- Built a legislative drafting and multi-year budgeting system for state government, modeling complex legal hierarchies (articles, sections, paragraphs) using a recursive SQL table structure.  
+- Delivered a jQuery-based rich text editor and tree UI for managing hierarchical budget data, both backed by the same normalized schema.
 
 ---
 
-### EDUCATION & CERTIFICATIONS
-*   B.S. Computer Engineering — Uniderp (2013)
-*   Oracle Certified Java SE 11 Developer (2021)
+### EDUCATION & CERTIFICATIONS  
+- **B.S. in Computer Engineering** — Uniderp (2013)  
+- **Oracle Certified Professional: Java SE 11 Developer** (2021)
