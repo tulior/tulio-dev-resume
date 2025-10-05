@@ -12,23 +12,18 @@ English (Professional B2) · Portuguese (Native)
 
 ### EXPERIENCE
 
-**BairesDev** — *Full-Stack Engineer (.NET/Angular)*  
-**Jun 2022 – Present · Remote**
+**BairesDev - Senior Full-Stack Engineer | Jun 2022 - Present**
 
-**Fleet Management Analytics (Feb 2025 – Present)**  
-Built shift management UI module (Angular 17) allowing fleet managers to assign drivers to routes. Developed .NET background service that queries BigQuery (50M+ vehicle signals daily), computing driver metrics—distance, fuel consumption, speed, safety scores—when shifts complete.
+*As a consultant engaged on long-term assignments with US-based clients, I delivered key projects for multiple business units:*
 
-**Shopify E-commerce Integration (Jan 2023 – Jan 2025)**  
-Sole engineer implementing bidirectional sync service (.NET) for failing sales platform. Navigated Shopify's GraphQL API across version changes with inconsistent documentation, syncing thousands of SKUs per retailer with API throttling mitigation via data diffing and retry logic. Built webhook-based event handling via AWS Lambda for orders/inventory, implemented SQS batching for real-time inventory updates without API bottlenecks. Onboarded 50+ retailers during beta, processed 400+ orders over 8 months with no reconciliation issues.
+**Client: Enterprise Fleet Telematics Platform | Feb 2025 - Present**
+*   Developed a full-stack fleet management module, processing over 50M daily vehicle signals from BigQuery into actionable driver performance metrics. Built the .NET background service for data computation and the Angular 17 UI for fleet managers to assign shifts and review safety scores.
 
-Built image processing library with collage generation (SkiaSharp) and AWS Lambda service (.NET 8) for real-time image composition. Added dynamic product previews with sub-second response times, improving conversions. Stored processed images in S3.
+**Client: Wayroo | Jan 2023 - Jan 2025**
+*   Architected and built an event-driven, serverless image processing pipeline using AWS Lambda, SQS, and SNS to automatically generate dynamic product collages. Overcame AWS Lambda's environmental constraints by replacing a dependency-heavy OpenCVSharp implementation with a pragmatic and efficient edge-detection algorithm, delivering optimized image assets for dynamic product previews.
 
-Designed CSV reporting system using JSON schema to handle different formats from multiple payment platforms. Integrated CSVHelper with validation and parsing logic. Provided structured financial reports meeting FTC compliance.
-
-**Legacy Java Modernization (Jun 2022 – Jan 2023)**  
-Refactored legacy Java APIs into Spring Boot REST services for B2B privacy compliance platform. Optimized data access with Spring Data JPA and Hibernate, reducing query latency and improving reliability. Added automated testing for API stability, integrated with Slack, Jira, and GitHub for security reviews.
-
-**Tech:** .NET 8, Angular 17, React.js, Shopify API, SkiaSharp, AWS SQS, AWS Lambda, AWS S3, Azure Event Hubs, BigQuery, PostgreSQL, Spring Boot, Spring Data JPA, Hibernate, Java 11
+**Client: B2B Data Privacy & Compliance SaaS | Jun 2022 - Jan 2023**
+*   Executed a strategic modernization of a platform's data access layer, migrating legacy Java APIs from raw JDBC to Spring Boot with Spring Data JPA. This initiative eliminated critical SQL injection vulnerabilities and enabled comprehensive automated testing.
 
 **GEOI2 Tecnologia** — *Software Engineer*  
 **Aug 2019 – Jun 2022 · Campo Grande, Brazil**
