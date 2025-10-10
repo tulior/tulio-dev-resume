@@ -5,12 +5,11 @@
 ---
 
 ### TECHNICAL SKILLS  
-**Backend:** C#, .NET 8, ASP.NET Core, REST/GraphQL APIs, Spring Boot, Java, Entity Framework  
+**Backend:** C#, .NET 8, ASP.NET Core, REST/GraphQL APIs, LINQ, Hangfire, Spring Boot, Java, Entity Framework  
 **Frontend:** Angular 17, React, TypeScript, Astro  
-**Data & Infrastructure:** SQL Server, PostgreSQL, MongoDB, Redis · AWS (Lambda, S3, SQS, SNS) · Azure (Event Hubs, DevOps Pipelines)  
+**Data & Infrastructure:** SQL Server, PostgreSQL, MongoDB, Redis  
+**Cloud & DevOps:** AWS (Lambda, S3, SQS, SNS), Azure (Event Hubs, DevOps Pipelines), Docker  
 **Practices:** Remote collaboration, CI/CD, Performance optimization, Secure coding, Legacy modernization
-
----
 
 ### PROFESSIONAL EXPERIENCE
 
@@ -41,8 +40,6 @@ Worked as an embedded contractor for U.S. clients on long-term remote projects, 
 *Campo Grande, Brazil | Mar 2013 – Aug 2017*  
 - Built a legislative drafting and budgeting system for state government. Modeled complex legal hierarchies (articles, sections, paragraphs) using a recursive SQL table.  
 - Delivered a jQuery-based rich text editor and a tree UI for managing multi-year budgets, both working on the same data model.
-
----
 
 ### EDUCATION & CERTIFICATIONS  
 - **B.S. in Computer Engineering** — Uniderp (2013)  
