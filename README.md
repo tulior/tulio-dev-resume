@@ -1,5 +1,5 @@
 # Túlio Ribeiro dos Anjos
-**Senior Full-Stack Engineer** · Remote (based in Campo Grande, Brazil)
+**Senior Software Engineer** · Remote (based in Campo Grande, Brazil)
 
 +55 67 9 9266 0804 · [mail@tulio.org](mailto:mail@tulio.org) · [tulio.org](https://tulio.org) · [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos)
 
@@ -23,7 +23,7 @@ Backend-leaning full-stack engineer. I turn raw data and legacy surfaces into si
 
 ### PROFESSIONAL EXPERIENCE
 
-**BairesDev — Senior Full-Stack Engineer**  
+**BairesDev — Software Engineer**  
 *Remote | Jun 2022 – Present*  
 Embedded on U.S. client teams; daily collaboration across time zones.
 
