@@ -28,16 +28,16 @@ Backend-leaning full-stack engineer. I turn raw data and legacy surfaces into si
 Embedded on U.S. client teams; daily collaboration across time zones.
 
 **Enterprise Fleet Telematics Platform** *(U.S. Client | Feb 2025 – Present)*
-- Designed and built the driver-to-trip assignment system, segmenting multi-driver routes and recalculating fuel, distance, speed, and safety scores per segment so managers can attribute results to the right driver; handled noisy signals (card-in/card-out flicker, overlapping driver IDs) with validation/debounce to keep attribution trustworthy.
-- Added shift import and a background matcher (CSV → BigQuery) to align telemetry with operator schedules and surface driver performance in existing reports.
+- Engineered a driver-to-trip assignment system in C#/.NET 8 that attributes fuel, distance, and safety scores to the correct operator on multi-driver routes. The system filters noisy telemetry signals (e.g., card-in/out flicker) using validation and debouncing logic to ensure attribution is reliable.
+- Developed a full-stack fuel consumption dashboard for the diesel fleet, building a C# API to query and aggregate data from a BigQuery warehouse handling over **100M daily telemetry events** from Azure Event Hubs. The new dashboard, built with Angular 17, provided managers with first-time visibility into fleet efficiency.
 
 **E-commerce Platform** *(U.S. Client | Jan 2023 – Jan 2025)*
-- Shipped an automated collage generator for product collections (2–4 images) with context-aware cropping so storefront pages get consistent, useful visuals without manual editing.
-- Ran the process as a serverless job triggered on catalog updates; published optimized assets to S3/CDN and kept the pipeline predictable under load.
+- Architected and built an automated collage generator using an event-driven, serverless pipeline. The system uses SNS/SQS to trigger an AWS Lambda function on catalog updates, which applies context-aware cropping and publishes optimized assets to S3, eliminating manual photo editing.
+- Engineered a two-way Shopify integration to synchronize a 100k+ SKU catalog, building the sync logic against their GraphQL API. This included an initial bulk import, real-time delta updates for inventory and pricing, and webhook processing for new orders. Contributed to the associated internal management UI using React.
 
 **B2B Data Privacy & Compliance SaaS** *(U.S. Client | Jun 2022 – Jan 2023)*
-- Moved ad-hoc SQL to Spring Data JPA repositories, removing injection-prone string queries and connection juggling so the team could add features safely.
-- Introduced clear data access boundaries and tests, which made the codebase easier to reason about and change.
+- Refactored the data access layer by migrating raw SQL queries to Spring Data JPA, which eliminated SQL injection risks and simplified connection management, allowing the team to ship new features more safely and quickly.
+- Established clear data access boundaries and introduced unit tests for the new repositories, making the persistence layer significantly easier to maintain and extend.
 
 **GEOI2 Tecnologia — Software Engineer**  
 *Remote/Hybrid | Aug 2019 – Jun 2022*
@@ -46,7 +46,7 @@ Embedded on U.S. client teams; daily collaboration across time zones.
 
 **Fonte Tecnologia — Software Engineer**  
 *Campo Grande, Brazil | Aug 2017 – Aug 2019*
-- Restored UI responsiveness in a real-time dispatch grid by consolidating event handling and moving animations to `requestAnimationFrame`; stayed smooth with hundreds of active jobs.
+- Optimized a real-time dispatch grid that was lagging under the high frequency of updates pushed via SignalR. By consolidating event handlers and shifting rendering to requestAnimationFrame, I restored UI responsiveness, ensuring the grid remained fluid with hundreds of active jobs streaming in.
 
 **PSG Tecnologia — Software Engineer**  
 *Campo Grande, Brazil | Mar 2013 – Aug 2017*
