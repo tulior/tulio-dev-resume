@@ -41,8 +41,8 @@ Embedded on U.S. client teams; daily collaboration across time zones.
 
 **GEOI2 Tecnologia — Software Engineer**  
 *Remote/Hybrid | Aug 2019 – Jun 2022*
-- Replaced a single-maintainer JSF app with an Angular 13 front end the whole team could support; preserved workflows, improved clarity, and unblocked changes.
-- Automated financial audit data collection for 79 municipalities with a Java CLI that ran Kettle pipelines and gzip compression, keeping transfers reliable on slow links.
+- Engineered a data collection pipeline for financial audits across 79 municipalities. The Java CLI tool used Kettle for ETL, loaded processed data into MongoDB, and used gzip compression to ensure reliability over low-bandwidth connections.
+- After the success of the data pipeline, was entrusted to spearhead the modernization of a legacy JSF application to Angular 13. The new front end enabled the entire team to contribute, unblocking feature development and simplifying maintenance.
 
 **Fonte Tecnologia — Software Engineer**  
 *Campo Grande, Brazil | Aug 2017 – Aug 2019*
