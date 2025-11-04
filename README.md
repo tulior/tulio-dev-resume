@@ -28,6 +28,7 @@ Backend-leaning full-stack engineer. I turn raw data and legacy surfaces into si
 Embedded on U.S. client teams; daily collaboration across time zones.
 
 **Enterprise Fleet Telematics Platform** *(U.S. Client | Feb 2025 – Present)*
+- Solely conceived, designed, and delivered an internal **EventHub Sender** desktop tool (**C#/.NET 8, WPF/MVVM, Azure Event Hubs**) that lets QAs compose and send numeric and alphanumeric signals via a clean UI. Replaced a console workflow that required editing a messy text file, manually converting dates to **Unix time**, copy-pasting JSON to add signals, and looking up signal IDs. The tool provides an Object ID picker with clear kind labels (NUM/ALPHA) and combined architectures, a **multiline Value editor**, and automatic UTC timestamp handling—significantly reducing setup time and errors for test runs.
 - Engineered a driver-to-trip assignment system in C#/.NET 8 that attributes fuel, distance, and safety scores to the correct operator on multi-driver routes. The system filters noisy telemetry signals (e.g., card-in/out flicker) using validation and debouncing logic to ensure attribution is reliable.
 - Developed a full-stack fuel consumption dashboard for the diesel fleet, building a C# API to query and aggregate data from a BigQuery warehouse handling over **100M daily telemetry events** from Azure Event Hubs. The new dashboard, built with Angular 17, provided managers with first-time visibility into fleet efficiency.
 
