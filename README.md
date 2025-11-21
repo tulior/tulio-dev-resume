@@ -1,7 +1,7 @@
 # Túlio Ribeiro dos Anjos
-**Senior Software Engineer**
-Remote (based in Campo Grande, Brazil)
-+55 67 9 9266 0804 · [mail@tulio.org](mailto:mail@tulio.org) · [tulio.org](https://tulio.org) · [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos)
+**Senior Software Engineer**  
+Remote (based in Campo Grande, Brazil)  
++55 67 9 9266 0804 · [mail@tulio.org](mailto:mail@tulio.org) · [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos) · [tulio.org](https://tulio.org)
 
 ---
 
@@ -11,17 +11,17 @@ Senior Software Engineer with 12+ years of experience specializing in high-scale
 ---
 
 ### TECHNICAL SKILLS
-**Languages:** C#, .NET 8, Java, TypeScript, SQL, JavaScript.
-**Frameworks:** ASP.NET Core, Spring Boot, Angular 17, React, WPF/MVVM, Entity Framework, Spring Data JPA.
-**Cloud & Infra:** AWS (Lambda, S3, SQS, SNS), Azure (Event Hubs, Pipelines), Docker, CI/CD.
-**Data:** SQL Server, BigQuery, PostgreSQL, MongoDB, Redis.
+**Languages:** C#, .NET 8, Java, TypeScript, SQL, JavaScript.  
+**Frameworks:** ASP.NET Core, Spring Boot, Angular 17, React, WPF/MVVM, Entity Framework, Spring Data JPA.  
+**Cloud & Infra:** AWS (Lambda, S3, SQS, SNS), Azure (Event Hubs, Pipelines), Docker, CI/CD.  
+**Data:** SQL Server, BigQuery, PostgreSQL, MongoDB, Redis.  
 **Core Competencies:** High-Scale Architecture, System Integration, Legacy Modernization, Performance Tuning.
 
 ---
 
 ### PROFESSIONAL EXPERIENCE
 
-**BairesDev** | *Remote*
+**BairesDev** | *Remote*  
 *Senior Software Engineer (Contract)* | *Jun 2022 – Present*
 
 **Project: Fleet Management SaaS (NYC Client)** | *Feb 2025 – Present*
@@ -38,23 +38,23 @@ Senior Software Engineer with 12+ years of experience specializing in high-scale
 *   **Security Remediation:** Executed the migration of the data access layer from raw SQL to type-safe Spring Data JPA, eliminating critical SQL injection vulnerabilities.
 *   **Performance Tuning:** Optimized complex database queries within the new JPA implementation to reduce latency and improve response times for end-users.
 
----
+&nbsp;
 
-**Grupo Imagetech** | *Campo Grande, Brazil*
+**Grupo Imagetech** | *Campo Grande, Brazil*  
 *Senior Full Stack Engineer* | *Aug 2019 – Jun 2022*
 *   **Distributed Data Pipeline:** Engineered a pipeline for financial audits across 79 municipalities. Built a Java CLI tool using Pentaho Kettle for ETL, implementing GZIP compression to ensure reliability over unstable, low-bandwidth government networks.
 *   **Legacy Modernization:** Led the complete migration of a legacy JSF application to Angular 13, decoupling the frontend and accelerating the team's feature release cycle.
 
----
+&nbsp;
 
-**Fonte Tecnologia** | *Campo Grande, Brazil*
+**Fonte Tecnologia** | *Campo Grande, Brazil*  
 *Full Stack Engineer (Client: State Public Security)* | *Aug 2017 – Aug 2019*
 *   **Mission-Critical Optimization (CADG):** Diagnosed and resolved critical rendering lag in the real-time dispatch system used by Military Police. Used Chrome Profiling to identify bottlenecks and implemented `requestAnimationFrame` to restore 60fps performance for tracking hundreds of active patrol units.
 *   **Emergency Systems:** Built the emergency call reporting module within the SIGO ecosystem (.NET Web API), ensuring high availability for command-and-control decision making.
 
----
+&nbsp;
 
-**PSG Tecnologia** | *Campo Grande, Brazil*
+**PSG Tecnologia** | *Campo Grande, Brazil*  
 *Software Engineer (Client: State ERP)* | *Mar 2013 – Aug 2017*
 *   **Enterprise Resource Planning (ERP):** Core developer for the State Financial Planning System (SPF). Designed the database schema for legislative drafting, implementing recursive SQL logic to model complex legal hierarchies.
 *   **Compliance & Audit:** Engineered a visual "diff" engine and rich text editor (jQuery) to track multi-year budget revisions, ensuring strict compliance with public-sector accounting standards (NBCASP).
@@ -62,6 +62,6 @@ Senior Software Engineer with 12+ years of experience specializing in high-scale
 ---
 
 ### EDUCATION & CERTIFICATIONS
-**Bachelor of Engineering - Computer Engineering** | Uniderp (2013)
-**Oracle Certified Professional: Java SE 11 Developer** | Oracle (2021)
-**EF SET English Certificate 79/100 (C2 Proficient)** | EF Standard English Test
+**Bachelor of Engineering - Computer Engineering** | Uniderp (2013)  
+**Oracle Certified Professional: Java SE 11 Developer** | Oracle (2021)  
+**EF SET English Certificate (Score: 79/100)** | C2 Proficient Level
