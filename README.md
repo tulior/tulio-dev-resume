@@ -22,9 +22,9 @@ Senior Software Engineer with 12+ years of experience specializing in high-scale
 ### PROFESSIONAL EXPERIENCE
 
 **BairesDev** | *Remote*  
-*Senior Software Engineer (Contract)* | *Jun 2022 – Present*
+*Senior Software Engineer (Contract)* | *Jun 2022 – Nov 2025*
 
-**Project: Fleet Management SaaS (NYC Client)** | *Feb 2025 – Present*
+**Project: Fleet Management SaaS (NYC Client)** | *Feb 2025 – Nov 2025*
 *   **High-Scale Data Implementation:** Developed high-performance APIs and aggregation logic to process **150M+ daily telemetry events**. Built the full-stack fuel consumption dashboard (Angular 17/.NET 8), giving managers real-time visibility into fleet efficiency.
 *   **Internal Tooling & Automation:** Solely designed and shipped a WPF/.NET 8 desktop application for QA. Replaced error-prone manual workflows with a direct Azure Event Hubs connector, significantly reducing test setup time and increasing signal reliability.
 *   **Core Logic Optimization:** Engineered the driver-to-trip assignment algorithm, implementing signal debouncing and noise filtering to ensure 99.9% attribution accuracy for complex multi-driver routes.
