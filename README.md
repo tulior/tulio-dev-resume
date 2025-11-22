@@ -30,7 +30,7 @@ Deployed as a core engineering resource for high-scale US tech clients. Speciali
 **Project: OEM Telematics & IoT Platform**
 *Client: Global Automotive OEM (Bus/Transit)*
 *   **Performance:** Refactored aggregation service for TB-scale datasets. Implemented bulk inserts and deduplication, reducing job runtime from 60+ minutes to under 30 seconds.
-*   **Cost Optimization:** Rewrote high-cost reporting queries to use pre-aggregated rollup tables. Reduced execution cost by 99% ($1.80 to <$0.01 per run).
+*   **Cost Optimization:** Rewrote high-cost reporting queries to use pre-aggregated rollup tables. Reduced execution cost by 99% (\$1.80 to <\$0.01 per run).
 *   **Scalability:** Enabled horizontal scaling for ingestion (150M+ daily events) by replacing local caching with distributed Redis.
 *   **Logic:** Engineered core driver-attribution algorithms to map telemetry to specific operators on complex routes.
 
