@@ -1,21 +1,22 @@
 # Túlio Ribeiro dos Anjos
 **Senior Software Engineer**  
-Remote (based in Campo Grande, Brazil)  
+Remote (based in Campo Grande, Brazil – UTC-4)  
 +55 67 9 9266 0804 · [mail@tulio.org](mailto:mail@tulio.org) · [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos) · [tulio.org](https://tulio.org)
 
 ---
 
 ### SUMMARY
-Senior Software Engineer with 12+ years of experience specializing in high-scale backend systems, cloud architecture, and complex integrations. Proven track record of optimizing performance for mission-critical public security systems and engineering data pipelines handling 150M+ daily events. Expert in bridging legacy enterprise software with modern cloud infrastructure to reduce operational risk and cost.
+Senior Software Engineer specializing in high-throughput, business-critical systems, taking ownership of mature architectures to make them faster, cheaper, and more resilient. Proven track record of re-engineering telematics pipelines (150M+ daily events), architecting fintech integrations ($4.5B+ volume), and modernizing state-level critical infrastructure. Focus on Distributed Systems, .NET 8, and Cloud Architecture.
 
 ---
 
 ### TECHNICAL SKILLS
-**Languages:** C#, .NET 8, Java, TypeScript, SQL, JavaScript.  
-**Frameworks:** ASP.NET Core, Spring Boot, Angular 17, React, WPF/MVVM, Entity Framework, Spring Data JPA.  
-**Cloud & Infra:** AWS (Lambda, S3, SQS, SNS), Azure (Event Hubs, Pipelines), Docker, CI/CD.  
-**Data:** SQL Server, BigQuery, PostgreSQL, MongoDB, Redis.  
-**Core Competencies:** High-Scale Architecture, System Integration, Legacy Modernization, Performance Tuning.
+**Languages:** C#, Java, TypeScript, SQL.  
+**Core:** Distributed Systems, High-Scale Ingestion, Legacy Modernization, Performance Engineering.  
+**Cloud & Infra:** AWS (Lambda, S3), Azure (Event Hubs), Redis, Docker, CI/CD.  
+**Data:** BigQuery, SQL Server, PostgreSQL, MongoDB.  
+**AI Integration:** Model Context Protocol (MCP), OpenAI Tool Use, Context-Aware State Compression (proof-of-concept).  
+**Frameworks:** .NET 8, ASP.NET Core, Spring Boot, Angular 17, WPF/MVVM, Entity Framework, Spring Data JPA.
 
 ---
 
@@ -24,40 +25,54 @@ Senior Software Engineer with 12+ years of experience specializing in high-scale
 **BairesDev** | *Remote*  
 *Senior Software Engineer (Contract)* | *Jun 2022 – Nov 2025*
 
-**Project: Fleet Management SaaS (NYC Client)** | *Feb 2025 – Nov 2025*
-*   **High-Scale Data Implementation:** Developed high-performance APIs and aggregation logic to process **150M+ daily telemetry events**. Built the full-stack fuel consumption dashboard (Angular 17/.NET 8), giving managers real-time visibility into fleet efficiency.
-*   **Internal Tooling & Automation:** Solely designed and shipped a WPF/.NET 8 desktop application for QA. Replaced error-prone manual workflows with a direct Azure Event Hubs connector, significantly reducing test setup time and increasing signal reliability.
-*   **Core Logic Optimization:** Engineered the driver-to-trip assignment algorithm, implementing signal debouncing and noise filtering to ensure 99.9% attribution accuracy for complex multi-driver routes.
+Deployed as a core engineering resource for high-scale US tech clients. Specialized in distributed systems, legacy modernization, and high-throughput data architecture.
 
-**Project: High-Volume E-Commerce Platform (US Client)** | *Jan 2023 – Jan 2025*
-*   **Microservice Architecture:** Designed and built a dedicated integration microservice (.NET 6) from scratch to bridge legacy ERPs with Shopify. Handled bulk syncs and real-time delta updates for **100k+ SKUs**.
-*   **Algorithmic Image Processing:** Spearheaded a migration from ImageSharp to a custom SkiaSharp/OpenCV library to resolve licensing risks. Architected a serverless pipeline (AWS Lambda) for context-aware cropping, eliminating manual editing labor.
-*   **Shopify Integration:** Implemented secure OAuth flows and leveraged GraphQL APIs to handle complex inventory management and order reconciliation.
+**Project: OEM Telematics & IoT Platform**
+*Client: Global Automotive OEM (Bus/Transit)*
+*   **Performance:** Refactored aggregation service for TB-scale datasets. Implemented bulk inserts and deduplication, reducing job runtime from 60+ minutes to under 30 seconds.
+*   **Cost Optimization:** Rewrote high-cost reporting queries to use pre-aggregated rollup tables. Reduced execution cost by 99% ($1.80 to <$0.01 per run).
+*   **Scalability:** Enabled horizontal scaling for ingestion (150M+ daily events) by replacing local caching with distributed Redis.
+*   **Logic:** Engineered core driver-attribution algorithms to map telemetry to specific operators on complex routes.
 
-**Project: B2B Data Privacy SaaS (US Client)** | *Jun 2022 – Jan 2023*
-*   **Security Remediation:** Executed the migration of the data access layer from raw SQL to type-safe Spring Data JPA, eliminating critical SQL injection vulnerabilities.
-*   **Performance Tuning:** Optimized complex database queries within the new JPA implementation to reduce latency and improve response times for end-users.
+**Project: Fintech & POS Platform ($4.5B+ Volume)**
+*Client: High-Volume US Fintech Provider*
+*   **Architecture:** Architected bidirectional POS-Shopify bridge. Orchestrated 100k+ SKU bulk loads and real-time webhook reconciliation for sales/inventory.
+*   **Computer Vision:** Built serverless AWS Lambda/OpenCVSharp pipeline with context-aware cropping to generate marketing assets.
+*   **Cost:** Replaced commercial image library with custom solution, permanently eliminating licensing fees and vendor dependency.
+
+**Project: Enterprise Privacy SaaS**
+*Client: VC-Backed Privacy Platform*
+*   **Security:** Migrated raw SQL to Spring Data JPA, eliminating injection risks.
+*   **Modernization:** Refactored brittle data-access patterns to support rapid feature development, reducing technical debt in the platform's core.
 
 &nbsp;
 
 **Grupo Imagetech** | *Campo Grande, Brazil*  
-*Senior Full Stack Engineer* | *Aug 2019 – Jun 2022*
-*   **Distributed Data Pipeline:** Engineered a pipeline for financial audits across 79 municipalities. Built a Java CLI tool using Pentaho Kettle for ETL, implementing GZIP compression to ensure reliability over unstable, low-bandwidth government networks.
-*   **Legacy Modernization:** Led the complete migration of a legacy JSF application to Angular 13, decoupling the frontend and accelerating the team's feature release cycle.
+*Senior Software Engineer* | *Aug 2019 – Jun 2022*
+
+**Client: State Court of Accounts (TCE-MS)**
+*   **Distributed ETL:** Architected a Linux-based ingestion pipeline to extract financial data from heterogeneous municipal environments. Engineered a custom Java/Pentaho CLI to bypass vendor lock-in and automate connectivity across 79 distinct jurisdictions.
+*   **Resilience:** Implemented custom GZIP compression and error-recovery protocols to ensure reliable delivery and data integrity over unstable, low-bandwidth government networks.
+*   **Modernization:** Led the migration of the central auditing dashboard from legacy JSF to Angular, decoupling the frontend to accelerate fiscal monitoring capabilities.
 
 &nbsp;
 
 **Fonte Tecnologia** | *Campo Grande, Brazil*  
-*Full Stack Engineer (Client: State Public Security)* | *Aug 2017 – Aug 2019*
-*   **Mission-Critical Optimization (CADG):** Diagnosed and resolved critical rendering lag in the real-time dispatch system used by Military Police. Used Chrome Profiling to identify bottlenecks and implemented `requestAnimationFrame` to restore 60fps performance for tracking hundreds of active patrol units.
-*   **Emergency Systems:** Built the emergency call reporting module within the SIGO ecosystem (.NET Web API), ensuring high availability for command-and-control decision making.
+*Software Engineer* | *Aug 2017 – Aug 2019*
+
+**Client: State Dept. of Justice (Sejusp-MS) / Military Police**
+*   **Real-Time Dispatch:** Diagnosed and resolved critical rendering lag in the Computer-Aided Dispatch (CADG) map. Optimized the Knockout.js event loop and implemented `requestAnimationFrame`, enabling dispatchers to track hundreds of active police units with near-zero UI latency.
+*   **Incident Reporting:** Engineered the .NET Web API ingestion layer for the emergency call module, ensuring high availability for life-critical incident data.
 
 &nbsp;
 
 **PSG Tecnologia** | *Campo Grande, Brazil*  
-*Software Engineer (Client: State ERP)* | *Mar 2013 – Aug 2017*
-*   **Enterprise Resource Planning (ERP):** Core developer for the State Financial Planning System (SPF). Designed the database schema for legislative drafting, implementing recursive SQL logic to model complex legal hierarchies.
-*   **Compliance & Audit:** Engineered a visual "diff" engine and rich text editor (jQuery) to track multi-year budget revisions, ensuring strict compliance with public-sector accounting standards (NBCASP).
+*Software Engineer* | *Mar 2013 – Aug 2017*
+
+**Client: State Secretariat of Finance (SEFAZ-MS) / SGI**
+*   **Strategic Resource Planning (PPA):** Owned the full-stack development of the Multi-Year Plan module within the State Financial Planning System (SPF). Designed data models used by all state secretariats to define 4-year fiscal programs.
+*   **Recursive Data Structures:** Engineered a recursive SQL engine to model complex legal hierarchies (articles, paragraphs). Implemented automatic hierarchical renumbering and validation logic.
+*   **Custom Tooling:** Built a specialized browser-based editor and visual "diff" engine, enabling state auditors to draft and version multi-year budget legislation.
 
 ---
 
