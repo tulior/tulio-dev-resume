@@ -61,8 +61,8 @@ Deployed as a core engineering resource for high-scale US tech clients. Speciali
 *Software Engineer* | *Aug 2017 – Aug 2019*
 
 **Client: State Dept. of Justice (Sejusp-MS) / Military Police**
-*   **Real-Time Dispatch:** Diagnosed and resolved critical rendering lag in the Computer-Aided Dispatch (CADG) map. Optimized the Knockout.js event loop and implemented `requestAnimationFrame`, enabling dispatchers to track hundreds of active police units with near-zero UI latency.
-*   **Incident Reporting:** Engineered the .NET Web API ingestion layer for the emergency call module, ensuring high availability for life-critical incident data.
+*   **Mission-Critical Infrastructure:** Contributed to the Integrated Operational Management System (SIGO) and Computer-Aided Dispatch (CADG), the core command-and-control platforms used by state police for emergency response.
+*   **Full-Stack Development:** maintained and expanded backend services (.NET Web API) and frontend interfaces to support real-time incident tracking, ensuring high availability for 24/7 public safety operations.
 
 &nbsp;
 
