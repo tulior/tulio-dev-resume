@@ -4,7 +4,7 @@ Remote (based in Campo Grande, Brazil – UTC-4)
 [mail@tulio.org](mailto:mail@tulio.org) · +55 67 9 9266 0804 · [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos) · [tulio.org](https://tulio.org)  
 
 ### SUMMARY  
-Senior Software Engineer with 12+ years of experience specializing in Distributed Systems, .NET, and Java. I build high-throughput backend infrastructure (150M+ daily events) and modernize legacy environments for US-based startups and enterprises. My expertise lies in solving hard architectural problems—optimizing data pipelines, securing complex fintech integrations, and refactoring brittle code—while working as an autonomous, embedded core contributor.  
+Senior Software Engineer with 12+ years of experience, primarily in .NET and Java. I build distributed systems that handle high throughput (150M+ events/day) and refactor legacy codebases to improve performance and stability. For the past 3 years, I have worked remotely as a core contributor for US-based product teams, delivering backend infrastructure and data pipelines without requiring hand-holding.  
 
 ### TECHNICAL SKILLS  
 *   **Languages:** C#, Java, TypeScript, SQL.  
@@ -59,7 +59,7 @@ Embedded in US product teams to solve scaling bottlenecks and architectural debt
 *Software Engineer* | *Mar 2013 – Aug 2017*  
 
 **Client: State Secretariat of Finance**  
-*   **Built the State Budget System:** I owned the full-stack development of the Multi-Year Plan module. This is the software the government uses to define its 4-year fiscal plan.  
+*   **Built the State Budget System:** I owned the full-stack development of the Multi-Year Plan module, used by the entire state government to define its 4-year fiscal program.  
 *   **Legislative Drafting Engine:** I built the core Full Stack engine for drafting organic laws. To handle deep legal hierarchies (Articles -> Paragraphs), I engineered a **recursive SQL** data model paired with a custom **interactive UI** that allowed auditors to manipulate the hierarchy and view visual "diffs" of version changes.  
 
 ---
