@@ -1,80 +1,72 @@
 # Túlio Ribeiro dos Anjos
-**Senior Software Engineer**  
-Remote (based in Campo Grande, Brazil – UTC-4)  
-+55 67 9 9266 0804 · [mail@tulio.org](mailto:mail@tulio.org) · [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos) · [tulio.org](https://tulio.org)
+**Senior Software Engineer**
+Remote (based in Campo Grande, Brazil – UTC-4)
+[mail@tulio.org](mailto:mail@tulio.org) · +55 67 9 9266 0804 · [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos) · [tulio.org](https://tulio.org)
 
----
-
-### SUMMARY
-Senior Software Engineer specializing in high-velocity feature delivery within distributed cloud environments. Expert in executing architectural roadmaps with full autonomy, translating complex requirements into robust .NET solutions. Proven track record of building and optimizing high-throughput systems (150M+ daily events), balancing rapid development with strict performance and cost constraints.
-
----
+### THE GIST
+I am a Senior Software Engineer who builds distributed systems that actually work. I have 12+ years of experience, primarily in .NET and Java. I specialize in fixing slow data pipelines, modernizing legacy code without breaking production, and building backend infrastructure for US startups and enterprises. I value code that is simple to read, cheap to run, and scales.
 
 ### TECHNICAL SKILLS
-**Languages:** C#, Java, TypeScript, SQL.  
-**Core:** Distributed Systems, High-Scale Ingestion, Legacy Modernization, Performance Engineering.  
-**Cloud & Infra:** AWS (Lambda, S3), Azure (Event Hubs), Redis, Docker, CI/CD.  
-**Data:** BigQuery, SQL Server, PostgreSQL, MongoDB.   
-**Frameworks:** .NET 8, ASP.NET Core, Spring Boot, Angular 17, Entity Framework, Spring Data JPA.
+*   **Languages:** C#, Java, TypeScript, SQL.
+*   **Core:** Distributed Systems, High-Scale Ingestion (150M+ events/day), Performance Tuning.
+*   **Cloud & Infra:** AWS (Lambda, SQS, S3), Azure (Event Hubs), Redis, Docker, CI/CD.
+*   **Data:** BigQuery, SQL Server, PostgreSQL, MongoDB, Entity Framework.
+*   **Frameworks:** .NET 8, ASP.NET Core, Spring Boot, Angular 17.
 
 ---
 
-### PROFESSIONAL EXPERIENCE
+### EXPERIENCE
 
-**BairesDev** | *Remote*  
+**BairesDev** | *Remote*
 *Senior Software Engineer (Contract)* | *Jun 2022 – Nov 2025*
 
-Deployed as a core engineering resource for high-scale US tech clients. Specialized in distributed systems, legacy modernization, and high-throughput data architecture.
+I was hired to solve specific scaling and architectural problems for US clients. I worked embedded within their core teams, not on the periphery.
 
-**Project: OEM Telematics & IoT Platform**  
-*Deployed to Global Automotive OEM (Bus/Transit)*
-*    **Big Data Optimization:** Refactored the aggregation service responsible for generating rollup tables from raw telemetry. Implemented a **BigQuery staging-table MERGE pattern** to handle deduplication and bulk upserts, reducing job runtime from **60+ minutes to 30 seconds**.
-*   **Scalability:** Enabled horizontal scaling for the high-throughput ingestion service (150M+ daily events) by migrating state from local memory to **distributed Redis**, eliminating cache inconsistency across instances.
-*    **Core Algorithms:** Developed the driver-attribution logic to map telemetry to operators. implemented **timeline reconstruction algorithms** to handle noisy logon events, solving edge cases like mid-trip driver swaps and multi-vehicle assignments.
+**Client: Global Automotive OEM (Telematics Platform)**
+*   **Fixed a 60-minute bottleneck:** The system took over an hour to generate rollup tables from raw telemetry. I rewrote the aggregation service using a **BigQuery staging-table MERGE pattern**. It now runs in **30 seconds**.
+*   **Scaled to 150M+ daily events:** The ingestion service couldn't scale because it held state in local memory. I migrated that state to **distributed Redis**, allowing us to autoscale instances horizontally to handle traffic spikes.
+*   **Solved complex logic:** I wrote the algorithms that figure out who is driving the bus. This required timeline reconstruction logic to handle edge cases like mid-trip driver swaps and noisy logon events.
 
-**Project: Fintech & POS Platform ($4.5B+ Volume)**  
-*Deployed to Fintech Platform for Enterprise Retail*
-*   **Distributed Architecture:** Engineered a fault-tolerant, bi-directional bridge between the core ledger and Shopify. Implemented **AWS SQS/Lambda** and **Polly policies** to handle GraphQL rate limits and ensure eventual consistency for real-time inventory reconciliation.
-*   **Scale & Impact:** Unlocked multi-channel sales for high-volume retailers by orchestrating bulk catalog ingestion (100k+ SKUs per merchant), directly supporting the platform's **$4.5B+ GMV**.
-*   **Computer Vision:** Built serverless AWS Lambda/OpenCVSharp pipeline with context-aware cropping to generate marketing assets.
+**Client: Enterprise Fintech Platform**
+*   **Handled $4.5B+ in volume:** I built the bridge between the core ledger and Shopify. This allowed high-volume retailers to ingest 100k+ SKUs at once. The system supported **$4.5B in Gross Merchandise Value**.
+*   **Built for failure:** APIs fail. I implemented **AWS SQS** and **Polly policies** to handle GraphQL rate limits and ensure eventual consistency. When the external API went down, our system didn't lose data; it just waited.
+*   **Serverless Computer Vision:** Built an AWS Lambda pipeline using OpenCVSharp to automatically crop and generate marketing assets from raw images.
 
-**Project: Enterprise Privacy SaaS**  
-*Deployed to VC-Backed Privacy Platform*
-*   **Security:** Migrated raw SQL to Spring Data JPA, eliminating injection risks.
-*   **Modernization:** Refactored brittle data-access patterns to support rapid feature development, reducing technical debt in the platform's core.
+**Client: VC-Backed Privacy SaaS**
+*   **Security Patching:** Migrated raw SQL queries to **Spring Data JPA**. This eliminated SQL injection risks across the platform.
+*   **Refactoring:** Untangled brittle data-access patterns that were slowing down the team, allowing them to ship features faster.
 
 &nbsp;
 
-**Grupo Imagetech** | *Campo Grande, Brazil*  
+**Grupo Imagetech** | *Campo Grande, Brazil*
 *Senior Software Engineer* | *Aug 2019 – Jun 2022*
 
-**Client: State Court of Accounts (TCE-MS)**
-*   **Distributed ETL:** Architected a Linux-based ingestion pipeline to extract financial data from heterogeneous municipal environments. Engineered a custom Java/Pentaho CLI to bypass vendor lock-in and automate connectivity across 79 distinct jurisdictions.
-*   **Resilience:** Implemented custom GZIP compression and error-recovery protocols to ensure reliable delivery and data integrity over unstable, low-bandwidth government networks.
-*   **Modernization:** Led the migration of the central auditing dashboard from legacy JSF to Angular, decoupling the frontend to accelerate fiscal monitoring capabilities.
+**Client: State Court of Accounts (Government Auditing)**
+*   **Hacked a solution for bad infrastructure:** We needed to pull financial data from 79 different municipalities with terrible internet and different database vendors. I built a custom **Java/Pentaho CLI** to run locally on their servers, bypass vendor lock-in, and compress data via GZIP so it could actually traverse the network.
+*   **Modernization:** Led the migration of the central auditing dashboard from legacy JSF to **Angular**, which decoupled the frontend and improved load times for auditors.
 
 &nbsp;
 
-**Fonte Tecnologia** | *Campo Grande, Brazil*  
+**Fonte Tecnologia** | *Campo Grande, Brazil*
 *Software Engineer* | *Aug 2017 – Aug 2019*
 
-**Client: State Dept. of Justice (Sejusp-MS) / Military Police**
-*   **Mission-Critical Infrastructure:** Contributed to the Integrated Operational Management System (SIGO) and Computer-Aided Dispatch (CADG), the core command-and-control platforms used by state police for emergency response.
-*   **Full-Stack Development:** maintained and expanded backend services (.NET Web API) and frontend interfaces to support real-time incident tracking, ensuring high availability for 24/7 public safety operations.
+**Client: Military Police & Dept. of Justice**
+*   **High Stakes:** Worked on the Computer-Aided Dispatch (CADG) system. If this software goes down, 911 calls don't get answered. I maintained the .NET Web API backend that kept the system running 24/7.
+*   **Real-time tracking:** Built features for the Integrated Operational Management System (SIGO) to track incidents in real-time.
 
 &nbsp;
 
-**PSG Tecnologia** | *Campo Grande, Brazil*  
+**PSG Tecnologia** | *Campo Grande, Brazil*
 *Software Engineer* | *Mar 2013 – Aug 2017*
 
-**Client: State Secretariat of Finance (SEFAZ-MS) / SGI**
-*   **Strategic Resource Planning (PPA):** Owned the full-stack development of the Multi-Year Plan module within the State Financial Planning System (SPF). Designed data models used by all state secretariats to define 4-year fiscal programs.
-*   **Recursive Data Structures:** Engineered a recursive SQL engine to model complex legal hierarchies (articles, paragraphs). Implemented automatic hierarchical renumbering and validation logic.
-*   **Custom Tooling:** Built a specialized browser-based editor and visual "diff" engine, enabling state auditors to draft and version multi-year budget legislation.
+**Client: State Secretariat of Finance**
+*   **Built the State Budget System:** I owned the full-stack development of the Multi-Year Plan module. This is the software the government uses to define its 4-year fiscal plan.
+*   **Recursive SQL:** Legal hierarchies (Articles -> Paragraphs -> Sections) are deeply nested. I wrote a recursive SQL engine to model this structure and automatically handle renumbering when laws changed.
+*   **Visual Diffing:** Built a browser-based editor that allowed auditors to visually "diff" budget versions, saving them hours of manual checking.
 
 ---
 
-### EDUCATION & CERTIFICATIONS
-**Bachelor of Engineering - Computer Engineering** | Uniderp (2013)  
-**Oracle Certified Professional: Java SE 11 Developer** | Oracle (2021)  
-**EF SET English Certificate (Score: 79/100)** | C2 Proficient Level
+### EDUCATION
+**Bachelor of Engineering - Computer Engineering** | Uniderp (2013)
+**Oracle Certified Professional: Java SE 11 Developer** | (2021)
+**English Proficiency:** C2 (EF SET Score: 79/100)
