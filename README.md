@@ -60,8 +60,7 @@ Embedded in US product teams to solve scaling bottlenecks and architectural debt
 
 **Client: State Secretariat of Finance**  
 *   **Built the State Budget System:** I owned the full-stack development of the Multi-Year Plan module. This is the software the government uses to define its 4-year fiscal plan.  
-*   **Recursive SQL:** Legal hierarchies (Articles -> Paragraphs -> Sections) are deeply nested. I wrote a recursive SQL engine to model this structure and automatically handle renumbering when laws changed.  
-*   **Internal Tooling:** Built a browser-based editor that allowed auditors to visually "diff" budget versions, saving them hours of manual checking.  
+*   **Legislative Drafting Engine:** I built the core Full Stack engine for drafting organic laws. To handle deep legal hierarchies (Articles -> Paragraphs), I engineered a **recursive SQL** data model paired with a custom **interactive UI** that allowed auditors to manipulate the hierarchy and view visual "diffs" of version changes.  
 
 ---
 
