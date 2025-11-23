@@ -36,7 +36,8 @@ Deployed as a core engineering resource for high-scale US tech clients. Speciali
 
 **Project: Fintech & POS Platform ($4.5B+ Volume)**  
 *Client: Fintech Platform for Enterprise Retail*
-*   **Architecture:** Built a fault-tolerant bi-directional sync engine connecting a proprietary POS to Shopify. Engineered a resilient bulk-import pipeline handling 100k+ SKUs, utilizing Polly policies to manage Shopify GraphQL rate limits and AWS SNS/SQS for eventual consistency in inventory updates.
+*   **Distributed Architecture:** Engineered a fault-tolerant, bi-directional bridge between the core ledger and Shopify. Implemented **AWS SQS/Lambda** and **Polly policies** to handle GraphQL rate limits and ensure eventual consistency for real-time inventory reconciliation.
+*   **Scale & Impact:** Unlocked multi-channel sales for high-volume retailers by orchestrating bulk catalog ingestion (100k+ SKUs per merchant), directly supporting the platform's **$4.5B+ GMV**.
 *   **Computer Vision:** Built serverless AWS Lambda/OpenCVSharp pipeline with context-aware cropping to generate marketing assets.
 *   **Cost:** Replaced commercial image library with custom solution, permanently eliminating licensing fees and vendor dependency.
 
