@@ -35,8 +35,8 @@ Deployed as a core engineering resource for high-scale US tech clients. Speciali
 *   **Logic:** Engineered core driver-attribution algorithms to map telemetry to specific operators on complex routes.
 
 **Project: Fintech & POS Platform ($4.5B+ Volume)**
-*Client: High-Volume US Fintech Provider*
-*   **Architecture:** Architected bidirectional POS-Shopify bridge. Orchestrated 100k+ SKU bulk loads and real-time webhook reconciliation for sales/inventory.
+*Client: Fintech Platform for Enterprise Retail*
+*   **Architecture:** Built a fault-tolerant bi-directional sync engine connecting a proprietary POS to Shopify. Engineered a resilient bulk-import pipeline handling 100k+ SKUs, utilizing Polly policies to manage Shopify GraphQL rate limits and AWS SNS/SQS for eventual consistency in inventory updates.
 *   **Computer Vision:** Built serverless AWS Lambda/OpenCVSharp pipeline with context-aware cropping to generate marketing assets.
 *   **Cost:** Replaced commercial image library with custom solution, permanently eliminating licensing fees and vendor dependency.
 
