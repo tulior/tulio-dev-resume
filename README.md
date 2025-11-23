@@ -3,13 +3,13 @@
 Remote (based in Campo Grande, Brazil – UTC-4)  
 [mail@tulio.org](mailto:mail@tulio.org) · +55 67 9 9266 0804 · [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos) · [tulio.org](https://tulio.org)  
 
-### THE GIST  
-I am a Senior Software Engineer who builds distributed systems that actually work. I have 12+ years of experience, primarily in .NET and Java. I specialize in fixing slow data pipelines, modernizing legacy code without breaking production, and building backend infrastructure for US startups and enterprises. I value code that is simple to read, cheap to run, and scales.  
+### SUMMARY  
+Senior Software Engineer with 12+ years of experience specializing in Distributed Systems, .NET, and Java. I build high-throughput backend infrastructure (150M+ daily events) and modernize legacy environments for US-based startups and enterprises. My expertise lies in solving hard architectural problems—optimizing data pipelines, securing complex fintech integrations, and refactoring brittle code—while working as an autonomous, embedded core contributor.  
 
 ### TECHNICAL SKILLS  
 *   **Languages:** C#, Java, TypeScript, SQL.  
-*   **Core:** Distributed Systems, High-Scale Ingestion (150M+ events/day), Performance Tuning.  
-*   **Cloud & Infra:** AWS (Lambda, SQS, S3), Azure (Event Hubs), Redis, Docker, CI/CD.  
+*   **Core:** Distributed Systems, High-Scale Ingestion, Performance Engineering, System Architecture.  
+*   **Cloud & Infra:** AWS (Lambda, SQS, SNS, S3), Azure (Event Hubs), Redis, Docker, CI/CD.  
 *   **Data:** BigQuery, SQL Server, PostgreSQL, MongoDB, Entity Framework.  
 *   **Frameworks:** .NET 8, ASP.NET Core, Spring Boot, Angular 17.  
 
@@ -18,19 +18,19 @@ I am a Senior Software Engineer who builds distributed systems that actually wor
 ### EXPERIENCE  
 
 **BairesDev** | *Remote*  
-*Senior Software Engineer (Contract)* | *Jun 2022 – Nov 2025*  
+*Senior Software Engineer* | *Jun 2022 – Nov 2025*  
 
 I was hired to solve specific scaling and architectural problems for US clients. I worked embedded within their core teams, not on the periphery.  
 
 **Client: Global Automotive OEM (Telematics Platform)**  
-*   **Fixed a 60-minute bottleneck:** The system took over an hour to generate rollup tables from raw telemetry. I rewrote the aggregation service using a **BigQuery staging-table MERGE pattern**. It now runs in **30 seconds**.  
-*   **Scaled to 150M+ daily events:** The ingestion service couldn't scale because it held state in local memory. I migrated that state to **distributed Redis**, allowing us to autoscale instances horizontally to handle traffic spikes.  
+*   **Fixed a 60-minute bottleneck:** The aggregation service took over an hour to populate rollup tables from raw telemetry. I refactored the entire service and implemented a **BigQuery staging-table MERGE pattern**. It now completes the job in **30 seconds**.  
+*   **Scaled to 150M+ daily events:** The ingestion API relied on local memory to cache and merge vehicle signals (e.g., speed), causing Out-of-Memory crashes as traffic grew. I rewrote the caching strategy to use **distributed Redis**. This eliminated the crashes and allowed us to scale the service horizontally.  
 *   **Solved complex logic:** I wrote the algorithms that figure out who is driving the bus. This required timeline reconstruction logic to handle edge cases like mid-trip driver swaps and noisy logon events.  
 
-**Client: Enterprise Fintech Platform**  
-*   **Handled $4.5B+ in volume:** I built the bridge between the core ledger and Shopify. This allowed high-volume retailers to ingest 100k+ SKUs at once. The system supported **$4.5B in Gross Merchandise Value**.  
-*   **Built for failure:** APIs fail. I implemented **AWS SQS** and **Polly policies** to handle GraphQL rate limits and ensure eventual consistency. When the external API went down, our system didn't lose data; it just waited.  
-*   **Serverless Computer Vision:** Built an AWS Lambda pipeline using OpenCVSharp to automatically crop and generate marketing assets from raw images.  
+**Client: Fintech Provider for Enterprise Direct Sales**  
+*   **Opened a major sales channel:** The platform's users (independent retailers) were locked into a proprietary POS. I built the bidirectional bridge that allowed them to sell their inventory on **Shopify**. This wasn't just a data dump; it was a live sync engine.  
+*   **Event-Driven Architecture:** I decoupled the legacy POS from Shopify's strict rate limits using **AWS SNS and SQS**. Changes in the legacy ledger triggered events consumed by **Lambda**, which then updated the Shopify store via their **GraphQL API**.  
+*   **Handling Complexity:** Syncing products is easy; syncing a catalog with **100k+ SKUs** of thousands of variants (colors, sizes, weights, images) per store is hard. I built the bulk-loading logic to map these complex hierarchies and handle webhooks to decrement the core ledger inventory immediately upon a Shopify sale.  
 
 **Client: VC-Backed Privacy SaaS**  
 *   **Security Patching:** Migrated raw SQL queries to **Spring Data JPA**. This eliminated SQL injection risks across the platform.  
@@ -41,9 +41,9 @@ I was hired to solve specific scaling and architectural problems for US clients.
 **Grupo Imagetech** | *Campo Grande, Brazil*  
 *Senior Software Engineer* | *Aug 2019 – Jun 2022*  
 
-**Client: State Court of Accounts (Government Auditing)**  
+**Client: State Court of Accounts (TCE-MS)**  
 *   **Hacked a solution for bad infrastructure:** We needed to pull financial data from 79 different municipalities with terrible internet and different database vendors. I built a custom **Java/Pentaho CLI** to run locally on their servers, bypass vendor lock-in, and compress data via GZIP so it could actually traverse the network.  
-*   **Modernization:** Led the migration of the central auditing dashboard from legacy JSF to **Angular**, which decoupled the frontend and improved load times for auditors.  
+*   **Frontend Architecture (e-Contas):** I rebuilt the fiscal submission portal ("e-Contas") from scratch, migrating from legacy JSF to **Angular**. I architected it as a **micro-frontend**, allowing the Court to embed the tools directly into their central "TCE Digital" platform. I owned the full UI implementation, ensuring strict validation for the XML-based government accounts.  
 
 &nbsp;  
 
