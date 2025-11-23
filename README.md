@@ -27,20 +27,20 @@ Senior Software Engineer specializing in high-velocity feature delivery within d
 
 Deployed as a core engineering resource for high-scale US tech clients. Specialized in distributed systems, legacy modernization, and high-throughput data architecture.
 
-**Project: OEM Telematics & IoT Platform**
+**Project: OEM Telematics & IoT Platform**  
 *Client: Global Automotive OEM (Bus/Transit)*
 *   **Performance:** Refactored aggregation service for TB-scale datasets. Implemented bulk inserts and deduplication, reducing job runtime from 60+ minutes to under 30 seconds.
 *   **Cost Optimization:** Rewrote high-cost reporting queries to use pre-aggregated rollup tables. Reduced execution cost by 99% (\$1.80 to <\$0.01 per run).
 *   **Scalability:** Implementrd horizontal scaling for ingestion (150M+ daily events) by replacing local caching with distributed Redis.
 *   **Logic:** Engineered core driver-attribution algorithms to map telemetry to specific operators on complex routes.
 
-**Project: Fintech & POS Platform ($4.5B+ Volume)**
+**Project: Fintech & POS Platform ($4.5B+ Volume)**  
 *Client: Fintech Platform for Enterprise Retail*
 *   **Architecture:** Built a fault-tolerant bi-directional sync engine connecting a proprietary POS to Shopify. Engineered a resilient bulk-import pipeline handling 100k+ SKUs, utilizing Polly policies to manage Shopify GraphQL rate limits and AWS SNS/SQS for eventual consistency in inventory updates.
 *   **Computer Vision:** Built serverless AWS Lambda/OpenCVSharp pipeline with context-aware cropping to generate marketing assets.
 *   **Cost:** Replaced commercial image library with custom solution, permanently eliminating licensing fees and vendor dependency.
 
-**Project: Enterprise Privacy SaaS**
+**Project: Enterprise Privacy SaaS**  
 *Client: VC-Backed Privacy Platform*
 *   **Security:** Migrated raw SQL to Spring Data JPA, eliminating injection risks.
 *   **Modernization:** Refactored brittle data-access patterns to support rapid feature development, reducing technical debt in the platform's core.
