@@ -31,7 +31,7 @@ Deployed as a core engineering resource for high-scale US tech clients. Speciali
 *Client: Global Automotive OEM (Bus/Transit)*
 *    **Big Data Optimization:** Refactored the aggregation service responsible for generating rollup tables from raw telemetry. Implemented a **BigQuery staging-table MERGE pattern** to handle deduplication and bulk upserts, reducing job runtime from **60+ minutes to 30 seconds**.
 *   **Scalability:** Enabled horizontal scaling for the high-throughput ingestion service (150M+ daily events) by migrating state from local memory to **distributed Redis**, eliminating cache inconsistency across instances.
-*   **Logic:** Engineered core driver-attribution algorithms to map telemetry to specific operators on complex routes.
+*    **Core Algorithms:** Developed the driver-attribution logic to map telemetry to operators. implemented **timeline reconstruction algorithms** to handle noisy logon events, solving edge cases like mid-trip driver swaps and multi-vehicle assignments.
 
 **Project: Fintech & POS Platform ($4.5B+ Volume)**  
 *Client: Fintech Platform for Enterprise Retail*
