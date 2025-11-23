@@ -6,7 +6,7 @@ Remote (based in Campo Grande, Brazil – UTC-4)
 ---
 
 ### SUMMARY
-Senior Software Engineer specializing in high-throughput, business-critical systems, taking ownership of mature architectures to make them faster, cheaper, and more resilient. Proven track record of re-engineering telematics pipelines (150M+ daily events), architecting fintech integrations ($4.5B+ volume), and modernizing state-level critical infrastructure. Focus on Distributed Systems, .NET 8, and Cloud Architecture.
+Senior Software Engineer specializing in high-velocity feature delivery within distributed cloud environments. Expert in executing architectural roadmaps with full autonomy, translating complex requirements into robust .NET solutions. Proven track record of building and optimizing high-throughput systems (150M+ daily events), balancing rapid development with strict performance and cost constraints.
 
 ---
 
@@ -31,7 +31,7 @@ Deployed as a core engineering resource for high-scale US tech clients. Speciali
 *Client: Global Automotive OEM (Bus/Transit)*
 *   **Performance:** Refactored aggregation service for TB-scale datasets. Implemented bulk inserts and deduplication, reducing job runtime from 60+ minutes to under 30 seconds.
 *   **Cost Optimization:** Rewrote high-cost reporting queries to use pre-aggregated rollup tables. Reduced execution cost by 99% (\$1.80 to <\$0.01 per run).
-*   **Scalability:** Enabled horizontal scaling for ingestion (150M+ daily events) by replacing local caching with distributed Redis.
+*   **Scalability:** Implementrd horizontal scaling for ingestion (150M+ daily events) by replacing local caching with distributed Redis.
 *   **Logic:** Engineered core driver-attribution algorithms to map telemetry to specific operators on complex routes.
 
 **Project: Fintech & POS Platform ($4.5B+ Volume)**
