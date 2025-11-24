@@ -1,70 +1,67 @@
-# Túlio Ribeiro dos Anjos  
-**Senior Software Engineer**  
-Remote (based in Campo Grande, Brazil – UTC-4)  
-[mail@tulio.org](mailto:mail@tulio.org) · +55 67 9 9266 0804 · [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos) · [tulio.org](https://tulio.org)  
+# Túlio Ribeiro dos Anjos
+**Senior Software Engineer**
+Remote (Brazil – UTC-4) | [mail@tulio.org](mailto:mail@tulio.org) | [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos)
 
-### SUMMARY  
-Senior Software Engineer with 12+ years of experience, primarily in .NET and Java. I build distributed systems that handle high throughput (150M+ events/day) and refactor legacy codebases to improve performance and stability. For the past 3 years, I have worked remotely as a core contributor for US-based product teams, delivering backend infrastructure and data pipelines without requiring hand-holding.  
+### **PROFESSIONAL SUMMARY**
+**Senior Software Engineer** with 12+ years of experience architecting distributed systems and high-throughput data pipelines. **Primary focus on the .NET ecosystem (C#)**, with extensive experience refactoring legacy monoliths and optimizing performance (handling 150M+ daily events). **English C2 Proficient (EF SET 79/100)** with a track record of autonomous delivery for US-based product teams.
 
-### TECHNICAL SKILLS  
-*   **Languages:** C#, Java, TypeScript, SQL.  
-*   **Core:** Distributed Systems, High-Scale Ingestion, Performance Engineering, System Architecture.  
-*   **Cloud & Infra:** AWS (Lambda, SQS, SNS, S3), Azure (Event Hubs), Redis, Docker, CI/CD.  
-*   **Data:** BigQuery, SQL Server, PostgreSQL, MongoDB, Entity Framework.  
-*   **Frameworks:** .NET 8, ASP.NET Core, Spring Boot, Angular 17.  
-
----
-
-### EXPERIENCE  
-
-**BairesDev** | *Remote*  
-*Senior Software Engineer (Contract)* | *Jun 2022 – Nov 2025*  
-
-Embedded in US product teams to solve scaling bottlenecks and architectural debt. I did not work on maintenance tickets; I built core infrastructure.  
-
-**Client: Global Automotive OEM (Telematics Platform)**  
-*   **Fixed a 60-minute bottleneck:** The aggregation service took over an hour to populate rollup tables from raw telemetry. I refactored the entire service and implemented a **BigQuery staging-table MERGE pattern**. It now completes the job in **30 seconds**.  
-*   **Scaled to 150M+ daily events:** The ingestion API relied on local memory to cache and merge vehicle signals, causing Out-of-Memory crashes during spikes. I rewrote the caching strategy to use **distributed Redis**, eliminating crashes and enabling horizontal scaling.  
-*   **Solved complex logic:** I wrote the algorithms that figure out who is driving the bus. This required timeline reconstruction logic to handle edge cases like mid-trip driver swaps and noisy logon events.  
-
-**Client: Fintech Platform (Enterprise Retail)**  
-*   **Opened a major sales channel:** The platform's users (independent retailers) were locked into a proprietary POS. I built the bidirectional bridge that allowed them to sell their inventory on **Shopify**. This wasn't just a data dump; it was a live sync engine.  
-*   **Event-Driven Architecture:** I decoupled the legacy POS from Shopify's strict rate limits using **AWS SNS and SQS**. Changes in the legacy ledger triggered events consumed by **Lambda**, which then updated the Shopify store via their **GraphQL API**.  
-*   **Handling Complexity:** Syncing products is easy; syncing a catalog with **100k+ SKUs** and thousands of variants (colors, sizes, weights, images) per store is hard. I built the bulk-loading logic to map these complex hierarchies and handle webhooks to decrement the core ledger inventory immediately upon a Shopify sale.  
-
-**Client: VC-Backed Privacy SaaS**  
-*   **Eliminating Technical Debt:** The platform relied on brittle raw SQL that made feature development dangerous and slow. I migrated the persistence layer to **Spring Data JPA**, eliminating injection risks and standardizing data access so the team could ship features faster.  
-
-&nbsp;  
-
-**Grupo Imagetech** | *Campo Grande, Brazil*  
-*Senior Software Engineer* | *Aug 2019 – Jun 2022*  
-
-**Client: State Court of Accounts (TCE-MS)**  
-*   **Reliable Ingestion over Unreliable Networks:** We needed to pull financial data from 79 different municipalities with terrible internet and different database vendors. I built a custom **Java/Pentaho CLI** to run locally on their servers, bypass vendor lock-in, and compress data via GZIP so it could actually traverse the network.  
-*   **Frontend Architecture (e-Contas):** I rebuilt the fiscal submission portal ("e-Contas") from scratch, migrating from legacy JSF to **Angular**. I architected it as a **micro-frontend**, allowing the Court to embed the tools directly into their central "TCE Digital" platform. I owned the full UI implementation, ensuring strict validation for the XML-based government accounts.  
-
-&nbsp;  
-
-**Fonte Tecnologia** | *Campo Grande, Brazil*  
-*Software Engineer* | *Aug 2017 – Aug 2019*  
-
-**Client: Military Police & Dept. of Justice**  
-*   **High Stakes:** Worked on the Computer-Aided Dispatch (CADG) system. If this software goes down, 911 calls don't get answered. I maintained the .NET Web API backend that kept the system running 24/7.  
-*   **Real-time tracking:** Built features for the Integrated Operational Management System (SIGO) to track incidents in real-time.  
-
-&nbsp;  
-
-**PSG Tecnologia** | *Campo Grande, Brazil*  
-*Software Engineer* | *Mar 2013 – Aug 2017*  
-
-**Client: State Secretariat of Finance**  
-*   **Built the State Budget System:** I owned the full-stack development of the Multi-Year Plan module, used by the entire state government to define its 4-year fiscal program.  
-*   **Legislative Drafting Engine:** I built the core Full Stack engine for drafting organic laws. To handle deep legal hierarchies (Articles -> Paragraphs), I engineered a **recursive SQL** data model paired with a custom **interactive UI** that allowed auditors to manipulate the hierarchy and view visual "diffs" of version changes.  
+### **TECHNICAL SKILLS**
+*   **Core Stack:** C#, .NET 8, ASP.NET Core, Entity Framework, Web API, LINQ.
+*   **Cloud Services:** AWS (Lambda, SQS, SNS), Azure Event Hubs, Docker.
+*   **Data & Storage:** SQL Server, PostgreSQL, Redis, Google BigQuery, MongoDB.
+*   **Resiliency & Patterns:** Polly (Retry/Circuit Breaker), Dependency Injection, CI/CD, Unit Testing.
+*   **Secondary Skills:** Java (Legacy Migration), TypeScript, Angular 17.
 
 ---
 
-### EDUCATION  
-**Bachelor of Engineering - Computer Engineering** | Uniderp (2013)  
-**Oracle Certified Professional: Java SE 11 Developer** | (2021)  
-**English:** Full Professional Proficiency (C2)
+### **PROFESSIONAL EXPERIENCE**
+
+**BAIRESDEV** | Remote (US-Based Clients)
+*Senior Software Engineer (Contractor)* | *Jun 2022 – Nov 2025*
+*Embedded directly within US product teams as a core backend engineer, interfacing daily with Product Directors and QA.*
+
+**Client: Global Automotive OEM (Telematics Platform)**
+*   **Performance Engineering (60m to 30s):** Took ownership of a failing Aggregation Service. Refactored the logic from single-record processing to **batch processing**, reducing execution time by **99%**.
+*   **Data Integrity:** Solved a critical data corruption issue (duplicate rollups) by implementing **BigQuery** idempotency features using deterministic IDs.
+*   **Complex Algorithm Design:** Engineered "Trip Segmentation" logic to attribute driver behavior (safety/fuel scores) to specific individuals during mid-trip driver swaps.
+*   **Technical Leadership:** Served as the technical anchor for the contractor team; selected to onboard and mentor the incoming **BairesDev Team Lead** and coach developers to stabilize delivery velocity.
+
+**Client: Fintech Platform (Retail Integration)**
+*   **Architecture:** Built a bi-directional bridge to sync a **100,000+ SKU catalog** to Shopify. Solved a critical platform limitation (Shopify’s 100-variant cap) by architecting a logic layer that automatically split complex items into grouped product listings.
+*   **Resilience Engineering:** Implemented **Polly** (retries/circuit breakers) to handle aggressive Shopify API rate limits, ensuring 100% delivery of inventory updates during bulk syncs.
+*   **System Reliability:** Successfully onboarded 50 beta retailers and reconciled 400+ orders during the pilot phase, handling deep object hierarchies across disparate systems.
+
+**Client: VC-Backed Privacy SaaS**
+*   **Modernization Initiative:** As part of a dedicated modernization team, executed the migration of a legacy persistence layer to modern RESTful standards. Refactored data access patterns to remove SQL injection vulnerabilities and accelerate frontend integration.
+
+&nbsp;
+
+**GRUPO IMAGETECH** | Campo Grande, Brazil
+*Senior Software Engineer* | *Aug 2019 – Jun 2022*
+
+**Client: State Court of Accounts (TCE-MS)**
+*   **Distributed Data Ingestion:** Engineered a custom CLI tool deployed to 79 remote municipalities to extract financial data over low-bandwidth networks, utilizing GZIP compression to solve connectivity constraints.
+*   **Frontend Architecture:** Rebuilt the "e-Contas" fiscal submission portal using **Angular**. Architected the solution as a micro-frontend to embed seamlessly into the central government platform.
+
+&nbsp;
+
+**FONTE TECNOLOGIA** | Campo Grande, Brazil
+*Software Engineer* | *Aug 2017 – Aug 2019*
+
+*   **Mission-Critical .NET Systems:** Maintained the **ASP.NET Web API** backend for the Computer-Aided Dispatch (CADG) system. Ensured high availability for the **911-equivalent** emergency response system used by Military Police.
+*   **Real-Time Tracking:** Delivered operational features for the SIGO platform to track patrol units and incidents in real-time.
+
+&nbsp;
+
+**PSG TECNOLOGIA** | Campo Grande, Brazil
+*Software Engineer* | *Mar 2013 – Aug 2017*
+
+*   **Government Fiscal Systems:** Owned full-stack development of the State Multi-Year Plan module, utilized by the State Secretariat of Finance for 4-year fiscal planning.
+*   **Complex Data Modeling:** Built a Legislative Drafting Engine using **recursive SQL** to handle deep legal hierarchies (Articles/Paragraphs) and an interactive UI for version diffing.
+
+---
+
+### **EDUCATION & CERTIFICATIONS**
+*   **Bachelor of Engineering - Computer Engineering** | Uniderp (2013)
+*   **Oracle Certified Professional: Java SE 11 Developer** | (2021)
+*   **English:** EF SET Certificate (C2 Proficient – Score: 79/100)
