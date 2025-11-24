@@ -20,21 +20,21 @@ Remote (Brazil – UTC-4) | [mail@tulio.org](mailto:mail@tulio.org) | [linkedin.
 **Senior Software Engineer (Contractor)** | *Jun 2022 – Nov 2025*  
 *Operating as a fully embedded core team member for US enterprise clients. Integrated into internal Agile/Scrum squads, collaborating daily with Product Directors, QA, and Senior Engineering staff.*  
 
-**Project: FleetBus SaaS (Mercedes-Benz Telematics via Clever Devices)**  
-*   **Context:** Developed backend services for the official Mercedes-Benz fleet management platform, processing real-time telemetry (CAN bus) data for remote diagnostics and driver behavior analysis.  
-*   **Performance Optimization (99% Reduction):** Refactored the "Aggregation Service" from single-record to batch processing, reducing execution time from **60 minutes to 30 seconds** for fleet-wide data rollups.  
-*   **Data Integrity & Idempotency:** Solved critical data corruption issues in **Google BigQuery** by implementing deterministic IDs, ensuring idempotent processing of duplicate vehicle event messages.  
-*   **Complex Algorithm Design:** Engineered "Trip Segmentation" logic to correctly attribute safety and fuel-efficiency scores to specific drivers during mid-trip swaps, directly impacting fleet operational metrics.  
+> **Project: FleetBus SaaS (Mercedes-Benz Telematics via Clever Devices)**  
+> *   **Context:** Developed backend services for the official Mercedes-Benz fleet management platform, processing real-time telemetry (CAN bus) data for remote diagnostics and driver behavior analysis.  
+> *   **Performance Optimization (99% Reduction):** Refactored the "Aggregation Service" from single-record to batch processing, reducing execution time from **60 minutes to 30 seconds** for fleet-wide data rollups.  
+> *   **Data Integrity & Idempotency:** Solved critical data corruption issues in **Google BigQuery** by implementing deterministic IDs, ensuring idempotent processing of duplicate vehicle event messages.  
+> *   **Complex Algorithm Design:** Engineered "Trip Segmentation" logic to correctly attribute safety and fuel-efficiency scores to specific drivers during mid-trip swaps, directly impacting fleet operational metrics.  
 
-**Project: Bless POS & Wayroo (Retail Success Co. for LuLaRoe)**  
-*   **Context:** Engineered features for a high-volume Point-of-Sale (POS) and inventory management platform used by thousands of independent retailers.  
-*   **System Integration:** Built a bi-directional bridge syncing a **100,000+ SKU catalog** to Shopify. Overcame platform limitations (100-variant cap) by architecting a logic layer that automatically splits complex items into grouped product listings.  
-*   **Resilience Engineering:** Implemented **Polly** policies (retries/circuit breakers) to handle aggressive Shopify API rate limits, ensuring 100% delivery of inventory updates during bulk syncs.  
-*   **Scale & Reliability:** Supported the beta rollout for 50 power-users and reconciled 400+ complex orders during the pilot phase, handling deep object hierarchies across disparate legacy systems.  
+> **Project: Bless POS & Wayroo (Retail Success Co. for LuLaRoe)**  
+> *   **Context:** Engineered features for a high-volume Point-of-Sale (POS) and inventory management platform used by thousands of independent retailers.  
+> *   **System Integration:** Built a bi-directional bridge syncing a **100,000+ SKU catalog** to Shopify. Overcame platform limitations (100-variant cap) by architecting a logic layer that automatically splits complex items into grouped product listings.  
+> *   **Resilience Engineering:** Implemented **Polly** policies (retries/circuit breakers) to handle aggressive Shopify API rate limits, ensuring 100% delivery of inventory updates during bulk syncs.  
+> *   **Scale & Reliability:** Supported the beta rollout for 50 power-users and reconciled 400+ complex orders during the pilot phase, handling deep object hierarchies across disparate legacy systems.  
 
-**Project: TerraTrue (Privacy-by-Design SaaS)**  
-*   **Context:** Contributed to a VC-backed DevSecOps platform used by enterprise product teams to automate privacy reviews (GDPR/CCPA) and security compliance.  
-*   **Legacy Modernization:** Executed the migration of a legacy persistence layer to modern RESTful standards. Refactored data access patterns to eliminate SQL injection vulnerabilities and accelerate frontend integration.  
+> **Project: TerraTrue (Privacy-by-Design SaaS)**  
+> *   **Context:** Contributed to a VC-backed DevSecOps platform used by enterprise product teams to automate privacy reviews (GDPR/CCPA) and security compliance.  
+> *   **Legacy Modernization:** Executed the migration of a legacy persistence layer to modern RESTful standards. Refactored data access patterns to eliminate SQL injection vulnerabilities and accelerate frontend integration.  
 
 &nbsp;  
 
