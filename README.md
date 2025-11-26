@@ -1,70 +1,77 @@
 # Túlio Ribeiro dos Anjos  
 **Senior Software Engineer (.NET / Cloud Backend)**  
-Remote (Brazil – UTC-4) | [mail@tulio.org](mailto:mail@tulio.org) | [linkedin.com/in/tulioanjos](https://linkedin.com/in/tulioanjos)  
-
-### **PROFESSIONAL SUMMARY**
-**Senior Software Engineer** with 12+ years of experience delivering distributed, high-volume data systems. Specialist in the **.NET ecosystem (C#)** with extensive experience maintaining and enhancing cloud-native platforms (AWS/Azure). Proven ability to drive technical excellence by authoring design documents, leading code reviews, and mentoring peers and team leads. Leverages modern tools, including AI assistants (LLMs), for accelerated design, communication, and development. Eager to take on greater architectural responsibility in a cloud-focused role.
-
-### **TECHNICAL SKILLS**
-*   **Languages:** C#, Java, TypeScript  
-*   **Core Backend:** .NET 8, ASP.NET Core, Web API, Entity Framework Core  
-*   **Cloud & Messaging:** AWS (Lambda, SQS, SNS, S3), Azure Event Hubs, RabbitMQ, MassTransit, Redis  
-*   **Data & Storage:** Google BigQuery, PostgreSQL, SQL Server, MongoDB  
-*   **DevOps & Tools:** Docker, Kubernetes (Helm), Terraform, CI/CD (Azure DevOps, GitLab), Azure Artifacts  
-*   **Libraries & Frameworks:** Angular, React, Polly, SkiaSharp, OpenCVSharp, Pentaho Data Integration  
-*   **Process & Architecture:** Microservices, Domain-Driven Design (DDD), Git Flow, Conventional Commits  
+Remote (Brazil – UTC-4) | mail@tulio.org | linkedin.com/in/tulioanjos  
 
 ---
 
-### **PROFESSIONAL EXPERIENCE**
+### PROFESSIONAL SUMMARY
+Senior Software Engineer with 12+ years of experience designing and scaling distributed systems and high-throughput data pipelines. **Specialist in the .NET ecosystem (C#)** with a focus on modernizing legacy applications and optimizing performance for high-volume, cloud-based SaaS platforms. Proven track record of **autonomous delivery embedded within US-based product teams** and Brazilian government agencies, building mission-critical solutions in Telematics, Retail, and Public Sector. Comfortable leveraging AI assistants (LLMs) to accelerate design and development, and seeking roles with greater **architectural responsibility** in cloud-native .NET environments (AWS/Azure).
+
+---
+
+### TECHNICAL SKILLS
+* **Core Backend:** C#, .NET 8, ASP.NET Core, Web API, Entity Framework (EF) Core, LINQ, SQL Server  
+* **Cloud & Messaging:** AWS (Lambda, SQS), Azure (Event Hubs), RabbitMQ, MassTransit, Redis  
+* **Data & Storage:** Google BigQuery, PostgreSQL, SQL Server, MongoDB  
+* **DevOps & Platform:** Docker, Kubernetes (Helm), Terraform, CI/CD (Azure DevOps, GitLab)  
+* **Process & Practices:** Domain-Driven Design (DDD), GitFlow, Conventional Commits, Code Reviews & Mentoring  
+
+---
+
+### PROFESSIONAL EXPERIENCE
 
 **BAIRESDEV** | Remote (US-Based Clients)  
 **Senior Software Engineer (Contractor)** | *Jun 2022 – Nov 2025*  
-*Embedded core team member for US enterprise clients, responsible for full-cycle feature delivery, technical leadership, and system optimization in Agile environments.*  
+*Fully embedded core team member for US enterprise clients, responsible for end-to-end feature delivery, system optimization, and mentoring in Agile/Scrum squads.*
 
-> **Project: Enterprise Fleet Telematics Platform (SaaS)**  
-> *   **High-Volume Data Engineering:** Enhanced and maintained a high-throughput ingestion pipeline processing **150 million+ vehicle telemetry signals daily** from TB-scale databases (BigQuery/PostgreSQL). Optimized services consuming from **Azure Event Hubs** and using **Redis** for real-time state caching.  
-> *   **Technical Leadership & Mentorship:** Provided technical leadership by authoring design documents, leading code reviews, and establishing best practices. Selected by client management to mentor underperforming peers and successfully **onboard a new Team Lead**.  
-> *   **Distributed Systems:** Implemented features within a decoupled microservices architecture, utilizing **RabbitMQ** and **MassTransit** for asynchronous event processing and improved system resilience.  
-> *   **Performance Optimization (99% Reduction):** Refactored a critical data aggregation service from single-record to batch processing, reducing execution time from **60 minutes to just 30 seconds**.  
+> **Project: Enterprise Fleet Telematics SaaS**  
+> * **High-Volume Data Engineering:** Enhanced and maintained backend services for a large-scale fleet management platform, supporting an ingestion pipeline that processes **150M+ vehicle telemetry signals daily** across TB-scale datasets.  
+> * **Performance Optimization (99% Reduction):** Refactored a critical aggregation service from single-record to batch processing, reducing execution time from **60 minutes to 30 seconds** for fleet-wide data rollups.  
+> * **Distributed Systems:** Implemented features within a decoupled microservices architecture using **RabbitMQ** and **MassTransit** for asynchronous event processing and improved resilience.  
+> * **Team Leadership:** Selected by client management to mentor underperforming peers and **onboard a new Team Lead**, establishing code review standards and improving delivery quality.  
+> * **Data Integrity:** Resolved critical data corruption issues in **Google BigQuery** by introducing deterministic IDs and idempotent processing of duplicate vehicle event messages.
 
-&nbsp;  
+> **Project: Retail POS & Inventory Platform**  
+> * **System Integration:** Engineered a bi-directional Shopify integration for a high-volume POS platform, syncing retailer inventories against a **master catalog of 100,000+ items** and overcoming Shopify’s 100-variant limit via a custom catalog-splitting logic layer.  
+> * **Serverless Engineering:** Built a serverless image collage generator on **AWS Lambda**, including a custom edge-detection algorithm for context-aware cropping after identifying incompatibilities with standard libraries (e.g., OpenCV) in the Lambda environment.  
+> * **Infrastructure & DevOps:** Contributed to platform reliability by maintaining **Terraform** configurations and **Helm** charts and integrating them into **Azure DevOps** pipelines to support repeatable feature deployments.  
+> * **Cost Optimization:** Developed a custom image processing library using **SkiaSharp**, packaged as an internal NuGet artifact and adopted by all backend teams to replace a costly third-party licensed tool.
 
-> **Project: Retail SaaS & Inventory Platform**  
-> *   **Architectural Ownership:** Architected and delivered a company-wide image processing library as a NuGet package (using **SkiaSharp**) to replace a licensed tool, saving on costs. Published to **Azure Artifacts** and adopted by all backend teams.  
-> *   **Serverless Engineering:** Engineered a serverless image collage generator using **AWS Lambda, SQS, SNS, and S3**. Implemented a custom edge-detection algorithm for context-aware cropping after determining OpenCV was incompatible with the Lambda environment.  
-> *   **Cloud Integration:** Developed a bi-directional integration with Shopify's API, syncing active retailer inventories (1,000s of SKUs) against a master catalog of 100,000+ items using an **AWS Lambda/SQS/SNS** architecture.  
-> *   **Infrastructure as Code:** Contributed to DevOps maturity by implementing **Terraform** configurations and **Azure DevOps** pipeline YAMLs for repeatable infrastructure provisioning.  
+> **Project: Privacy-by-Design SaaS**  
+> * **Legacy Modernization:** Migrated a legacy persistence layer to modern RESTful patterns for a VC-backed GDPR/CCPA compliance platform. Refactored data access to eliminate SQL injection risks and streamline frontend integration.
 
 &nbsp;  
 
 **GRUPO IMAGETECH** | Campo Grande, Brazil  
 **Senior Software Engineer** | *Aug 2019 – Jun 2022*  
-*Embedded within the **State Audit Court (TCE-MS)** to modernize critical data infrastructure.*  
+*Embedded within the **State Audit Court (TCE-MS)** to modernize audit and analytics infrastructure.*
 
-*   **ETL Automation:** Enabled automated, state-wide public sector audits for the first time by designing and building a **Java-based ETL tool**. The tool standardized and extracted data from diverse legacy databases (Sybase, Firebird, etc.) across 79 municipalities, ingesting it into a central **MongoDB** repository using Pentaho and Linux CLI commands.  
-*   **Containerization & CI/CD:** Modernized deployment workflows by containerizing applications with **Docker** and authoring **GitLab CI/CD** pipelines to automate testing and delivery.  
-*   **Frontend Development:** Built new data visualization and submission screens using **Angular** as part of a large-scale portal modernization project.  
+* **Statewide ETL Automation:** Designed and built a **Java-based ETL tool** to standardize and extract data from diverse legacy databases across 79 municipalities, ingesting it into a central **MongoDB** repository to enable automated public-sector audits.  
+* **Resilient Ingestion over Low Bandwidth:** Implemented a custom CLI ingestion engine deployed to remote municipalities, using GZIP compression and retry strategies to reliably transfer financial data over constrained networks.  
+* **Modernization & CI/CD:** Containerized legacy applications with **Docker** and configured **GitLab CI/CD** pipelines to automate testing and deployments.  
+* **Fiscal Submission Portal:** Developed **Angular** frontend components for the state-wide account submission portal, integrated into a micro-frontend architecture.
 
 &nbsp;  
 
 **FONTE TECNOLOGIA** | Campo Grande, Brazil  
 **Software Engineer** | *Aug 2017 – Aug 2019*  
-*Embedded within the **State Secretariat of Justice & Public Safety (SEJUSP)** to support mission-critical operations.*  
+*Embedded within the **State Secretariat of Justice & Public Safety (SEJUSP)** to support mission-critical operations.*
 
-*   **911-Equivalent Dispatch System (CADG):** Maintained the **ASP.NET Web API** backend for the Computer-Aided Dispatch system used by Military Police, ensuring high availability for real-time incident creation and patrol unit management.  
+* **911-Equivalent Dispatch System (CADG):** Maintained and extended the **ASP.NET Web API** backend for the Computer-Aided Dispatch system used by Military Police, ensuring high availability for real-time incident creation and patrol unit management.  
+* **Operational Integration (SIGO):** Delivered features for the Integrated Operational Management System (SIGO), the central database for statewide police incident reports and public safety statistics.
 
 &nbsp;  
 
 **PSG TECNOLOGIA** | Campo Grande, Brazil  
 **Software Engineer** | *Mar 2013 – Aug 2017*  
-*Embedded within the **State Secretariat of Finance (SEFAZ-MS / SGI)** to build fiscal planning systems.*  
+*Embedded within the **State Secretariat of Finance (SEFAZ-MS / SGI)** to build fiscal planning systems.*
 
-*   **State Planning & Finance System (SPF):** Owned full-stack development for the state's centralized financial backbone, used for multi-year fiscal planning and budget execution.  
+* **State Planning & Finance System (SPF):** Owned full-stack development for the state’s centralized planning and finance system, used for multi-year fiscal planning (PPA) and budget execution.  
+* **Complex Data Modeling:** Implemented a Legislative Drafting Engine using **recursive SQL** to model deep legal hierarchies (articles, paragraphs) and built an interactive UI for version comparison and diffing.
 
 ---
 
-### **EDUCATION & CERTIFICATIONS**  
-*   **Bachelor of Engineering - Computer Engineering** | Uniderp (2013)  
-*   **Oracle Certified Professional: Java SE 11 Developer** | (2021)  
-*   **English Proficiency:** EF SET Certificate (C2 Proficient – Score: 79/100)
+### EDUCATION & CERTIFICATIONS
+* **Bachelor of Engineering – Computer Engineering** | Uniderp (2013)  
+* **Oracle Certified Professional: Java SE 11 Developer** | (2021)  
+* **English Proficiency:** EF SET Certificate (C2 Proficient – Score: 79/100)  
