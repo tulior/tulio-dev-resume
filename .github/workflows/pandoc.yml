@@ -60,11 +60,12 @@ jobs:
           set -euxo pipefail
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add resume.pdf resume-letter.pdf || true
+          git add Tulio-Ribeiro-dos-Anjos-Resume.pdf Tulio-Ribeiro-dos-Anjos-Resume-Letter.pdf || true
           if ! git diff --cached --quiet; then
             git commit -m "Update resume PDFs via GitHub Actions [skip ci]"
             git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
           else
             echo "No changes to commit."
           fi
+
 
