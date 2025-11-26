@@ -73,4 +73,6 @@ Senior Software Engineer with 12+ years of experience designing and scaling dist
 ### EDUCATION & CERTIFICATIONS
 * **Bachelor of Engineering – Computer Engineering** | Uniderp (2013)  
 * **Oracle Certified Professional: Java SE 11 Developer** | (2021)  
-* **English Proficiency:** EF SET Certificate (C2 Proficient – Score: 79/100)  
+* **English Proficiency:** EF SET Certificate (C2 Proficient – Score: 79/100)
+
+
