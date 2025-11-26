@@ -43,7 +43,7 @@ jobs:
             "${COMMON_OPTS[@]}" \
             -V papersize=a4 \
             -V geometry:margin=0.5in \
-            -o resume.pdf
+            -o Tulio-Ribeiro-dos-Anjos-Resume.pdf
 
           # US Letter version (common in the US)
           docker run --rm -v "$(pwd)":/repo --workdir /repo pandoc/extra:latest \
@@ -51,7 +51,7 @@ jobs:
             "${COMMON_OPTS[@]}" \
             -V papersize=letter \
             -V geometry:margin=0.5in \
-            -o resume-letter.pdf
+            -o Tulio-Ribeiro-dos-Anjos-Resume-Letter.pdf
 
       - name: Commit and Push Generated Files [skip ci]
         env:
@@ -67,3 +67,4 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
