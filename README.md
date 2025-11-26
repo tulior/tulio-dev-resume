@@ -28,8 +28,8 @@ Senior Software Engineer with 12+ years of experience designing and scaling dist
 > * **High-Volume Data Engineering:** Enhanced and maintained backend services for a large-scale fleet management platform, supporting an ingestion pipeline that processes **150M+ vehicle telemetry signals daily** across TB-scale datasets.  
 > * **Performance Optimization (99% Reduction):** Refactored a critical aggregation service from single-record to batch processing, reducing execution time from **60 minutes to 30 seconds** for fleet-wide data rollups.  
 > * **Distributed Systems:** Implemented features within a decoupled microservices architecture using **RabbitMQ** and **MassTransit** for asynchronous event processing and improved resilience.  
-> * **Team Leadership:** Selected by client management to mentor underperforming peers and **onboard a new Team Lead**, establishing code review standards and improving delivery quality.  
-> * **Data Integrity:** Resolved critical data corruption issues in **Google BigQuery** by introducing deterministic IDs and idempotent processing of duplicate vehicle event messages.
+> * **Team Leadership:** Selected by **BairesDev leadership** to mentor peers on the account and **onboard a new BairesDev Team Lead**, improving code quality and delivery for the client.  
+> * **Data Integrity:** Resolved critical data duplication issues in **Google BigQuery** by using deterministic insert IDs to prevent multiple writes of the same vehicle event message.
 
 > **Project: Retail POS & Inventory Platform**  
 > * **System Integration:** Engineered a bi-directional Shopify integration for a high-volume POS platform, syncing retailer inventories against a **master catalog of 100,000+ items** and overcoming Shopify’s 100-variant limit via a custom catalog-splitting logic layer.  
@@ -57,8 +57,8 @@ Senior Software Engineer with 12+ years of experience designing and scaling dist
 **Software Engineer** | *Aug 2017 – Aug 2019*  
 *Embedded within the **State Secretariat of Justice & Public Safety (SEJUSP)** to support mission-critical operations.*
 
-* **911-Equivalent Dispatch System (CADG):** Maintained and extended the **ASP.NET Web API** backend for the Computer-Aided Dispatch system used by Military Police, ensuring high availability for real-time incident creation and patrol unit management.  
-* **Operational Integration (SIGO):** Delivered features for the Integrated Operational Management System (SIGO), the central database for statewide police incident reports and public safety statistics.
+* **911-Equivalent Dispatch System (CADG):** Maintained and extended the **ASP.NET Web API** backend and **SignalR** real-time communication for the Computer-Aided Dispatch system used by Military Police, and contributed to **Knockout.js** frontend components to ensure reliable, low-latency incident and patrol updates.  
+* **Operational Integration (SIGO):** Delivered features for the Integrated Operational Management System (SIGO), a **PHP / Backbone.js** application serving as the central database for statewide police incident reports and public safety statistics.
 
 &nbsp;  
 
@@ -66,12 +66,11 @@ Senior Software Engineer with 12+ years of experience designing and scaling dist
 **Software Engineer** | *Mar 2013 – Aug 2017*  
 *Embedded within the **State Secretariat of Finance (SEFAZ-MS / SGI)** to build fiscal planning systems.*
 
-* **State Planning & Finance System (SPF):** Owned full-stack development for the state’s centralized planning and finance system, used for multi-year fiscal planning (PPA) and budget execution.  
-* **Complex Data Modeling:** Implemented a Legislative Drafting Engine using **recursive SQL** to model deep legal hierarchies (articles, paragraphs) and built an interactive UI for version comparison and diffing.
+* **State Planning & Finance System (SPF):** Owned full-stack development for the state’s central Planning & Finance System, including a Legislative Drafting Engine built with **recursive SQL**, **SQL Server**, **jQuery**, and **Bootstrap** to model deep legal hierarchies and support multi-year budget planning.
 
 ---
 
 ### EDUCATION & CERTIFICATIONS
 * **Bachelor of Engineering – Computer Engineering** | Uniderp (2013)  
 * **Oracle Certified Professional: Java SE 11 Developer** | (2021)  
-* **English Proficiency:** EF SET Certificate (C2 Proficient – Score: 79/100)  
+* **English Proficiency:** EF SET Certificate (C2 Proficient – Score: 79/100)
