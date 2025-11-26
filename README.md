@@ -26,10 +26,9 @@ Senior Software Engineer with 12+ years of experience designing and scaling dist
 
 > **Project: Enterprise Fleet Telematics SaaS**  
 > * **High-Volume Data Engineering:** Enhanced and maintained backend services for a large-scale fleet management platform, supporting an ingestion pipeline that processes **150M+ vehicle telemetry signals daily** across TB-scale datasets.  
-> * **Performance Optimization (99% Reduction):** Refactored a critical aggregation service from single-record to batch processing, reducing execution time from **60 minutes to 30 seconds** for fleet-wide data rollups.  
+> * **Performance & Data Integrity (99% Reduction):** Overhauled a critical aggregation service by refactoring it to batch processing. This reduced execution time from **60 minutes to 30 seconds** while simultaneously eliminating data duplication issues in **Google BigQuery** by implementing deterministic insert IDs.  
 > * **Distributed Systems:** Implemented features within a decoupled microservices architecture using **RabbitMQ** and **MassTransit** for asynchronous event processing and improved resilience.  
 > * **Team Leadership:** Selected by **BairesDev leadership** to mentor peers on the account and **onboard a new BairesDev Team Lead**, improving code quality and delivery for the client.  
-> * **Data Integrity:** Resolved critical data duplication issues in **Google BigQuery** by using deterministic insert IDs to prevent multiple writes of the same vehicle event message.
 
 > **Project: Retail POS & Inventory Platform**  
 > * **System Integration:** Engineered a bi-directional Shopify integration for a high-volume POS platform, syncing retailer inventories against a **master catalog of 100,000+ items** and overcoming Shopify’s 100-variant limit via a custom catalog-splitting logic layer.  
