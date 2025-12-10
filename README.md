@@ -1,78 +1,80 @@
-# Túlio Ribeiro dos Anjos  
-**Senior Software Engineer (.NET / Cloud Backend)**  
-Remote (Brazil – UTC-4) | mail@tulio.org | linkedin.com/in/tulioanjos  
+# Túlio Ribeiro dos Anjos
+**Senior Software Engineer (.NET Backend)**  
+Campo Grande, Brazil (UTC-4) | Works US hours remotely  
+mail@tulio.org | linkedin.com/in/tulioanjos
 
 ---
 
-### PROFESSIONAL SUMMARY
-Senior Software Engineer with 12+ years of experience designing and scaling distributed systems and high-throughput data pipelines. **Specialist in the .NET ecosystem (C#)** with a focus on modernizing legacy applications and optimizing performance for high-volume, cloud-based SaaS platforms. Proven track record of **autonomous delivery embedded within US-based product teams** and Brazilian government agencies, building mission-critical solutions in Telematics, Retail, and Public Sector. Comfortable leveraging AI assistants (LLMs) to accelerate design and development, and seeking roles with greater **architectural responsibility** in cloud-native .NET environments (AWS/Azure).
+12 years building .NET backend systems, mostly in staff augmentation across US enterprise clients and Brazilian government agencies. I've jumped into a lot of unfamiliar codebases, fixed performance problems, and shipped features. I'm looking for a product company where I can stop bouncing between clients and actually own something end-to-end.
 
----
-
-### TECHNICAL SKILLS
-* **Core Backend:** C#, .NET 8, ASP.NET Core, Web API, Entity Framework (EF) Core, LINQ, SQL Server  
-* **Cloud & Messaging:** AWS (Lambda, SQS), Azure (Event Hubs), RabbitMQ, MassTransit, Redis  
-* **Data & Storage:** Google BigQuery, PostgreSQL, SQL Server, MongoDB  
-* **DevOps & Platform:** Docker, Kubernetes (Helm), Terraform, CI/CD (Azure DevOps, GitLab)  
-* **Process & Practices:** Domain-Driven Design (DDD), GitFlow, Conventional Commits, Code Reviews & Mentoring  
+**Core stack:** C#, .NET 8, ASP.NET Core, Entity Framework Core, SQL Server, PostgreSQL  
+**Also worked with:** AWS (Lambda, SQS), Azure (Event Hubs), RabbitMQ, Google BigQuery, Angular, Docker, Kubernetes
 
 ---
 
 ### PROFESSIONAL EXPERIENCE
 
-**BAIRESDEV** | Remote (US-Based Clients)  
+**BAIRESDEV** | Remote  
 **Senior Software Engineer (Contractor)** | *Jun 2022 – Nov 2025*  
-*Fully embedded core team member for US enterprise clients, responsible for end-to-end feature delivery, system optimization, and mentoring in Agile/Scrum squads.*
+*Staff augmentation - embedded with US enterprise clients on three different products.*
 
-> **Project: Enterprise Fleet Telematics SaaS**  
-> * **High-Volume Data Engineering:** Enhanced and maintained backend services for a large-scale fleet management platform, supporting an ingestion pipeline that processes **150M+ vehicle telemetry signals daily** across TB-scale datasets.  
-> * **Performance Optimization (99% Reduction):** Refactored a critical aggregation service from single-record to batch processing, reducing execution time from **60 minutes to 30 seconds** for fleet-wide data rollups.  
-> * **Distributed Systems:** Implemented features within a decoupled microservices architecture using **RabbitMQ** and **MassTransit** for asynchronous event processing and improved resilience.  
-> * **Team Leadership:** Selected by **BairesDev leadership** to mentor peers on the account and **onboard a new BairesDev Team Lead**, improving code quality and delivery for the client.  
-> * **Data Integrity:** Resolved critical data duplication issues in **Google BigQuery** by using deterministic insert IDs to prevent multiple writes of the same vehicle event message.
+**Client: Fleet Telematics Platform**
+- Worked on backend and frontend for a fleet management system processing 150M+ vehicle telemetry signals per day. Implemented features, fixed bugs, handled tickets across the stack.
+- Built driver assignment and trip segmentation feature. Read telemetry data to determine which driver was logged into each vehicle during trips, then split trips when drivers changed mid-route so each driver got their own performance metrics. Worked out the logic myself, dealt with messy data.
+- Built shift metrics system. Created Angular frontend for CSV upload of route shifts, then built the backend service that runs every 5 minutes to compute fuel consumption, safety scores, distance, and speed by reading from the raw telemetry table. Took 2-3 weeks.
+- Refactored a slow aggregation service. Changed it from single-record inserts to batch processing with BigQuery MERGE statements. Cut runtime from 60 minutes to 30 seconds and fixed a data duplication bug in the process. Later discovered the service was also running in GCP - someone had forgotten to kill it there after we moved to Azure.
+- Refactored Angular 17 components from observables to signals for better readability and maintainability. Nobody asked me to, but I saw the code was messy and fixed it.
+- Worked with RabbitMQ and MassTransit for async event processing. Maintained Helm charts (mostly adding environment variables).
 
-> **Project: Retail POS & Inventory Platform**  
-> * **System Integration:** Engineered a bi-directional Shopify integration for a high-volume POS platform, syncing retailer inventories against a **master catalog of 100,000+ items** and overcoming Shopify’s 100-variant limit via a custom catalog-splitting logic layer.  
-> * **Serverless Engineering:** Built a serverless image collage generator on **AWS Lambda**, including a custom edge-detection algorithm for context-aware cropping after identifying incompatibilities with standard libraries (e.g., OpenCV) in the Lambda environment.  
-> * **Infrastructure & DevOps:** Contributed to platform reliability by maintaining **Terraform** configurations and **Helm** charts and integrating them into **Azure DevOps** pipelines to support repeatable feature deployments.  
-> * **Cost Optimization:** Developed a custom image processing library using **SkiaSharp**, packaged as an internal NuGet artifact and adopted by all backend teams to replace a costly third-party licensed tool.
+**Client: Retail POS & Inventory Platform**
+- Primary engineer on Shopify integration. Built the microservice to allow retailers to sell through Shopify as a new sales channel instead of the legacy POS. Used Lambda and SQS to let old microservices communicate with the new integration service.
+- Handled bi-directional sync: POS was source of truth for inventory updates to Shopify. Captured Shopify webhooks to process payments and keep inventory in sync when items sold through Shopify.
+- Worked around Shopify's 100-variant limit by implementing custom catalog-splitting logic to sync against a master catalog of 100K+ items.
+- Built a serverless image collage generator on AWS Lambda. Wrote custom edge-detection logic for context-aware cropping because OpenCV doesn't work well in the Lambda environment.
+- Developed an internal image processing library using SkiaSharp to replace a costly third-party tool. Packaged it as a NuGet artifact that other backend teams adopted.
+- Maintained Terraform configs and created Azure DevOps YAML pipelines for CI/CD and deployment.
 
-> **Project: Privacy-by-Design SaaS**  
-> * **Legacy Modernization:** Migrated a legacy persistence layer to modern RESTful patterns for a VC-backed GDPR/CCPA compliance platform. Refactored data access to eliminate SQL injection risks and streamline frontend integration.
+**Client: GDPR/CCPA Compliance Platform**
+- Migrated legacy data access layer to modern RESTful patterns. Refactored queries to eliminate SQL injection risks and make frontend integration cleaner.
 
-&nbsp;  
+&nbsp;
 
 **GRUPO IMAGETECH** | Campo Grande, Brazil  
-**Senior Software Engineer** | *Aug 2019 – Jun 2022*  
-*Embedded within the **State Audit Court (TCE-MS)** to modernize audit and analytics infrastructure.*
+**Software Engineer** | *Aug 2019 – Jun 2022*  
+*Embedded with the State Audit Court (TCE-MS) to modernize their audit infrastructure.*
 
-* **Statewide ETL Automation:** Designed and built a **Java-based ETL tool** to standardize and extract data from diverse legacy databases across 79 municipalities, ingesting it into a central **MongoDB** repository to enable automated public-sector audits.  
-* **Resilient Ingestion over Low Bandwidth:** Implemented a custom CLI ingestion engine deployed to remote municipalities, using GZIP compression and retry strategies to reliably transfer financial data over constrained networks.  
-* **Modernization & CI/CD:** Containerized legacy applications with **Docker** and configured **GitLab CI/CD** pipelines to automate testing and deployments.  
-* **Fiscal Submission Portal:** Developed **Angular** frontend components for the state-wide account submission portal, integrated into a micro-frontend architecture.
+- Built a Java-based ETL tool with a CLI that municipalities could run locally to extract financial data from their legacy databases. The CLI connected to their DBs and ran Kettle scripts to extract the data. 79 different municipalities, each with their own schema. Data loaded into central MongoDB repository for automated audits.
+- Used GZIP compression and retry logic to handle unreliable connections and low bandwidth in remote areas.
+- Built a new Angular app from scratch by migrating it from legacy JSF. About 10 forms/screens, took one month.
+- Developed additional Angular components for the state-wide fiscal submission portal (micro-frontend architecture).
+- Containerized legacy applications with Docker and set up GitLab CI/CD pipelines.
 
-&nbsp;  
+&nbsp;
 
 **FONTE TECNOLOGIA** | Campo Grande, Brazil  
 **Software Engineer** | *Aug 2017 – Aug 2019*  
-*Embedded within the **State Secretariat of Justice & Public Safety (SEJUSP)** to support mission-critical operations.*
+*Embedded with State Secretariat of Justice & Public Safety (SEJUSP) for mission-critical dispatch systems.*
 
-* **911-Equivalent Dispatch System (CADG):** Maintained and extended the **ASP.NET Web API** backend and **SignalR** real-time communication for the Computer-Aided Dispatch system used by Military Police, and contributed to **Knockout.js** frontend components to ensure reliable, low-latency incident and patrol updates.  
-* **Operational Integration (SIGO):** Delivered features for the Integrated Operational Management System (SIGO), a **PHP / Backbone.js** application serving as the central database for statewide police incident reports and public safety statistics.
+- Maintained the ASP.NET Web API backend for the Computer-Aided Dispatch system used by Military Police. Worked on real-time SignalR communication for incident updates and patrol coordination.
+- Contributed to the Knockout.js frontend for the dispatch interface.
+- Built features for the Integrated Operational Management System (PHP/Backbone.js) - the central database for statewide police incident reports.
 
-&nbsp;  
+&nbsp;
 
 **PSG TECNOLOGIA** | Campo Grande, Brazil  
 **Software Engineer** | *Mar 2013 – Aug 2017*  
-*Embedded within the **State Secretariat of Finance (SEFAZ-MS / SGI)** to build fiscal planning systems.*
+*Embedded with State Secretariat of Finance (SEFAZ-MS) to build fiscal planning systems.*
 
-* **State Planning & Finance System (SPF):** Owned full-stack development for the state’s central Planning & Finance System, including a Legislative Drafting Engine built with **recursive SQL**, **SQL Server**, **jQuery**, and **Bootstrap** to model deep legal hierarchies and support multi-year budget planning.
+- Built the state's Planning & Finance System, including a legislative drafting engine that modeled complex legal hierarchies using recursive SQL queries. Used SQL Server, jQuery, and Bootstrap for the full-stack implementation.
+- Supported multi-year budget planning workflows and reporting.
 
 ---
 
 ### EDUCATION & CERTIFICATIONS
 * **Bachelor of Engineering – Computer Engineering** | Uniderp (2013)  
 * **Oracle Certified Professional: Java SE 11 Developer** | (2021)  
-* **English Proficiency:** EF SET Certificate (C2 Proficient – Score: 79/100)
+* **English:** EF SET C2 Proficient (79/100)
 
+---
 
+*Currently learning cloud architecture (working toward GCP certification). I like GCP better than AWS/Azure for the simplicity and data/AI focus. I think it will dominate the field in a few years.* 
