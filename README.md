@@ -1,4 +1,4 @@
-# Túlio Ribeiro dos Anjos
+# Tulio Ribeiro
 **Senior Software Engineer (.NET Backend)**  
 Campo Grande, Brazil (UTC-4) | Works US hours remotely  
 mail@tulio.org | linkedin.com/in/tulioanjos
